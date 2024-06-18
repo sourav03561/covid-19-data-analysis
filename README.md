@@ -6,7 +6,7 @@ This project focuses on analyzing COVID-19 data from multiple regions: USA, Euro
 ## Team Members
 - SOURAV SARKAR
 - PRANSHU Gautam
-- 
+
 ## Data Sources
 - **USA**: REST API (JSON)
 - **Europe**: ECDC API (JSON)
