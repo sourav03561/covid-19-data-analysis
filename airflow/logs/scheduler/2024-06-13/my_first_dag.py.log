@@ -1,0 +1,105 @@
+[2024-06-14T00:54:40.504+0530] {processor.py:161} INFO - Started process (PID=16115) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T00:54:40.505+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-14T00:54:40.508+0530] {logging_mixin.py:188} INFO - [2024-06-14T00:54:40.507+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T00:54:40.531+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T00:54:40.967+0530] {logging_mixin.py:188} INFO - [2024-06-14T00:54:40.967+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:54:41.065+0530] {logging_mixin.py:188} INFO - [2024-06-14T00:54:41.064+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-14T00:54:41.330+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 0.834 seconds
+[2024-06-14T00:56:58.916+0530] {processor.py:161} INFO - Started process (PID=17033) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T00:56:58.981+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-14T00:56:58.983+0530] {logging_mixin.py:188} INFO - [2024-06-14T00:56:58.982+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T00:56:58.990+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T00:56:59.373+0530] {logging_mixin.py:188} INFO - [2024-06-14T00:56:59.372+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:56:59.396+0530] {logging_mixin.py:188} INFO - [2024-06-14T00:56:59.395+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-14T00:56:59.813+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 0.906 seconds
+[2024-06-14T00:59:17.765+0530] {processor.py:161} INFO - Started process (PID=18249) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T00:59:17.767+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-14T00:59:17.770+0530] {logging_mixin.py:188} INFO - [2024-06-14T00:59:17.769+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T00:59:17.779+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T00:59:17.797+0530] {logging_mixin.py:188} INFO - [2024-06-14T00:59:17.797+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:59:17.809+0530] {logging_mixin.py:188} INFO - [2024-06-14T00:59:17.809+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-14T00:59:17.834+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 0.102 seconds
+[2024-06-14T01:00:30.048+0530] {processor.py:161} INFO - Started process (PID=18868) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:00:30.061+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-14T01:00:30.064+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:00:30.064+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:00:30.074+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:00:30.426+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:00:30.426+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:00:30.447+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:00:30.446+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-14T01:00:30.495+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 0.464 seconds
+[2024-06-14T01:01:37.538+0530] {processor.py:161} INFO - Started process (PID=19478) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:01:37.540+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-14T01:01:37.543+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:01:37.542+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:01:37.551+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:01:37.574+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:01:37.574+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:01:37.589+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:01:37.588+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-14T01:01:37.626+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 0.099 seconds
+[2024-06-14T01:02:45.173+0530] {processor.py:161} INFO - Started process (PID=20083) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:02:45.175+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-14T01:02:45.177+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:02:45.177+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:02:45.184+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:02:45.201+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:02:45.201+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:02:45.214+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:02:45.213+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-14T01:02:45.242+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 0.076 seconds
+[2024-06-14T01:04:30.382+0530] {processor.py:161} INFO - Started process (PID=21149) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:04:30.385+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-14T01:04:30.387+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:04:30.387+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:04:30.396+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:04:30.413+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:04:30.413+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:04:30.427+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:04:30.426+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-14T01:04:31.058+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 0.687 seconds
+[2024-06-14T01:05:36.357+0530] {processor.py:161} INFO - Started process (PID=21748) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:05:36.360+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-14T01:05:36.363+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:05:36.362+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:05:36.374+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:05:36.391+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:05:36.390+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:05:36.403+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:05:36.403+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-14T01:05:36.434+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 0.093 seconds
+[2024-06-14T01:06:48.542+0530] {processor.py:161} INFO - Started process (PID=22374) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:06:48.545+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-14T01:06:48.548+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:06:48.547+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:06:48.555+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:06:48.576+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:06:48.575+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:06:48.590+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:06:48.590+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-14T01:06:48.625+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 0.094 seconds
+[2024-06-14T01:07:54.439+0530] {processor.py:161} INFO - Started process (PID=22998) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:07:54.441+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-14T01:07:54.444+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:07:54.443+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:07:54.453+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:07:54.473+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:07:54.473+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:07:54.486+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:07:54.485+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-14T01:07:54.513+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 0.084 seconds
+[2024-06-14T01:09:59.266+0530] {processor.py:161} INFO - Started process (PID=23765) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:09:59.267+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-14T01:09:59.269+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:09:59.269+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:09:59.282+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:09:59.309+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:09:59.309+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:09:59.332+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:09:59.332+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-14T01:09:59.367+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 0.113 seconds
+[2024-06-14T01:11:16.305+0530] {processor.py:161} INFO - Started process (PID=24397) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:11:16.307+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-14T01:11:16.310+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:11:16.310+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:11:16.318+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:11:16.337+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:11:16.337+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:11:16.367+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:11:16.367+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-14T01:11:16.416+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 0.119 seconds
+[2024-06-14T01:13:26.835+0530] {processor.py:161} INFO - Started process (PID=25607) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:13:26.846+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-14T01:13:26.849+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:13:26.849+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:13:26.880+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:13:26.980+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:13:26.979+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:13:27.042+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:13:27.041+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-14T01:13:27.225+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 0.411 seconds
+[2024-06-14T01:20:23.077+0530] {processor.py:161} INFO - Started process (PID=27704) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:20:23.079+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-14T01:20:23.080+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:20:23.080+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:20:23.086+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T01:20:23.117+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:20:23.117+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:20:23.140+0530] {logging_mixin.py:188} INFO - [2024-06-14T01:20:23.139+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-14T01:20:23.169+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 0.098 seconds
+[2024-06-14T02:23:55.884+0530] {processor.py:161} INFO - Started process (PID=29218) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T02:23:55.892+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-14T02:23:55.897+0530] {logging_mixin.py:188} INFO - [2024-06-14T02:23:55.895+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T02:23:55.986+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-14T02:23:56.390+0530] {logging_mixin.py:188} INFO - [2024-06-14T02:23:56.389+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T02:23:56.449+0530] {logging_mixin.py:188} INFO - [2024-06-14T02:23:56.449+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-14T02:23:56.513+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 0.713 seconds

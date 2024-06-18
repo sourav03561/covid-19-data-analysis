@@ -1,0 +1,35 @@
+[2024-06-15T05:50:11.738+0530] {processor.py:161} INFO - Started process (PID=44321) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-06-15T05:50:11.739+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-06-15T05:50:11.742+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:50:11.741+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-06-15T05:50:11.750+0530] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-06-15T05:50:11.875+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:50:11.875+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-15T05:50:11.902+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:50:11.901+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-15T05:50:11.937+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.207 seconds
+[2024-06-15T05:52:34.519+0530] {processor.py:161} INFO - Started process (PID=45637) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-06-15T05:52:34.521+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-06-15T05:52:34.524+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:52:34.524+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-06-15T05:52:34.537+0530] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-06-15T05:52:34.556+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:52:34.556+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-15T05:52:34.582+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:52:34.582+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-15T05:52:34.925+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.413 seconds
+[2024-06-15T06:21:03.775+0530] {processor.py:161} INFO - Started process (PID=2678) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-06-15T06:21:03.776+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-06-15T06:21:03.778+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:21:03.778+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-06-15T06:21:03.785+0530] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-06-15T06:21:03.890+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:21:03.889+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-15T06:21:03.911+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:21:03.910+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-15T06:21:03.940+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.172 seconds
+[2024-06-15T06:24:36.176+0530] {processor.py:161} INFO - Started process (PID=5062) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-06-15T06:24:36.186+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-06-15T06:24:36.189+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:24:36.188+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-06-15T06:24:36.200+0530] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-06-15T06:24:36.227+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:24:36.227+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-15T06:24:36.278+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:24:36.278+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-15T06:24:36.342+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.177 seconds
+[2024-06-15T06:28:08.294+0530] {processor.py:161} INFO - Started process (PID=6948) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-06-15T06:28:08.296+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-06-15T06:28:08.298+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:28:08.298+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-06-15T06:28:08.307+0530] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-06-15T06:28:08.328+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:28:08.328+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-15T06:28:08.467+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:28:08.466+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-15T06:28:08.499+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.214 seconds

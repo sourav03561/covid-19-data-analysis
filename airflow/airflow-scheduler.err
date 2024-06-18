@@ -1,0 +1,253 @@
+[2024-06-14 14:36:45 +0530] [39308] [INFO] Starting gunicorn 21.2.0
+[2024-06-14 14:36:45 +0530] [39308] [ERROR] Connection in use: ('::', 8793)
+[2024-06-14 14:36:45 +0530] [39308] [ERROR] Retrying in 1 second.
+[2024-06-14 14:36:46 +0530] [39308] [ERROR] Connection in use: ('::', 8793)
+[2024-06-14 14:36:46 +0530] [39308] [ERROR] Retrying in 1 second.
+[2024-06-14 14:36:47 +0530] [39308] [ERROR] Connection in use: ('::', 8793)
+[2024-06-14 14:36:47 +0530] [39308] [ERROR] Retrying in 1 second.
+[2024-06-14 14:36:48 +0530] [39308] [ERROR] Connection in use: ('::', 8793)
+[2024-06-14 14:36:48 +0530] [39308] [ERROR] Retrying in 1 second.
+24/06/14 14:36:49 WARN Utils: Your hostname, DESKTOP-J05K55U resolves to a loopback address: 127.0.1.1; using 172.31.56.255 instead (on interface eth0)
+24/06/14 14:36:49 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2024-06-14 14:36:49 +0530] [39308] [ERROR] Connection in use: ('::', 8793)
+[2024-06-14 14:36:49 +0530] [39308] [ERROR] Retrying in 1 second.
+[2024-06-14 14:36:50 +0530] [39308] [ERROR] Can't connect to ('::', 8793)
+Ivy Default Cache set to: /home/wsl/.ivy2/cache
+The jars for the packages stored in: /home/wsl/.ivy2/jars
+org.elasticsearch#elasticsearch-hadoop added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-7e2eed99-b7db-4c9b-aef3-4ee58f10847c;1.0
+	confs: [default]
+	found org.elasticsearch#elasticsearch-hadoop;8.6.2 in central
+	found commons-logging#commons-logging;1.1.1 in central
+	found commons-codec#commons-codec;1.4 in central
+	found javax.xml.bind#jaxb-api;2.3.1 in central
+	found org.apache.hive#hive-service;3.1.2 in central
+	found org.apache.hive#hive-exec;3.1.2 in central
+	found org.apache.hive#hive-metastore;3.1.2 in central
+	found org.apache.pig#pig;0.15.0 in central
+	found org.apache.spark#spark-yarn_2.11;2.3.0 in central
+	found org.scala-lang#scala-reflect;2.11.12 in central
+	found org.apache.storm#storm-core;1.0.6 in central
+	found org.apache.hadoop#hadoop-client;3.1.2 in central
+	found org.apache.hadoop#hadoop-common;3.1.2 in central
+	found org.apache.hadoop#hadoop-mapreduce-client-core;3.1.2 in central
+	found joda-time#joda-time;2.9.3 in central
+:: resolution report :: resolve 1014ms :: artifacts dl 32ms
+	:: modules in use:
+	commons-codec#commons-codec;1.4 from central in [default]
+	commons-logging#commons-logging;1.1.1 from central in [default]
+	javax.xml.bind#jaxb-api;2.3.1 from central in [default]
+	joda-time#joda-time;2.9.3 from central in [default]
+	org.apache.hadoop#hadoop-client;3.1.2 from central in [default]
+	org.apache.hadoop#hadoop-common;3.1.2 from central in [default]
+	org.apache.hadoop#hadoop-mapreduce-client-core;3.1.2 from central in [default]
+	org.apache.hive#hive-exec;3.1.2 from central in [default]
+	org.apache.hive#hive-metastore;3.1.2 from central in [default]
+	org.apache.hive#hive-service;3.1.2 from central in [default]
+	org.apache.pig#pig;0.15.0 from central in [default]
+	org.apache.spark#spark-yarn_2.11;2.3.0 from central in [default]
+	org.apache.storm#storm-core;1.0.6 from central in [default]
+	org.elasticsearch#elasticsearch-hadoop;8.6.2 from central in [default]
+	org.scala-lang#scala-reflect;2.11.12 from central in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   15  |   0   |   0   |   0   ||   15  |   0   |
+	---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-7e2eed99-b7db-4c9b-aef3-4ee58f10847c
+	confs: [default]
+	0 artifacts copied, 15 already retrieved (0kB/14ms)
+24/06/14 14:36:52 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                Process DagFileProcessor1-Process:
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 843, in process_file
+    DagFileProcessor.update_import_errors(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/api_internal/internal_api_call.py", line 115, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 627, in update_import_errors
+    session.query(errors.ImportError).filter(errors.ImportError.filename == filename).update(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 3306, in update
+    result = self.session.execute(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1717, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: UPDATE import_error SET timestamp=?, filename=?, stacktrace=? WHERE import_error.filename = ?]
+[parameters: ('2024-06-14 09:07:05.063575', '/home/wsl/airflow/dags/Collect Data/test2.py', 'Traceback (most recent call last):\n  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>\n    world =world[0:5]\n  File "/home ... (154 characters truncated) ... s.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.\n', '/home/wsl/airflow/dags/Collect Data/test2.py')]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/jobs/job.py", line 402, in run_job
+    return execute_job(job, execute_callable=execute_callable)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/jobs/job.py", line 431, in execute_job
+    ret = execute_callable()
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 843, in _execute
+    self._run_scheduler_loop()
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 989, in _run_scheduler_loop
+    next_event = timers.run(blocking=False)
+  File "/usr/lib/python3.10/sched.py", line 151, in run
+    action(*argument, **kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/utils/event_scheduler.py", line 40, in repeat
+    action(*args, **kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 1672, in check_trigger_timeouts
+    num_timed_out_tasks = session.execute(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1717, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: UPDATE task_instance SET state=?, updated_at=?, trigger_id=?, next_method=?, next_kwargs=? WHERE task_instance.state = ? AND task_instance.trigger_timeout < ?]
+[parameters: (<TaskInstanceState.SCHEDULED: 'scheduled'>, '2024-06-14 09:07:25.859457', None, '__fail__', '{"__var": {"error": "Trigger/execution timeout"}, "__type": "dict"}', <TaskInstanceState.DEFERRED: 'deferred'>, '2024-06-14 09:07:25.856528')]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/bin/airflow", line 8, in <module>
+    sys.exit(main())
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/__main__.py", line 58, in main
+    args.func(args)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/utils/cli.py", line 114, in wrapper
+    return f(*args, **kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/utils/providers_configuration_loader.py", line 55, in wrapped_function
+    return func(*args, **kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/cli/commands/scheduler_command.py", line 58, in scheduler
+    run_command_with_daemon_option(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/cli/commands/daemon_utils.py", line 80, in run_command_with_daemon_option
+    callback()
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/cli/commands/scheduler_command.py", line 61, in <lambda>
+    callback=lambda: _run_scheduler_job(args),
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/cli/commands/scheduler_command.py", line 49, in _run_scheduler_job
+    run_job(job=job_runner.job, execute_callable=job_runner._execute)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/jobs/job.py", line 404, in run_job
+    job.complete_execution(session=session)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/jobs/job.py", line 245, in complete_execution
+    Job._update_in_db(job=self, session=session)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/api_internal/internal_api_call.py", line 115, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/jobs/job.py", line 341, in _update_in_db
+    session.commit()
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1454, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 832, in commit
+    self._prepare_impl()
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 811, in _prepare_impl
+    self.session.flush()
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 3449, in flush
+    self._flush(objects)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 3588, in _flush
+    with util.safe_reraise():
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 3549, in _flush
+    flush_context.execute()
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 237, in save_obj
+    _emit_update_statements(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 1001, in _emit_update_statements
+    c = connection._execute_20(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: UPDATE job SET state=?, end_date=? WHERE job.id = ?]
+[parameters: (<JobState.FAILED: 'failed'>, '2024-06-14 09:07:32.293372', 3)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)

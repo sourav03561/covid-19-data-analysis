@@ -1,0 +1,371 @@
+[2024-06-14T13:59:02.758+0530] {processor.py:161} INFO - Started process (PID=15420) to work on /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T13:59:02.760+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/test2.py for tasks to queue
+[2024-06-14T13:59:02.762+0530] {logging_mixin.py:188} INFO - [2024-06-14T13:59:02.762+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T13:59:28.053+0530] {logging_mixin.py:188} INFO - <pyspark.sql.session.SparkSession object at 0x7fc9738afe80>
+[2024-06-14T14:00:05.504+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:00:05.484+0530] {dagbag.py:350} ERROR - Failed to import: /home/wsl/airflow/dags/Collect Data/test2.py
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>
+    world =world[0:5]
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 3088, in __getitem__
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.
+[2024-06-14T14:00:05.505+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:00:05.543+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/test2.py took 62.795 seconds
+[2024-06-14T14:02:08.206+0530] {processor.py:161} INFO - Started process (PID=17724) to work on /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:02:08.210+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/test2.py for tasks to queue
+[2024-06-14T14:02:08.212+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:02:08.212+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:02:18.048+0530] {logging_mixin.py:188} INFO - <pyspark.sql.session.SparkSession object at 0x7fc97365ee30>
+[2024-06-14T14:02:28.096+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:02:28.094+0530] {dagbag.py:350} ERROR - Failed to import: /home/wsl/airflow/dags/Collect Data/test2.py
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>
+    world =world[0:5]
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 3088, in __getitem__
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.
+[2024-06-14T14:02:28.097+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:02:28.113+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/test2.py took 19.917 seconds
+[2024-06-14T14:03:48.056+0530] {processor.py:161} INFO - Started process (PID=19025) to work on /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:03:48.072+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/test2.py for tasks to queue
+[2024-06-14T14:03:48.074+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:03:48.074+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:04:04.962+0530] {logging_mixin.py:188} INFO - <pyspark.sql.session.SparkSession object at 0x7fc973662fe0>
+[2024-06-14T14:04:13.973+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:04:13.972+0530] {dagbag.py:350} ERROR - Failed to import: /home/wsl/airflow/dags/Collect Data/test2.py
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>
+    world =world[0:5]
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 3088, in __getitem__
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.
+[2024-06-14T14:04:13.974+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:04:14.003+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/test2.py took 25.966 seconds
+[2024-06-14T14:05:32.852+0530] {processor.py:161} INFO - Started process (PID=20269) to work on /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:05:32.854+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/test2.py for tasks to queue
+[2024-06-14T14:05:32.856+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:05:32.855+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:05:44.801+0530] {logging_mixin.py:188} INFO - <pyspark.sql.session.SparkSession object at 0x7fc973662f50>
+[2024-06-14T14:06:02.120+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:06:02.119+0530] {dagbag.py:350} ERROR - Failed to import: /home/wsl/airflow/dags/Collect Data/test2.py
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>
+    world =world[0:5]
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 3088, in __getitem__
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.
+[2024-06-14T14:06:02.121+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:06:02.143+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/test2.py took 29.300 seconds
+[2024-06-14T14:07:58.434+0530] {processor.py:161} INFO - Started process (PID=21866) to work on /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:07:58.436+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/test2.py for tasks to queue
+[2024-06-14T14:07:58.439+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:07:58.439+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:08:16.500+0530] {logging_mixin.py:188} INFO - <pyspark.sql.session.SparkSession object at 0x7fc97368ba30>
+[2024-06-14T14:08:27.164+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:08:27.163+0530] {dagbag.py:350} ERROR - Failed to import: /home/wsl/airflow/dags/Collect Data/test2.py
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>
+    world =world[0:5]
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 3088, in __getitem__
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.
+[2024-06-14T14:08:27.165+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:08:27.193+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/test2.py took 28.769 seconds
+[2024-06-14T14:09:48.567+0530] {processor.py:161} INFO - Started process (PID=23458) to work on /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:09:48.569+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/test2.py for tasks to queue
+[2024-06-14T14:09:48.572+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:09:48.571+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:09:59.524+0530] {logging_mixin.py:188} INFO - <pyspark.sql.session.SparkSession object at 0x7f7eb9e53dc0>
+[2024-06-14T14:10:06.576+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:10:06.575+0530] {dagbag.py:350} ERROR - Failed to import: /home/wsl/airflow/dags/Collect Data/test2.py
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>
+    world =world[0:5]
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 3088, in __getitem__
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.
+[2024-06-14T14:10:06.577+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:10:06.594+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/test2.py took 18.043 seconds
+[2024-06-14T14:11:41.029+0530] {processor.py:161} INFO - Started process (PID=24866) to work on /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:11:41.030+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/test2.py for tasks to queue
+[2024-06-14T14:11:41.032+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:11:41.032+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:11:51.392+0530] {logging_mixin.py:188} INFO - <pyspark.sql.session.SparkSession object at 0x7f7eb9bfac50>
+[2024-06-14T14:11:59.157+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:11:59.156+0530] {dagbag.py:350} ERROR - Failed to import: /home/wsl/airflow/dags/Collect Data/test2.py
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>
+    world =world[0:5]
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 3088, in __getitem__
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.
+[2024-06-14T14:11:59.158+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:11:59.175+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/test2.py took 18.154 seconds
+[2024-06-14T14:13:00.877+0530] {processor.py:161} INFO - Started process (PID=26016) to work on /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:13:00.879+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/test2.py for tasks to queue
+[2024-06-14T14:13:00.881+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:13:00.880+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:13:13.456+0530] {logging_mixin.py:188} INFO - <pyspark.sql.session.SparkSession object at 0x7f7eb9bfed70>
+[2024-06-14T14:13:27.946+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:13:27.945+0530] {dagbag.py:350} ERROR - Failed to import: /home/wsl/airflow/dags/Collect Data/test2.py
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>
+    world =world[0:5]
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 3088, in __getitem__
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.
+[2024-06-14T14:13:27.948+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:13:28.561+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/test2.py took 27.697 seconds
+[2024-06-14T14:15:13.409+0530] {processor.py:161} INFO - Started process (PID=27576) to work on /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:15:13.420+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/test2.py for tasks to queue
+[2024-06-14T14:15:13.423+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:15:13.422+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:15:24.000+0530] {logging_mixin.py:188} INFO - <pyspark.sql.session.SparkSession object at 0x7f7eb9c02ef0>
+[2024-06-14T14:15:32.451+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:15:32.449+0530] {dagbag.py:350} ERROR - Failed to import: /home/wsl/airflow/dags/Collect Data/test2.py
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>
+    world =world[0:5]
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 3088, in __getitem__
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.
+[2024-06-14T14:15:32.451+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:15:32.474+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/test2.py took 19.083 seconds
+[2024-06-14T14:16:43.904+0530] {processor.py:161} INFO - Started process (PID=28821) to work on /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:16:43.906+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/test2.py for tasks to queue
+[2024-06-14T14:16:43.908+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:16:43.908+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:16:59.512+0530] {logging_mixin.py:188} INFO - <pyspark.sql.session.SparkSession object at 0x7f7eb9c2b940>
+[2024-06-14T14:17:08.483+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:17:08.481+0530] {dagbag.py:350} ERROR - Failed to import: /home/wsl/airflow/dags/Collect Data/test2.py
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>
+    world =world[0:5]
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 3088, in __getitem__
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.
+[2024-06-14T14:17:08.483+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:17:08.512+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/test2.py took 24.616 seconds
+[2024-06-14T14:19:09.848+0530] {processor.py:161} INFO - Started process (PID=30707) to work on /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:19:09.849+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/test2.py for tasks to queue
+[2024-06-14T14:19:09.852+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:19:09.851+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:19:32.837+0530] {logging_mixin.py:188} INFO - <pyspark.sql.session.SparkSession object at 0x7f2effe9feb0>
+[2024-06-14T14:19:42.193+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:19:42.191+0530] {dagbag.py:350} ERROR - Failed to import: /home/wsl/airflow/dags/Collect Data/test2.py
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>
+    world =world[0:5]
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 3088, in __getitem__
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.
+[2024-06-14T14:19:42.193+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:19:42.216+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/test2.py took 32.377 seconds
+[2024-06-14T14:21:16.583+0530] {processor.py:161} INFO - Started process (PID=32066) to work on /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:21:16.588+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/test2.py for tasks to queue
+[2024-06-14T14:21:16.589+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:21:16.588+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:21:30.748+0530] {logging_mixin.py:188} INFO - <pyspark.sql.session.SparkSession object at 0x7f2effcb9ab0>
+[2024-06-14T14:21:45.108+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:21:45.106+0530] {dagbag.py:350} ERROR - Failed to import: /home/wsl/airflow/dags/Collect Data/test2.py
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>
+    world =world[0:5]
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 3088, in __getitem__
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.
+[2024-06-14T14:21:45.109+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:21:45.125+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/test2.py took 28.550 seconds
+[2024-06-14T14:28:32.640+0530] {processor.py:161} INFO - Started process (PID=34781) to work on /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:28:32.641+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/test2.py for tasks to queue
+[2024-06-14T14:28:32.643+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:28:32.643+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:28:48.095+0530] {logging_mixin.py:188} INFO - <pyspark.sql.session.SparkSession object at 0x7f7e1beb7e80>
+[2024-06-14T14:28:54.795+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:28:54.793+0530] {dagbag.py:350} ERROR - Failed to import: /home/wsl/airflow/dags/Collect Data/test2.py
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>
+    world =world[0:5]
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 3088, in __getitem__
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.
+[2024-06-14T14:28:54.796+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:28:54.815+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/test2.py took 22.184 seconds
+[2024-06-14T14:30:36.863+0530] {processor.py:161} INFO - Started process (PID=35867) to work on /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:30:36.865+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/test2.py for tasks to queue
+[2024-06-14T14:30:36.869+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:30:36.868+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:30:57.358+0530] {logging_mixin.py:188} INFO - <pyspark.sql.session.SparkSession object at 0x7f7e1bc62d10>
+[2024-06-14T14:31:04.993+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:31:04.991+0530] {dagbag.py:350} ERROR - Failed to import: /home/wsl/airflow/dags/Collect Data/test2.py
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>
+    world =world[0:5]
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 3088, in __getitem__
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.
+[2024-06-14T14:31:04.993+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:31:05.012+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/test2.py took 28.165 seconds
+[2024-06-14T14:32:13.654+0530] {processor.py:161} INFO - Started process (PID=36836) to work on /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:32:13.656+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/test2.py for tasks to queue
+[2024-06-14T14:32:13.659+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:32:13.659+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:32:31.866+0530] {logging_mixin.py:188} INFO - <pyspark.sql.session.SparkSession object at 0x7f7e1bc66f80>
+[2024-06-14T14:32:38.918+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:32:38.916+0530] {dagbag.py:350} ERROR - Failed to import: /home/wsl/airflow/dags/Collect Data/test2.py
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>
+    world =world[0:5]
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 3088, in __getitem__
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.
+[2024-06-14T14:32:38.919+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:32:38.946+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/test2.py took 25.305 seconds
+[2024-06-14T14:33:56.955+0530] {processor.py:161} INFO - Started process (PID=37828) to work on /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:33:56.968+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/test2.py for tasks to queue
+[2024-06-14T14:33:56.971+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:33:56.970+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:34:14.346+0530] {logging_mixin.py:188} INFO - <pyspark.sql.session.SparkSession object at 0x7f7e1bc6eef0>
+[2024-06-14T14:34:28.018+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:34:28.016+0530] {dagbag.py:350} ERROR - Failed to import: /home/wsl/airflow/dags/Collect Data/test2.py
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>
+    world =world[0:5]
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 3088, in __getitem__
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.
+[2024-06-14T14:34:28.019+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:34:28.671+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/test2.py took 31.723 seconds
+[2024-06-14T14:36:46.942+0530] {processor.py:161} INFO - Started process (PID=39317) to work on /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:36:46.945+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/test2.py for tasks to queue
+[2024-06-14T14:36:46.947+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:36:46.947+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:36:56.496+0530] {logging_mixin.py:188} INFO - <pyspark.sql.session.SparkSession object at 0x7f8f7408fee0>
+[2024-06-14T14:37:05.056+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:37:05.054+0530] {dagbag.py:350} ERROR - Failed to import: /home/wsl/airflow/dags/Collect Data/test2.py
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>
+    world =world[0:5]
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 3088, in __getitem__
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.
+[2024-06-14T14:37:05.056+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:37:10.082+0530] {processor.py:186} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 843, in process_file
+    DagFileProcessor.update_import_errors(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/api_internal/internal_api_call.py", line 115, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 627, in update_import_errors
+    session.query(errors.ImportError).filter(errors.ImportError.filename == filename).update(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 3306, in update
+    result = self.session.execute(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1717, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: UPDATE import_error SET timestamp=?, filename=?, stacktrace=? WHERE import_error.filename = ?]
+[parameters: ('2024-06-14 09:07:05.063575', '/home/wsl/airflow/dags/Collect Data/test2.py', 'Traceback (most recent call last):\n  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>\n    world =world[0:5]\n  File "/home ... (154 characters truncated) ... s.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.\n', '/home/wsl/airflow/dags/Collect Data/test2.py')]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2024-06-14T14:37:44.919+0530] {processor.py:161} INFO - Started process (PID=40139) to work on /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:37:44.920+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/test2.py for tasks to queue
+[2024-06-14T14:37:44.922+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:37:44.921+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:37:58.085+0530] {logging_mixin.py:188} INFO - <pyspark.sql.session.SparkSession object at 0x7f6332d1feb0>
+[2024-06-14T14:38:09.171+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:38:09.170+0530] {dagbag.py:350} ERROR - Failed to import: /home/wsl/airflow/dags/Collect Data/test2.py
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>
+    world =world[0:5]
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 3088, in __getitem__
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.
+[2024-06-14T14:38:09.171+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:38:09.194+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/test2.py took 24.282 seconds
+[2024-06-14T14:40:07.983+0530] {processor.py:161} INFO - Started process (PID=41314) to work on /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:40:07.984+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/test2.py for tasks to queue
+[2024-06-14T14:40:07.988+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:40:07.986+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:40:24.670+0530] {logging_mixin.py:188} INFO - <pyspark.sql.session.SparkSession object at 0x7f6332aceda0>
+[2024-06-14T14:40:39.257+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:40:39.255+0530] {dagbag.py:350} ERROR - Failed to import: /home/wsl/airflow/dags/Collect Data/test2.py
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/wsl/airflow/dags/Collect Data/test2.py", line 82, in <module>
+    world =world[0:5]
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 3088, in __getitem__
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN_OR_FLOAT_OR_INT_OR_LIST_OR_STR] Argument `item` should be a column, float, integer, list or string, got slice.
+[2024-06-14T14:40:39.258+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/test2.py
+[2024-06-14T14:40:39.705+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/test2.py took 31.729 seconds

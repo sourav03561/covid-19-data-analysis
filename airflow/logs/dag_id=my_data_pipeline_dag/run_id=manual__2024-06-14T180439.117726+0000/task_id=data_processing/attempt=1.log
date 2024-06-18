@@ -1,0 +1,32 @@
+[2024-06-14T23:35:15.857+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-14T23:35:15.898+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_data_pipeline_dag.data_processing manual__2024-06-14T18:04:39.117726+00:00 [queued]>
+[2024-06-14T23:35:15.904+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_data_pipeline_dag.data_processing manual__2024-06-14T18:04:39.117726+00:00 [queued]>
+[2024-06-14T23:35:15.904+0530] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-06-14T23:35:15.922+0530] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): data_processing> on 2024-06-14 18:04:39.117726+00:00
+[2024-06-14T23:35:15.928+0530] {standard_task_runner.py:63} INFO - Started process 18499 to run task
+[2024-06-14T23:35:15.931+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'my_data_pipeline_dag', 'data_processing', 'manual__2024-06-14T18:04:39.117726+00:00', '--job-id', '103', '--raw', '--subdir', 'DAGS_FOLDER/my_first_dag.py', '--cfg-path', '/tmp/tmpjtthzn2j']
+[2024-06-14T23:35:15.933+0530] {standard_task_runner.py:91} INFO - Job 103: Subtask data_processing
+[2024-06-14T23:35:15.982+0530] {task_command.py:426} INFO - Running <TaskInstance: my_data_pipeline_dag.data_processing manual__2024-06-14T18:04:39.117726+00:00 [running]> on host DESKTOP-J05K55U.
+[2024-06-14T23:35:16.080+0530] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='my_data_pipeline_dag' AIRFLOW_CTX_TASK_ID='data_processing' AIRFLOW_CTX_EXECUTION_DATE='2024-06-14T18:04:39.117726+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-14T18:04:39.117726+00:00'
+[2024-06-14T23:35:16.082+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-14T23:35:16.083+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-06-14T23:35:16.084+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python "/home/wsl/airflow/dags/Collect Data/test3.py"']
+[2024-06-14T23:35:16.096+0530] {subprocess.py:86} INFO - Output:
+[2024-06-14T23:35:19.175+0530] {subprocess.py:93} INFO - 24/06/14 23:35:19 WARN Utils: Your hostname, DESKTOP-J05K55U resolves to a loopback address: 127.0.1.1; using 172.31.56.255 instead (on interface eth0)
+[2024-06-14T23:35:19.180+0530] {subprocess.py:93} INFO - 24/06/14 23:35:19 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2024-06-14T23:35:20.829+0530] {subprocess.py:93} INFO - Setting default log level to "WARN".
+[2024-06-14T23:35:20.830+0530] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2024-06-14T23:35:21.090+0530] {subprocess.py:93} INFO - 24/06/14 23:35:21 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2024-06-14T23:35:34.064+0530] {subprocess.py:93} INFO - [Stage 0:>                                                          (0 + 1) / 1]                                                                                24/06/14 23:35:34 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2024-06-14T23:35:34.140+0530] {subprocess.py:93} INFO - 24/06/14 23:35:34 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2024-06-14T23:35:34.166+0530] {subprocess.py:93} INFO - 24/06/14 23:35:34 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2024-06-14T23:35:37.875+0530] {subprocess.py:93} INFO - [Stage 3:>                                                          (0 + 3) / 3][Stage 3:===================>                                       (1 + 2) / 3][Stage 3:=======================================>                   (2 + 1) / 3]24/06/14 23:35:37 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2024-06-14T23:35:37.877+0530] {subprocess.py:93} INFO - 24/06/14 23:35:37 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2024-06-14T23:35:41.921+0530] {subprocess.py:93} INFO - [Stage 5:>                                                          (0 + 1) / 1]                                                                                <pyspark.sql.session.SparkSession object at 0x7fbe03af5cc0>
+[2024-06-14T23:35:41.921+0530] {subprocess.py:93} INFO - Data saved successfully as Parquet file at /home/wsl/airflow/dags/Collect Data/world.parquet
+[2024-06-14T23:35:42.674+0530] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-06-14T23:35:42.675+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-14T23:35:42.923+0530] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=my_data_pipeline_dag, task_id=data_processing, execution_date=20240614T180439, start_date=20240614T180515, end_date=20240614T180542
+[2024-06-14T23:35:42.982+0530] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-14T23:35:43.005+0530] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-06-14T23:35:43.013+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

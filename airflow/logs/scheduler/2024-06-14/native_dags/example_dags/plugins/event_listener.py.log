@@ -1,0 +1,934 @@
+[2024-06-14T14:01:09.500+0530] {processor.py:161} INFO - Started process (PID=17151) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:01:09.503+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T14:01:09.507+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:01:09.506+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:01:09.512+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:01:09.535+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.053 seconds
+[2024-06-14T14:03:32.087+0530] {processor.py:161} INFO - Started process (PID=18831) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:03:32.090+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T14:03:32.092+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:03:32.092+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:03:32.096+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:03:32.124+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.048 seconds
+[2024-06-14T14:07:21.210+0530] {processor.py:161} INFO - Started process (PID=21549) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:07:21.279+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T14:07:21.283+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:07:21.281+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:07:21.286+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:07:21.300+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.099 seconds
+[2024-06-14T14:10:56.815+0530] {processor.py:161} INFO - Started process (PID=24474) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:10:56.817+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T14:10:56.820+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:10:56.819+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:10:56.826+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:10:56.841+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.035 seconds
+[2024-06-14T14:12:47.423+0530] {processor.py:161} INFO - Started process (PID=25886) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:12:47.424+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T14:12:47.426+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:12:47.425+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:12:47.428+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:12:47.439+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.022 seconds
+[2024-06-14T14:16:31.233+0530] {processor.py:161} INFO - Started process (PID=28695) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:16:31.235+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T14:16:31.237+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:16:31.237+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:16:31.240+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:16:31.252+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.034 seconds
+[2024-06-14T14:29:51.409+0530] {processor.py:161} INFO - Started process (PID=35655) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:29:51.412+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T14:29:51.416+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:29:51.415+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:29:51.421+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:29:51.439+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.043 seconds
+[2024-06-14T14:32:00.584+0530] {processor.py:161} INFO - Started process (PID=36770) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:32:00.587+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T14:32:00.589+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:32:00.588+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:32:00.591+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:32:00.601+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.028 seconds
+[2024-06-14T14:39:13.065+0530] {processor.py:161} INFO - Started process (PID=41060) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:39:13.067+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T14:39:13.070+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:39:13.069+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:39:13.074+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:39:13.095+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.042 seconds
+[2024-06-14T14:45:28.682+0530] {processor.py:161} INFO - Started process (PID=44685) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:45:28.685+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T14:45:28.689+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:45:28.688+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:45:28.694+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:45:28.718+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.047 seconds
+[2024-06-14T14:47:38.967+0530] {processor.py:161} INFO - Started process (PID=46658) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:47:38.973+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T14:47:38.976+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:47:38.975+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:47:38.979+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:47:39.005+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.049 seconds
+[2024-06-14T14:49:00.247+0530] {processor.py:161} INFO - Started process (PID=47324) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:49:00.250+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T14:49:00.252+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:49:00.252+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:49:00.256+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:49:00.273+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.035 seconds
+[2024-06-14T14:50:10.326+0530] {processor.py:161} INFO - Started process (PID=47869) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:50:10.328+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T14:50:10.330+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:50:10.329+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:50:10.334+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:50:10.347+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.028 seconds
+[2024-06-14T14:58:11.548+0530] {processor.py:161} INFO - Started process (PID=50606) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:58:11.550+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T14:58:11.552+0530] {logging_mixin.py:188} INFO - [2024-06-14T14:58:11.551+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:58:11.555+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T14:58:11.568+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.027 seconds
+[2024-06-14T15:00:42.932+0530] {processor.py:161} INFO - Started process (PID=51862) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:00:42.971+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:00:42.973+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:00:42.972+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:00:42.977+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:00:43.023+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.117 seconds
+[2024-06-14T15:01:47.163+0530] {processor.py:161} INFO - Started process (PID=52460) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:01:47.165+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:01:47.166+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:01:47.166+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:01:47.169+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:01:47.183+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.032 seconds
+[2024-06-14T15:02:48.586+0530] {processor.py:161} INFO - Started process (PID=53038) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:02:48.588+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:02:48.589+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:02:48.589+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:02:48.593+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:02:48.607+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.030 seconds
+[2024-06-14T15:04:01.819+0530] {processor.py:161} INFO - Started process (PID=53720) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:04:02.361+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:04:02.363+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:04:02.362+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:04:02.367+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:04:02.383+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.570 seconds
+[2024-06-14T15:05:19.981+0530] {processor.py:161} INFO - Started process (PID=54459) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:05:19.995+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:05:19.997+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:05:19.996+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:05:20.001+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:05:20.013+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.050 seconds
+[2024-06-14T15:06:26.142+0530] {processor.py:161} INFO - Started process (PID=55084) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:06:26.144+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:06:26.146+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:06:26.145+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:06:26.149+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:06:26.162+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.032 seconds
+[2024-06-14T15:07:58.001+0530] {processor.py:161} INFO - Started process (PID=55960) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:07:58.004+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:07:58.006+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:07:58.005+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:07:58.009+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:07:58.032+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.040 seconds
+[2024-06-14T15:10:17.954+0530] {processor.py:161} INFO - Started process (PID=57124) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:10:17.978+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:10:17.980+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:10:17.979+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:10:17.984+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:10:18.009+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.064 seconds
+[2024-06-14T15:12:55.070+0530] {processor.py:161} INFO - Started process (PID=58184) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:12:55.143+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:12:55.146+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:12:55.145+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:12:55.160+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:12:55.209+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.158 seconds
+[2024-06-14T15:15:26.846+0530] {processor.py:161} INFO - Started process (PID=59409) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:15:26.886+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:15:26.888+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:15:26.887+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:15:26.891+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:15:26.925+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.099 seconds
+[2024-06-14T15:18:15.530+0530] {processor.py:161} INFO - Started process (PID=60174) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:18:15.532+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:18:15.533+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:18:15.532+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:18:15.536+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:18:15.549+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.027 seconds
+[2024-06-14T15:25:50.741+0530] {processor.py:161} INFO - Started process (PID=64192) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:25:50.969+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:25:50.970+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:25:50.970+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:25:50.973+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:25:50.996+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.263 seconds
+[2024-06-14T15:30:10.467+0530] {processor.py:161} INFO - Started process (PID=66244) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:30:10.468+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:30:10.470+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:30:10.469+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:30:10.473+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:30:10.493+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.036 seconds
+[2024-06-14T15:35:36.064+0530] {processor.py:161} INFO - Started process (PID=69040) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:35:36.406+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:35:36.413+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:35:36.410+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:35:36.436+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:35:36.496+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.464 seconds
+[2024-06-14T15:38:45.202+0530] {processor.py:161} INFO - Started process (PID=70595) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:38:45.499+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:38:45.501+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:38:45.500+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:38:45.503+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:38:45.515+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.324 seconds
+[2024-06-14T15:40:43.095+0530] {processor.py:161} INFO - Started process (PID=71693) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:40:43.099+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:40:43.101+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:40:43.100+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:40:43.106+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:40:43.130+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.068 seconds
+[2024-06-14T15:43:53.787+0530] {processor.py:161} INFO - Started process (PID=73596) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:43:53.789+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:43:53.790+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:43:53.790+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:43:53.793+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:43:53.803+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.023 seconds
+[2024-06-14T15:46:08.109+0530] {processor.py:161} INFO - Started process (PID=74778) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:46:08.147+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:46:08.148+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:46:08.147+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:46:08.151+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:46:08.165+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.065 seconds
+[2024-06-14T15:48:02.526+0530] {processor.py:161} INFO - Started process (PID=75951) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:48:02.531+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:48:02.534+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:48:02.533+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:48:02.543+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:48:02.582+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.082 seconds
+[2024-06-14T15:55:03.457+0530] {processor.py:161} INFO - Started process (PID=78076) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:55:03.499+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:55:03.501+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:55:03.500+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:55:03.505+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:55:03.592+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.163 seconds
+[2024-06-14T15:57:43.896+0530] {processor.py:161} INFO - Started process (PID=79971) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:57:43.961+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T15:57:43.963+0530] {logging_mixin.py:188} INFO - [2024-06-14T15:57:43.962+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:57:43.972+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T15:57:44.006+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.129 seconds
+[2024-06-14T16:02:52.788+0530] {processor.py:161} INFO - Started process (PID=81719) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T16:02:52.809+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T16:02:52.812+0530] {logging_mixin.py:188} INFO - [2024-06-14T16:02:52.811+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T16:02:52.817+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T16:02:52.842+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.061 seconds
+[2024-06-14T17:33:23.219+0530] {processor.py:161} INFO - Started process (PID=15744) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:33:23.221+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T17:33:23.222+0530] {logging_mixin.py:188} INFO - [2024-06-14T17:33:23.222+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:33:23.225+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:33:23.235+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.023 seconds
+[2024-06-14T17:35:49.728+0530] {processor.py:161} INFO - Started process (PID=17162) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:35:49.731+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T17:35:49.732+0530] {logging_mixin.py:188} INFO - [2024-06-14T17:35:49.732+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:35:49.735+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:35:49.770+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.061 seconds
+[2024-06-14T17:36:51.300+0530] {processor.py:161} INFO - Started process (PID=17563) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:36:51.302+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T17:36:51.303+0530] {logging_mixin.py:188} INFO - [2024-06-14T17:36:51.302+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:36:51.306+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:36:51.316+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.022 seconds
+[2024-06-14T17:46:36.472+0530] {processor.py:161} INFO - Started process (PID=21025) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:46:36.604+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T17:46:36.608+0530] {logging_mixin.py:188} INFO - [2024-06-14T17:46:36.607+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:46:36.619+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:46:36.649+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.187 seconds
+[2024-06-14T17:49:04.939+0530] {processor.py:161} INFO - Started process (PID=22731) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:49:04.941+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T17:49:04.942+0530] {logging_mixin.py:188} INFO - [2024-06-14T17:49:04.942+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:49:04.944+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:49:04.956+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.024 seconds
+[2024-06-14T17:53:10.603+0530] {processor.py:161} INFO - Started process (PID=25512) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:53:10.605+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T17:53:10.606+0530] {logging_mixin.py:188} INFO - [2024-06-14T17:53:10.605+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:53:10.609+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:53:10.623+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.032 seconds
+[2024-06-14T17:55:42.661+0530] {processor.py:161} INFO - Started process (PID=27334) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:55:42.680+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T17:55:42.682+0530] {logging_mixin.py:188} INFO - [2024-06-14T17:55:42.681+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:55:42.686+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:55:42.713+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.074 seconds
+[2024-06-14T17:59:05.674+0530] {processor.py:161} INFO - Started process (PID=29500) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:59:05.676+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T17:59:05.677+0530] {logging_mixin.py:188} INFO - [2024-06-14T17:59:05.677+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:59:05.679+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T17:59:05.690+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.023 seconds
+[2024-06-14T18:00:49.333+0530] {processor.py:161} INFO - Started process (PID=30592) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:00:49.335+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T18:00:49.336+0530] {logging_mixin.py:188} INFO - [2024-06-14T18:00:49.336+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:00:49.341+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:00:49.358+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.034 seconds
+[2024-06-14T18:07:02.159+0530] {processor.py:161} INFO - Started process (PID=33838) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:07:02.161+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T18:07:02.163+0530] {logging_mixin.py:188} INFO - [2024-06-14T18:07:02.162+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:07:02.165+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:07:02.176+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.023 seconds
+[2024-06-14T18:09:52.189+0530] {processor.py:161} INFO - Started process (PID=35558) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:09:52.192+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T18:09:52.194+0530] {logging_mixin.py:188} INFO - [2024-06-14T18:09:52.194+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:09:52.198+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:09:52.211+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.028 seconds
+[2024-06-14T18:15:14.767+0530] {processor.py:161} INFO - Started process (PID=39237) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:15:14.768+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T18:15:14.770+0530] {logging_mixin.py:188} INFO - [2024-06-14T18:15:14.769+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:15:14.774+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:15:14.787+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.026 seconds
+[2024-06-14T18:17:39.983+0530] {processor.py:161} INFO - Started process (PID=40692) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:17:39.985+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T18:17:39.986+0530] {logging_mixin.py:188} INFO - [2024-06-14T18:17:39.986+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:17:39.988+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:17:40.008+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.040 seconds
+[2024-06-14T18:20:06.845+0530] {processor.py:161} INFO - Started process (PID=42059) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:20:06.854+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T18:20:06.856+0530] {logging_mixin.py:188} INFO - [2024-06-14T18:20:06.856+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:20:06.860+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:20:06.878+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.043 seconds
+[2024-06-14T18:21:15.991+0530] {processor.py:161} INFO - Started process (PID=42746) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:21:15.994+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T18:21:15.996+0530] {logging_mixin.py:188} INFO - [2024-06-14T18:21:15.996+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:21:16.000+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:21:16.017+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.039 seconds
+[2024-06-14T18:23:19.103+0530] {processor.py:161} INFO - Started process (PID=43945) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:23:19.105+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T18:23:19.108+0530] {logging_mixin.py:188} INFO - [2024-06-14T18:23:19.107+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:23:19.111+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:23:19.122+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.029 seconds
+[2024-06-14T18:26:43.459+0530] {processor.py:161} INFO - Started process (PID=46282) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:26:43.981+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T18:26:43.986+0530] {logging_mixin.py:188} INFO - [2024-06-14T18:26:43.984+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:26:44.000+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:26:44.031+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.581 seconds
+[2024-06-14T18:28:17.046+0530] {processor.py:161} INFO - Started process (PID=47384) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:28:17.050+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T18:28:17.051+0530] {logging_mixin.py:188} INFO - [2024-06-14T18:28:17.051+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:28:17.054+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:28:17.069+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.031 seconds
+[2024-06-14T18:31:00.911+0530] {processor.py:161} INFO - Started process (PID=49344) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:31:00.920+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T18:31:00.922+0530] {logging_mixin.py:188} INFO - [2024-06-14T18:31:00.922+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:31:00.926+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T18:31:00.945+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.047 seconds
+[2024-06-14T19:26:49.526+0530] {processor.py:161} INFO - Started process (PID=59739) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:26:49.529+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T19:26:49.531+0530] {logging_mixin.py:188} INFO - [2024-06-14T19:26:49.530+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:26:49.535+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:26:49.553+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.038 seconds
+[2024-06-14T19:29:25.390+0530] {processor.py:161} INFO - Started process (PID=61041) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:29:25.393+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T19:29:25.396+0530] {logging_mixin.py:188} INFO - [2024-06-14T19:29:25.396+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:29:25.402+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:29:25.422+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.046 seconds
+[2024-06-14T19:30:46.575+0530] {processor.py:161} INFO - Started process (PID=61981) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:30:46.577+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T19:30:46.579+0530] {logging_mixin.py:188} INFO - [2024-06-14T19:30:46.579+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:30:46.582+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:30:46.595+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.027 seconds
+[2024-06-14T19:32:09.279+0530] {processor.py:161} INFO - Started process (PID=63002) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:32:09.282+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T19:32:09.284+0530] {logging_mixin.py:188} INFO - [2024-06-14T19:32:09.283+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:32:09.288+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:32:09.302+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.034 seconds
+[2024-06-14T19:34:08.215+0530] {processor.py:161} INFO - Started process (PID=64582) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:34:08.218+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T19:34:08.219+0530] {logging_mixin.py:188} INFO - [2024-06-14T19:34:08.218+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:34:08.221+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:34:08.232+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.027 seconds
+[2024-06-14T19:36:17.586+0530] {processor.py:161} INFO - Started process (PID=66434) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:36:17.587+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T19:36:17.588+0530] {logging_mixin.py:188} INFO - [2024-06-14T19:36:17.588+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:36:17.591+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:36:17.602+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.022 seconds
+[2024-06-14T19:37:43.972+0530] {processor.py:161} INFO - Started process (PID=67511) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:37:43.974+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T19:37:43.975+0530] {logging_mixin.py:188} INFO - [2024-06-14T19:37:43.974+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:37:43.978+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:37:43.991+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.033 seconds
+[2024-06-14T19:39:01.056+0530] {processor.py:161} INFO - Started process (PID=68570) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:39:01.058+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T19:39:01.059+0530] {logging_mixin.py:188} INFO - [2024-06-14T19:39:01.059+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:39:01.062+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:39:01.076+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.029 seconds
+[2024-06-14T19:40:53.306+0530] {processor.py:161} INFO - Started process (PID=70062) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:40:53.347+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T19:40:53.349+0530] {logging_mixin.py:188} INFO - [2024-06-14T19:40:53.348+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:40:53.356+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:40:53.380+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.082 seconds
+[2024-06-14T19:42:11.437+0530] {processor.py:161} INFO - Started process (PID=71207) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:42:11.441+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T19:42:11.442+0530] {logging_mixin.py:188} INFO - [2024-06-14T19:42:11.442+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:42:11.445+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:42:11.457+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.028 seconds
+[2024-06-14T19:53:28.831+0530] {processor.py:161} INFO - Started process (PID=75168) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:53:28.844+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T19:53:28.847+0530] {logging_mixin.py:188} INFO - [2024-06-14T19:53:28.846+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:53:28.849+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:53:28.867+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.055 seconds
+[2024-06-14T19:55:00.494+0530] {processor.py:161} INFO - Started process (PID=76299) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:55:00.497+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T19:55:00.501+0530] {logging_mixin.py:188} INFO - [2024-06-14T19:55:00.500+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:55:00.504+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:55:00.523+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.041 seconds
+[2024-06-14T19:59:25.199+0530] {processor.py:161} INFO - Started process (PID=79289) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:59:25.202+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T19:59:25.204+0530] {logging_mixin.py:188} INFO - [2024-06-14T19:59:25.203+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:59:25.210+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T19:59:25.224+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.036 seconds
+[2024-06-14T20:00:48.896+0530] {processor.py:161} INFO - Started process (PID=80266) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:00:48.899+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T20:00:48.902+0530] {logging_mixin.py:188} INFO - [2024-06-14T20:00:48.901+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:00:48.906+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:00:48.919+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.036 seconds
+[2024-06-14T20:04:35.213+0530] {processor.py:161} INFO - Started process (PID=83258) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:04:35.216+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T20:04:35.217+0530] {logging_mixin.py:188} INFO - [2024-06-14T20:04:35.217+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:04:35.220+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:04:35.232+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.030 seconds
+[2024-06-14T20:06:22.378+0530] {processor.py:161} INFO - Started process (PID=84503) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:06:22.380+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T20:06:22.381+0530] {logging_mixin.py:188} INFO - [2024-06-14T20:06:22.381+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:06:22.384+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:06:22.395+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.023 seconds
+[2024-06-14T20:08:27.313+0530] {processor.py:161} INFO - Started process (PID=86118) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:08:27.316+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T20:08:27.317+0530] {logging_mixin.py:188} INFO - [2024-06-14T20:08:27.317+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:08:27.320+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:08:27.336+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.032 seconds
+[2024-06-14T20:10:35.881+0530] {processor.py:161} INFO - Started process (PID=88021) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:10:35.884+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T20:10:35.886+0530] {logging_mixin.py:188} INFO - [2024-06-14T20:10:35.885+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:10:35.890+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:10:35.924+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.050 seconds
+[2024-06-14T20:13:15.103+0530] {processor.py:161} INFO - Started process (PID=89892) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:13:15.118+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T20:13:15.120+0530] {logging_mixin.py:188} INFO - [2024-06-14T20:13:15.119+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:13:15.131+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:13:15.182+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.111 seconds
+[2024-06-14T20:16:01.716+0530] {processor.py:161} INFO - Started process (PID=92652) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:16:01.733+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T20:16:01.734+0530] {logging_mixin.py:188} INFO - [2024-06-14T20:16:01.734+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:16:01.738+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:16:01.785+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.113 seconds
+[2024-06-14T20:19:25.954+0530] {processor.py:161} INFO - Started process (PID=95726) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:19:25.956+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T20:19:25.957+0530] {logging_mixin.py:188} INFO - [2024-06-14T20:19:25.956+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:19:25.961+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:19:25.985+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.041 seconds
+[2024-06-14T20:23:25.000+0530] {processor.py:161} INFO - Started process (PID=98335) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:23:25.004+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T20:23:25.007+0530] {logging_mixin.py:188} INFO - [2024-06-14T20:23:25.006+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:23:25.011+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T20:23:25.033+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.047 seconds
+[2024-06-14T21:55:13.104+0530] {processor.py:161} INFO - Started process (PID=10839) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T21:55:13.161+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T21:55:13.164+0530] {logging_mixin.py:188} INFO - [2024-06-14T21:55:13.163+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T21:55:13.400+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T21:55:13.483+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.407 seconds
+[2024-06-14T21:58:02.397+0530] {processor.py:161} INFO - Started process (PID=12076) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T21:58:02.400+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T21:58:02.403+0530] {logging_mixin.py:188} INFO - [2024-06-14T21:58:02.402+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T21:58:02.407+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T21:58:02.421+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.037 seconds
+[2024-06-14T23:26:43.807+0530] {processor.py:161} INFO - Started process (PID=13489) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T23:26:43.820+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T23:26:43.826+0530] {logging_mixin.py:188} INFO - [2024-06-14T23:26:43.823+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T23:26:43.833+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T23:26:43.858+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.077 seconds
+[2024-06-14T23:28:32.639+0530] {processor.py:161} INFO - Started process (PID=14291) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T23:28:32.648+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T23:28:32.651+0530] {logging_mixin.py:188} INFO - [2024-06-14T23:28:32.650+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T23:28:32.655+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T23:28:32.692+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.075 seconds
+[2024-06-14T23:33:17.581+0530] {processor.py:161} INFO - Started process (PID=17093) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T23:33:17.582+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T23:33:17.583+0530] {logging_mixin.py:188} INFO - [2024-06-14T23:33:17.583+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T23:33:17.585+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T23:33:17.597+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.023 seconds
+[2024-06-14T23:36:19.828+0530] {processor.py:161} INFO - Started process (PID=19278) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T23:36:19.831+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-14T23:36:19.834+0530] {logging_mixin.py:188} INFO - [2024-06-14T23:36:19.833+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T23:36:19.841+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-14T23:36:19.861+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.049 seconds
+[2024-06-15T00:49:31.717+0530] {processor.py:161} INFO - Started process (PID=20777) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T00:49:32.042+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T00:49:32.044+0530] {logging_mixin.py:188} INFO - [2024-06-15T00:49:32.043+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T00:49:32.047+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T00:49:32.059+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.348 seconds
+[2024-06-15T00:51:32.240+0530] {processor.py:161} INFO - Started process (PID=22157) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T00:51:32.241+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T00:51:32.243+0530] {logging_mixin.py:188} INFO - [2024-06-15T00:51:32.242+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T00:51:32.247+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T00:51:32.262+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.031 seconds
+[2024-06-15T00:53:38.364+0530] {processor.py:161} INFO - Started process (PID=24103) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T00:53:38.366+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T00:53:38.368+0530] {logging_mixin.py:188} INFO - [2024-06-15T00:53:38.367+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T00:53:38.371+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T00:53:38.383+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.027 seconds
+[2024-06-15T00:55:48.737+0530] {processor.py:161} INFO - Started process (PID=25966) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T00:55:48.740+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T00:55:48.741+0530] {logging_mixin.py:188} INFO - [2024-06-15T00:55:48.740+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T00:55:48.746+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T00:55:48.784+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.058 seconds
+[2024-06-15T00:58:06.219+0530] {processor.py:161} INFO - Started process (PID=27940) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T00:58:06.221+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T00:58:06.222+0530] {logging_mixin.py:188} INFO - [2024-06-15T00:58:06.222+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T00:58:06.225+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T00:58:06.238+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.027 seconds
+[2024-06-15T01:00:35.034+0530] {processor.py:161} INFO - Started process (PID=30003) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:00:35.041+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:00:35.042+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:00:35.041+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:00:35.045+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:00:35.056+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.033 seconds
+[2024-06-15T01:02:51.288+0530] {processor.py:161} INFO - Started process (PID=31890) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:02:51.290+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:02:51.292+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:02:51.291+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:02:51.297+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:02:51.310+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.035 seconds
+[2024-06-15T01:05:03.164+0530] {processor.py:161} INFO - Started process (PID=33930) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:05:03.167+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:05:03.168+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:05:03.168+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:05:03.173+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:05:03.185+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.033 seconds
+[2024-06-15T01:07:06.364+0530] {processor.py:161} INFO - Started process (PID=35808) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:07:06.366+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:07:06.367+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:07:06.367+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:07:06.370+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:07:06.382+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.025 seconds
+[2024-06-15T01:09:00.217+0530] {processor.py:161} INFO - Started process (PID=37563) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:09:00.220+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:09:00.221+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:09:00.221+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:09:00.225+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:09:00.237+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.030 seconds
+[2024-06-15T01:11:34.152+0530] {processor.py:161} INFO - Started process (PID=39396) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:11:34.155+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:11:34.157+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:11:34.156+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:11:34.160+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:11:34.174+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.033 seconds
+[2024-06-15T01:15:15.492+0530] {processor.py:161} INFO - Started process (PID=41951) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:15:15.887+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:15:15.896+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:15:15.896+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:15:15.900+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:15:20.929+0530] {processor.py:186} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 843, in process_file
+    DagFileProcessor.update_import_errors(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/api_internal/internal_api_call.py", line 115, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 615, in update_import_errors
+    session.execute(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1665, in execute
+    ) = compile_state_cls.orm_pre_session_exec(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 1852, in orm_pre_session_exec
+    update_options = cls._do_pre_synchronize_fetch(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 2088, in _do_pre_synchronize_fetch
+    result = session.execute(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1717, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/wsl/airflow_venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: SELECT import_error.id 
+FROM import_error 
+WHERE (import_error.filename LIKE ? || '%')]
+[parameters: ('/home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py',)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2024-06-15T01:17:24.669+0530] {processor.py:161} INFO - Started process (PID=43295) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:17:24.671+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:17:24.673+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:17:24.672+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:17:24.676+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:17:24.698+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.038 seconds
+[2024-06-15T01:19:50.054+0530] {processor.py:161} INFO - Started process (PID=44888) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:19:50.056+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:19:50.057+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:19:50.056+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:19:50.059+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:19:50.074+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.026 seconds
+[2024-06-15T01:22:10.087+0530] {processor.py:161} INFO - Started process (PID=45868) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:22:11.186+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:22:11.188+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:22:11.187+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:22:11.192+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:22:11.211+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 1.132 seconds
+[2024-06-15T01:23:43.340+0530] {processor.py:161} INFO - Started process (PID=46316) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:23:43.343+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:23:43.346+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:23:43.345+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:23:43.349+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:23:43.361+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.034 seconds
+[2024-06-15T01:24:57.987+0530] {processor.py:161} INFO - Started process (PID=46876) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:24:57.990+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:24:57.991+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:24:57.990+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:24:57.994+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:24:58.005+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.037 seconds
+[2024-06-15T01:27:43.144+0530] {processor.py:161} INFO - Started process (PID=48969) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:27:43.146+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:27:43.148+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:27:43.147+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:27:43.152+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:27:43.169+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.040 seconds
+[2024-06-15T01:29:33.035+0530] {processor.py:161} INFO - Started process (PID=49870) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:29:33.037+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:29:33.039+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:29:33.038+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:29:33.043+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:29:33.060+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.039 seconds
+[2024-06-15T01:31:49.029+0530] {processor.py:161} INFO - Started process (PID=51448) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:31:49.031+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:31:49.033+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:31:49.032+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:31:49.036+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:31:49.052+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.032 seconds
+[2024-06-15T01:33:53.510+0530] {processor.py:161} INFO - Started process (PID=52405) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:33:53.513+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:33:53.515+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:33:53.514+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:33:53.519+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:33:53.530+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.031 seconds
+[2024-06-15T01:35:43.148+0530] {processor.py:161} INFO - Started process (PID=53302) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:35:43.150+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:35:43.151+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:35:43.151+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:35:43.154+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:35:43.168+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.029 seconds
+[2024-06-15T01:37:09.234+0530] {processor.py:161} INFO - Started process (PID=53916) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:37:09.237+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:37:09.239+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:37:09.238+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:37:09.242+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:37:09.253+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.037 seconds
+[2024-06-15T01:38:59.773+0530] {processor.py:161} INFO - Started process (PID=54822) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:38:59.776+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:38:59.778+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:38:59.777+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:38:59.782+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:38:59.796+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.037 seconds
+[2024-06-15T01:40:29.997+0530] {processor.py:161} INFO - Started process (PID=55435) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:40:30.068+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:40:30.071+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:40:30.070+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:40:30.078+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:40:30.099+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.111 seconds
+[2024-06-15T01:42:19.172+0530] {processor.py:161} INFO - Started process (PID=56344) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:42:19.174+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:42:19.175+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:42:19.175+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:42:19.178+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:42:19.189+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.028 seconds
+[2024-06-15T01:43:44.499+0530] {processor.py:161} INFO - Started process (PID=56953) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:43:45.107+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:43:45.120+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:43:45.113+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:43:45.128+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:43:45.159+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.670 seconds
+[2024-06-15T01:45:38.770+0530] {processor.py:161} INFO - Started process (PID=57877) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:45:39.151+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:45:39.155+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:45:39.153+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:45:39.162+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:45:39.189+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.429 seconds
+[2024-06-15T01:47:30.520+0530] {processor.py:161} INFO - Started process (PID=58792) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:47:30.522+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:47:30.523+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:47:30.523+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:47:30.527+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:47:30.542+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.032 seconds
+[2024-06-15T01:49:24.819+0530] {processor.py:161} INFO - Started process (PID=59709) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:49:24.822+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:49:24.823+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:49:24.823+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:49:24.827+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:49:24.842+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.031 seconds
+[2024-06-15T01:51:10.621+0530] {processor.py:161} INFO - Started process (PID=60592) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:51:10.624+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:51:10.625+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:51:10.624+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:51:10.628+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:51:10.641+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.031 seconds
+[2024-06-15T01:52:37.893+0530] {processor.py:161} INFO - Started process (PID=61208) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:52:37.895+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:52:37.896+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:52:37.896+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:52:37.898+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:52:37.909+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.024 seconds
+[2024-06-15T01:54:01.396+0530] {processor.py:161} INFO - Started process (PID=61813) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:54:01.400+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:54:01.401+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:54:01.400+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:54:01.405+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:54:01.418+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.031 seconds
+[2024-06-15T01:55:53.583+0530] {processor.py:161} INFO - Started process (PID=62722) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:55:53.586+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:55:53.587+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:55:53.587+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:55:53.591+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:55:53.606+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.035 seconds
+[2024-06-15T01:57:37.543+0530] {processor.py:161} INFO - Started process (PID=63608) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:57:37.545+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:57:37.547+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:57:37.546+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:57:37.550+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:57:37.563+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.029 seconds
+[2024-06-15T01:59:04.236+0530] {processor.py:161} INFO - Started process (PID=64223) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:59:04.707+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T01:59:04.713+0530] {logging_mixin.py:188} INFO - [2024-06-15T01:59:04.710+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:59:04.729+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T01:59:04.765+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.538 seconds
+[2024-06-15T02:00:19.894+0530] {processor.py:161} INFO - Started process (PID=64765) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:00:19.896+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:00:19.897+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:00:19.897+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:00:19.901+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:00:19.917+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.036 seconds
+[2024-06-15T02:02:08.976+0530] {processor.py:161} INFO - Started process (PID=65667) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:02:08.995+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:02:08.996+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:02:08.996+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:02:08.999+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:02:09.010+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.043 seconds
+[2024-06-15T02:04:00.437+0530] {processor.py:161} INFO - Started process (PID=66574) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:04:00.438+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:04:00.439+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:04:00.439+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:04:00.442+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:04:00.452+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.021 seconds
+[2024-06-15T02:05:25.458+0530] {processor.py:161} INFO - Started process (PID=67181) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:05:25.461+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:05:25.462+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:05:25.461+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:05:25.466+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:05:25.477+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.030 seconds
+[2024-06-15T02:07:14.067+0530] {processor.py:161} INFO - Started process (PID=68078) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:07:14.070+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:07:14.071+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:07:14.071+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:07:14.075+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:07:14.092+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.035 seconds
+[2024-06-15T02:08:46.012+0530] {processor.py:161} INFO - Started process (PID=68711) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:08:46.014+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:08:46.015+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:08:46.014+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:08:46.017+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:08:46.028+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.023 seconds
+[2024-06-15T02:10:35.417+0530] {processor.py:161} INFO - Started process (PID=69610) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:10:35.420+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:10:35.421+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:10:35.420+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:10:35.424+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:10:35.439+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.035 seconds
+[2024-06-15T02:12:04.872+0530] {processor.py:161} INFO - Started process (PID=70871) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:12:04.873+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:12:04.875+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:12:04.874+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:12:04.880+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:12:04.895+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.030 seconds
+[2024-06-15T02:15:09.201+0530] {processor.py:161} INFO - Started process (PID=73152) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:15:09.204+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:15:09.205+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:15:09.204+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:15:09.208+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:15:09.223+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.030 seconds
+[2024-06-15T02:18:03.204+0530] {processor.py:161} INFO - Started process (PID=75432) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:18:03.207+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:18:03.208+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:18:03.207+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:18:03.211+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:18:03.225+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.031 seconds
+[2024-06-15T02:20:27.258+0530] {processor.py:161} INFO - Started process (PID=77414) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:20:27.313+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:20:27.314+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:20:27.314+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:20:27.318+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:20:27.342+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.113 seconds
+[2024-06-15T02:22:37.413+0530] {processor.py:161} INFO - Started process (PID=79317) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:22:37.415+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:22:37.417+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:22:37.416+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:22:37.421+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:22:37.433+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.032 seconds
+[2024-06-15T02:24:45.147+0530] {processor.py:161} INFO - Started process (PID=81318) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:24:45.148+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:24:45.150+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:24:45.149+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:24:45.153+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:24:45.167+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.030 seconds
+[2024-06-15T02:27:11.340+0530] {processor.py:161} INFO - Started process (PID=83210) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:27:11.341+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:27:11.342+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:27:11.342+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:27:11.344+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:27:11.355+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.022 seconds
+[2024-06-15T02:29:40.048+0530] {processor.py:161} INFO - Started process (PID=85263) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:29:40.050+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:29:40.052+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:29:40.051+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:29:40.055+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:29:40.070+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.032 seconds
+[2024-06-15T02:31:35.681+0530] {processor.py:161} INFO - Started process (PID=87198) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:31:35.685+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:31:35.686+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:31:35.686+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:31:35.689+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:31:35.704+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.037 seconds
+[2024-06-15T02:33:32.704+0530] {processor.py:161} INFO - Started process (PID=88985) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:33:32.706+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:33:32.707+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:33:32.706+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:33:32.710+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:33:32.733+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.040 seconds
+[2024-06-15T02:35:42.940+0530] {processor.py:161} INFO - Started process (PID=90750) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:35:43.583+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:35:43.585+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:35:43.584+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:35:43.589+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:35:43.608+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.684 seconds
+[2024-06-15T02:37:36.265+0530] {processor.py:161} INFO - Started process (PID=92634) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:37:36.267+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:37:36.268+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:37:36.268+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:37:36.270+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:37:36.281+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.022 seconds
+[2024-06-15T02:39:43.922+0530] {processor.py:161} INFO - Started process (PID=94764) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:39:44.336+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:39:44.339+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:39:44.338+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:39:44.346+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:39:44.367+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.451 seconds
+[2024-06-15T02:41:55.431+0530] {processor.py:161} INFO - Started process (PID=96742) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:41:55.434+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:41:55.436+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:41:55.435+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:41:55.440+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:41:55.457+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.040 seconds
+[2024-06-15T02:44:25.671+0530] {processor.py:161} INFO - Started process (PID=98884) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:44:25.673+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:44:25.675+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:44:25.674+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:44:25.679+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:44:25.695+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.036 seconds
+[2024-06-15T02:46:39.245+0530] {processor.py:161} INFO - Started process (PID=100984) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:46:39.248+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:46:39.249+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:46:39.249+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:46:39.253+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:46:39.265+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.031 seconds
+[2024-06-15T02:48:52.955+0530] {processor.py:161} INFO - Started process (PID=102974) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:48:52.961+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:48:52.967+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:48:52.962+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:48:52.972+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:48:53.020+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.097 seconds
+[2024-06-15T02:51:25.618+0530] {processor.py:161} INFO - Started process (PID=104207) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:51:25.620+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:51:25.621+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:51:25.621+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:51:25.624+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:51:25.635+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.024 seconds
+[2024-06-15T02:53:18.360+0530] {processor.py:161} INFO - Started process (PID=105315) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:53:18.363+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:53:18.364+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:53:18.364+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:53:18.366+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:53:18.379+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.028 seconds
+[2024-06-15T02:59:23.766+0530] {processor.py:161} INFO - Started process (PID=108980) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:59:23.768+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T02:59:23.771+0530] {logging_mixin.py:188} INFO - [2024-06-15T02:59:23.770+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:59:23.775+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T02:59:23.791+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.034 seconds
+[2024-06-15T03:01:40.878+0530] {processor.py:161} INFO - Started process (PID=111341) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:01:40.893+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T03:01:40.895+0530] {logging_mixin.py:188} INFO - [2024-06-15T03:01:40.894+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:01:40.899+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:01:40.921+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.060 seconds
+[2024-06-15T03:05:28.548+0530] {processor.py:161} INFO - Started process (PID=113969) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:05:28.551+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T03:05:28.552+0530] {logging_mixin.py:188} INFO - [2024-06-15T03:05:28.551+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:05:28.555+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:05:28.566+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.028 seconds
+[2024-06-15T03:08:23.694+0530] {processor.py:161} INFO - Started process (PID=116226) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:08:23.697+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T03:08:23.698+0530] {logging_mixin.py:188} INFO - [2024-06-15T03:08:23.698+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:08:23.702+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:08:23.717+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.031 seconds
+[2024-06-15T03:10:49.615+0530] {processor.py:161} INFO - Started process (PID=118426) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:10:49.617+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T03:10:49.619+0530] {logging_mixin.py:188} INFO - [2024-06-15T03:10:49.618+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:10:49.621+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:10:49.637+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.032 seconds
+[2024-06-15T03:14:09.099+0530] {processor.py:161} INFO - Started process (PID=120815) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:14:09.102+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T03:14:09.103+0530] {logging_mixin.py:188} INFO - [2024-06-15T03:14:09.103+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:14:09.106+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:14:09.122+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.032 seconds
+[2024-06-15T03:16:18.345+0530] {processor.py:161} INFO - Started process (PID=122297) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:16:18.360+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T03:16:18.362+0530] {logging_mixin.py:188} INFO - [2024-06-15T03:16:18.361+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:16:18.367+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:16:18.385+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.049 seconds
+[2024-06-15T03:39:58.396+0530] {processor.py:161} INFO - Started process (PID=1860) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:39:58.398+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T03:39:58.402+0530] {logging_mixin.py:188} INFO - [2024-06-15T03:39:58.401+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:39:58.406+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:39:58.419+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.032 seconds
+[2024-06-15T03:41:43.606+0530] {processor.py:161} INFO - Started process (PID=3648) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:41:43.608+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T03:41:43.610+0530] {logging_mixin.py:188} INFO - [2024-06-15T03:41:43.610+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:41:43.619+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:41:43.654+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.062 seconds
+[2024-06-15T03:42:59.354+0530] {processor.py:161} INFO - Started process (PID=4791) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:42:59.358+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T03:42:59.362+0530] {logging_mixin.py:188} INFO - [2024-06-15T03:42:59.361+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:42:59.366+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T03:42:59.401+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.056 seconds
+[2024-06-15T04:35:46.806+0530] {processor.py:161} INFO - Started process (PID=16746) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:35:46.810+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T04:35:46.813+0530] {logging_mixin.py:188} INFO - [2024-06-15T04:35:46.813+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:35:46.820+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:35:46.841+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.051 seconds
+[2024-06-15T04:36:55.443+0530] {processor.py:161} INFO - Started process (PID=17765) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:36:55.447+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T04:36:55.450+0530] {logging_mixin.py:188} INFO - [2024-06-15T04:36:55.449+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:36:55.453+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:36:55.469+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.046 seconds
+[2024-06-15T04:38:28.841+0530] {processor.py:161} INFO - Started process (PID=18986) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:38:28.845+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T04:38:28.848+0530] {logging_mixin.py:188} INFO - [2024-06-15T04:38:28.847+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:38:28.853+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:38:28.872+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.044 seconds
+[2024-06-15T04:39:52.659+0530] {processor.py:161} INFO - Started process (PID=20067) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:39:52.662+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T04:39:52.666+0530] {logging_mixin.py:188} INFO - [2024-06-15T04:39:52.665+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:39:52.669+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:39:52.681+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.039 seconds
+[2024-06-15T04:41:14.725+0530] {processor.py:161} INFO - Started process (PID=21280) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:41:14.727+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T04:41:14.729+0530] {logging_mixin.py:188} INFO - [2024-06-15T04:41:14.729+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:41:14.731+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:41:14.744+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.030 seconds
+[2024-06-15T04:42:20.604+0530] {processor.py:161} INFO - Started process (PID=22155) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:42:20.607+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T04:42:20.609+0530] {logging_mixin.py:188} INFO - [2024-06-15T04:42:20.609+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:42:20.614+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:42:20.627+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.037 seconds
+[2024-06-15T04:43:21.676+0530] {processor.py:161} INFO - Started process (PID=23074) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:43:21.678+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T04:43:21.680+0530] {logging_mixin.py:188} INFO - [2024-06-15T04:43:21.679+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:43:21.683+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:43:21.697+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.033 seconds
+[2024-06-15T04:44:27.893+0530] {processor.py:161} INFO - Started process (PID=23983) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:44:27.895+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T04:44:27.897+0530] {logging_mixin.py:188} INFO - [2024-06-15T04:44:27.897+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:44:27.900+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:44:27.915+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.030 seconds
+[2024-06-15T04:45:36.176+0530] {processor.py:161} INFO - Started process (PID=24894) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:45:36.179+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T04:45:36.181+0530] {logging_mixin.py:188} INFO - [2024-06-15T04:45:36.180+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:45:36.184+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:45:36.202+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.039 seconds
+[2024-06-15T04:46:30.318+0530] {processor.py:161} INFO - Started process (PID=25671) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:46:30.320+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T04:46:30.322+0530] {logging_mixin.py:188} INFO - [2024-06-15T04:46:30.321+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:46:30.324+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:46:30.335+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.030 seconds
+[2024-06-15T04:47:37.572+0530] {processor.py:161} INFO - Started process (PID=26606) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:47:37.574+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T04:47:37.576+0530] {logging_mixin.py:188} INFO - [2024-06-15T04:47:37.575+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:47:37.578+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:47:37.589+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.023 seconds
+[2024-06-15T04:49:00.660+0530] {processor.py:161} INFO - Started process (PID=27844) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:49:00.684+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T04:49:00.686+0530] {logging_mixin.py:188} INFO - [2024-06-15T04:49:00.686+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:49:00.689+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:49:00.705+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.054 seconds
+[2024-06-15T04:50:13.589+0530] {processor.py:161} INFO - Started process (PID=28785) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:50:13.591+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T04:50:13.593+0530] {logging_mixin.py:188} INFO - [2024-06-15T04:50:13.592+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:50:13.595+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:50:13.609+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.026 seconds
+[2024-06-15T04:51:25.790+0530] {processor.py:161} INFO - Started process (PID=29646) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:51:25.791+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T04:51:25.794+0530] {logging_mixin.py:188} INFO - [2024-06-15T04:51:25.793+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:51:25.797+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:51:25.831+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.058 seconds
+[2024-06-15T04:53:12.186+0530] {processor.py:161} INFO - Started process (PID=30670) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:53:12.188+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T04:53:12.190+0530] {logging_mixin.py:188} INFO - [2024-06-15T04:53:12.190+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:53:12.192+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:53:12.203+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.030 seconds
+[2024-06-15T04:54:22.262+0530] {processor.py:161} INFO - Started process (PID=31312) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:54:22.264+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T04:54:22.265+0530] {logging_mixin.py:188} INFO - [2024-06-15T04:54:22.264+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:54:22.267+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:54:22.279+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.024 seconds
+[2024-06-15T04:55:58.491+0530] {processor.py:161} INFO - Started process (PID=32688) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:55:58.496+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T04:55:58.504+0530] {logging_mixin.py:188} INFO - [2024-06-15T04:55:58.503+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:55:58.508+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:55:58.542+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.071 seconds
+[2024-06-15T04:57:18.533+0530] {processor.py:161} INFO - Started process (PID=33796) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:57:18.535+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T04:57:18.536+0530] {logging_mixin.py:188} INFO - [2024-06-15T04:57:18.536+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:57:18.539+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:57:18.553+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.028 seconds
+[2024-06-15T04:59:43.143+0530] {processor.py:161} INFO - Started process (PID=35572) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:59:43.144+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T04:59:43.146+0530] {logging_mixin.py:188} INFO - [2024-06-15T04:59:43.145+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:59:43.151+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T04:59:43.168+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.034 seconds
+[2024-06-15T05:00:43.007+0530] {processor.py:161} INFO - Started process (PID=36304) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T05:00:43.123+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T05:00:43.125+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:00:43.124+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T05:00:43.128+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T05:00:43.140+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.147 seconds
+[2024-06-15T05:02:38.962+0530] {processor.py:161} INFO - Started process (PID=37736) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T05:02:38.967+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-15T05:02:38.968+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:02:38.968+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T05:02:38.972+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-15T05:02:38.986+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.040 seconds

@@ -1,0 +1,1033 @@
+[2024-06-06T16:24:42.788+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-06T16:24:42.842+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_data_pipeline_dag.collect_data_3 manual__2024-06-06T10:52:24.734916+00:00 [queued]>
+[2024-06-06T16:24:42.892+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_data_pipeline_dag.collect_data_3 manual__2024-06-06T10:52:24.734916+00:00 [queued]>
+[2024-06-06T16:24:42.892+0530] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-06-06T16:24:42.950+0530] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): collect_data_3> on 2024-06-06 10:52:24.734916+00:00
+[2024-06-06T16:24:42.962+0530] {standard_task_runner.py:63} INFO - Started process 51210 to run task
+[2024-06-06T16:24:42.978+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'my_data_pipeline_dag', 'collect_data_3', 'manual__2024-06-06T10:52:24.734916+00:00', '--job-id', '78', '--raw', '--subdir', 'DAGS_FOLDER/my_first_dag.py', '--cfg-path', '/tmp/tmpwzuij01e']
+[2024-06-06T16:24:42.981+0530] {standard_task_runner.py:91} INFO - Job 78: Subtask collect_data_3
+[2024-06-06T16:24:43.093+0530] {task_command.py:426} INFO - Running <TaskInstance: my_data_pipeline_dag.collect_data_3 manual__2024-06-06T10:52:24.734916+00:00 [running]> on host DESKTOP-J05K55U.
+[2024-06-06T16:24:43.176+0530] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='my_data_pipeline_dag' AIRFLOW_CTX_TASK_ID='collect_data_3' AIRFLOW_CTX_EXECUTION_DATE='2024-06-06T10:52:24.734916+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-06T10:52:24.734916+00:00'
+[2024-06-06T16:24:43.178+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-06T16:24:43.179+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-06-06T16:24:43.179+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python "/home/wsl/airflow/dags/Collect Data/test.py"']
+[2024-06-06T16:24:43.193+0530] {subprocess.py:86} INFO - Output:
+[2024-06-06T16:24:49.849+0530] {subprocess.py:93} INFO - 24/06/06 16:24:49 WARN Utils: Your hostname, DESKTOP-J05K55U resolves to a loopback address: 127.0.1.1; using 172.31.56.255 instead (on interface eth0)
+[2024-06-06T16:24:49.853+0530] {subprocess.py:93} INFO - 24/06/06 16:24:49 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2024-06-06T16:24:51.471+0530] {subprocess.py:93} INFO - Setting default log level to "WARN".
+[2024-06-06T16:24:51.471+0530] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2024-06-06T16:24:52.049+0530] {subprocess.py:93} INFO - 24/06/06 16:24:52 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2024-06-06T16:24:53.249+0530] {subprocess.py:93} INFO - 24/06/06 16:24:53 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2024-06-06T16:25:04.676+0530] {subprocess.py:93} INFO - [Stage 0:>                                                          (0 + 1) / 1][Stage 0:===========================================================(1 + 0) / 1]                                                                                [Stage 3:>                                                          (0 + 1) / 1]                                                                                <pyspark.sql.session.SparkSession object at 0x7f6bf8571ae0>
+[2024-06-06T16:25:04.676+0530] {subprocess.py:93} INFO - +----------+---------+-----------+------+------+
+[2024-06-06T16:25:04.676+0530] {subprocess.py:93} INFO - |      date|continent|   location| cases|deaths|
+[2024-06-06T16:25:04.677+0530] {subprocess.py:93} INFO - +----------+---------+-----------+------+------+
+[2024-06-06T16:25:04.677+0530] {subprocess.py:93} INFO - |2020-03-23|     Asia|Afghanistan|    40|     1|
+[2024-06-06T16:25:04.677+0530] {subprocess.py:93} INFO - |2020-03-24|     Asia|Afghanistan|    42|     1|
+[2024-06-06T16:25:04.677+0530] {subprocess.py:93} INFO - |2020-03-25|     Asia|Afghanistan|    74|     1|
+[2024-06-06T16:25:04.678+0530] {subprocess.py:93} INFO - |2020-03-26|     Asia|Afghanistan|    80|     2|
+[2024-06-06T16:25:04.678+0530] {subprocess.py:93} INFO - |2020-03-27|     Asia|Afghanistan|    91|     2|
+[2024-06-06T16:25:04.678+0530] {subprocess.py:93} INFO - |2020-03-28|     Asia|Afghanistan|   106|     2|
+[2024-06-06T16:25:04.678+0530] {subprocess.py:93} INFO - |2020-03-29|     Asia|Afghanistan|   114|     4|
+[2024-06-06T16:25:04.678+0530] {subprocess.py:93} INFO - |2020-03-30|     Asia|Afghanistan|   114|     4|
+[2024-06-06T16:25:04.679+0530] {subprocess.py:93} INFO - |2020-03-31|     Asia|Afghanistan|   166|     4|
+[2024-06-06T16:25:04.679+0530] {subprocess.py:93} INFO - |2020-04-01|     Asia|Afghanistan|   192|     4|
+[2024-06-06T16:25:04.679+0530] {subprocess.py:93} INFO - |2020-04-02|     Asia|Afghanistan|   235|     4|
+[2024-06-06T16:25:04.679+0530] {subprocess.py:93} INFO - |2020-04-03|     Asia|Afghanistan|   269|     5|
+[2024-06-06T16:25:04.679+0530] {subprocess.py:93} INFO - |2020-04-04|     Asia|Afghanistan|   270|     5|
+[2024-06-06T16:25:04.680+0530] {subprocess.py:93} INFO - |2020-04-05|     Asia|Afghanistan|   299|     7|
+[2024-06-06T16:25:04.680+0530] {subprocess.py:93} INFO - |2020-04-06|     Asia|Afghanistan|   337|     7|
+[2024-06-06T16:25:04.680+0530] {subprocess.py:93} INFO - |2020-04-07|     Asia|Afghanistan|   367|    11|
+[2024-06-06T16:25:04.680+0530] {subprocess.py:93} INFO - |2020-04-08|     Asia|Afghanistan|   423|    14|
+[2024-06-06T16:25:04.680+0530] {subprocess.py:93} INFO - |2020-04-09|     Asia|Afghanistan|   444|    15|
+[2024-06-06T16:25:04.680+0530] {subprocess.py:93} INFO - |2020-04-10|     Asia|Afghanistan|   521|    15|
+[2024-06-06T16:25:04.681+0530] {subprocess.py:93} INFO - |2020-04-11|     Asia|Afghanistan|   521|    15|
+[2024-06-06T16:25:04.681+0530] {subprocess.py:93} INFO - |2020-04-12|     Asia|Afghanistan|   555|    18|
+[2024-06-06T16:25:04.681+0530] {subprocess.py:93} INFO - |2020-04-13|     Asia|Afghanistan|   607|    19|
+[2024-06-06T16:25:04.681+0530] {subprocess.py:93} INFO - |2020-04-14|     Asia|Afghanistan|   665|    22|
+[2024-06-06T16:25:04.681+0530] {subprocess.py:93} INFO - |2020-04-15|     Asia|Afghanistan|   770|    25|
+[2024-06-06T16:25:04.682+0530] {subprocess.py:93} INFO - |2020-04-16|     Asia|Afghanistan|   794|    29|
+[2024-06-06T16:25:04.682+0530] {subprocess.py:93} INFO - |2020-04-17|     Asia|Afghanistan|   845|    30|
+[2024-06-06T16:25:04.682+0530] {subprocess.py:93} INFO - |2020-04-18|     Asia|Afghanistan|   908|    30|
+[2024-06-06T16:25:04.682+0530] {subprocess.py:93} INFO - |2020-04-19|     Asia|Afghanistan|   933|    30|
+[2024-06-06T16:25:04.682+0530] {subprocess.py:93} INFO - |2020-04-20|     Asia|Afghanistan|   996|    33|
+[2024-06-06T16:25:04.682+0530] {subprocess.py:93} INFO - |2020-04-21|     Asia|Afghanistan|  1026|    36|
+[2024-06-06T16:25:04.683+0530] {subprocess.py:93} INFO - |2020-04-22|     Asia|Afghanistan|  1092|    36|
+[2024-06-06T16:25:04.683+0530] {subprocess.py:93} INFO - |2020-04-23|     Asia|Afghanistan|  1176|    40|
+[2024-06-06T16:25:04.683+0530] {subprocess.py:93} INFO - |2020-04-24|     Asia|Afghanistan|  1226|    40|
+[2024-06-06T16:25:04.683+0530] {subprocess.py:93} INFO - |2020-04-25|     Asia|Afghanistan|  1330|    43|
+[2024-06-06T16:25:04.683+0530] {subprocess.py:93} INFO - |2020-04-26|     Asia|Afghanistan|  1463|    49|
+[2024-06-06T16:25:04.683+0530] {subprocess.py:93} INFO - |2020-04-27|     Asia|Afghanistan|  1531|    50|
+[2024-06-06T16:25:04.683+0530] {subprocess.py:93} INFO - |2020-04-28|     Asia|Afghanistan|  1703|    60|
+[2024-06-06T16:25:04.684+0530] {subprocess.py:93} INFO - |2020-04-29|     Asia|Afghanistan|  1827|    60|
+[2024-06-06T16:25:04.684+0530] {subprocess.py:93} INFO - |2020-04-30|     Asia|Afghanistan|  1827|    60|
+[2024-06-06T16:25:04.684+0530] {subprocess.py:93} INFO - |2020-05-01|     Asia|Afghanistan|  2171|    64|
+[2024-06-06T16:25:04.684+0530] {subprocess.py:93} INFO - |2020-05-02|     Asia|Afghanistan|  2469|    72|
+[2024-06-06T16:25:04.684+0530] {subprocess.py:93} INFO - |2020-05-03|     Asia|Afghanistan|  2469|    72|
+[2024-06-06T16:25:04.684+0530] {subprocess.py:93} INFO - |2020-05-04|     Asia|Afghanistan|  2469|    72|
+[2024-06-06T16:25:04.685+0530] {subprocess.py:93} INFO - |2020-05-05|     Asia|Afghanistan|  2469|    72|
+[2024-06-06T16:25:04.685+0530] {subprocess.py:93} INFO - |2020-05-06|     Asia|Afghanistan|  3224|    95|
+[2024-06-06T16:25:04.685+0530] {subprocess.py:93} INFO - |2020-05-07|     Asia|Afghanistan|  3392|   104|
+[2024-06-06T16:25:04.685+0530] {subprocess.py:93} INFO - |2020-05-08|     Asia|Afghanistan|  3563|   105|
+[2024-06-06T16:25:04.685+0530] {subprocess.py:93} INFO - |2020-05-09|     Asia|Afghanistan|  3563|   105|
+[2024-06-06T16:25:04.686+0530] {subprocess.py:93} INFO - |2020-05-10|     Asia|Afghanistan|  4402|   119|
+[2024-06-06T16:25:04.686+0530] {subprocess.py:93} INFO - |2020-05-11|     Asia|Afghanistan|  4664|   120|
+[2024-06-06T16:25:04.686+0530] {subprocess.py:93} INFO - |2020-05-12|     Asia|Afghanistan|  4967|   127|
+[2024-06-06T16:25:04.686+0530] {subprocess.py:93} INFO - |2020-05-13|     Asia|Afghanistan|  4967|   127|
+[2024-06-06T16:25:04.686+0530] {subprocess.py:93} INFO - |2020-05-14|     Asia|Afghanistan|  5339|   136|
+[2024-06-06T16:25:04.686+0530] {subprocess.py:93} INFO - |2020-05-15|     Asia|Afghanistan|  6053|   153|
+[2024-06-06T16:25:04.687+0530] {subprocess.py:93} INFO - |2020-05-16|     Asia|Afghanistan|  6402|   168|
+[2024-06-06T16:25:04.687+0530] {subprocess.py:93} INFO - |2020-05-17|     Asia|Afghanistan|  6635|   169|
+[2024-06-06T16:25:04.687+0530] {subprocess.py:93} INFO - |2020-05-18|     Asia|Afghanistan|  7072|   173|
+[2024-06-06T16:25:04.687+0530] {subprocess.py:93} INFO - |2020-05-19|     Asia|Afghanistan|  7655|   177|
+[2024-06-06T16:25:04.687+0530] {subprocess.py:93} INFO - |2020-05-20|     Asia|Afghanistan|  8145|   187|
+[2024-06-06T16:25:04.687+0530] {subprocess.py:93} INFO - |2020-05-21|     Asia|Afghanistan|  8676|   193|
+[2024-06-06T16:25:04.688+0530] {subprocess.py:93} INFO - |2020-05-22|     Asia|Afghanistan|  9216|   205|
+[2024-06-06T16:25:04.688+0530] {subprocess.py:93} INFO - |2020-05-23|     Asia|Afghanistan|  9952|   215|
+[2024-06-06T16:25:04.688+0530] {subprocess.py:93} INFO - |2020-05-24|     Asia|Afghanistan| 10668|   222|
+[2024-06-06T16:25:04.688+0530] {subprocess.py:93} INFO - |2020-05-25|     Asia|Afghanistan| 11180|   223|
+[2024-06-06T16:25:04.688+0530] {subprocess.py:93} INFO - |2020-05-26|     Asia|Afghanistan| 11917|   224|
+[2024-06-06T16:25:04.688+0530] {subprocess.py:93} INFO - |2020-05-27|     Asia|Afghanistan| 12465|   230|
+[2024-06-06T16:25:04.689+0530] {subprocess.py:93} INFO - |2020-05-28|     Asia|Afghanistan| 13102|   239|
+[2024-06-06T16:25:04.689+0530] {subprocess.py:93} INFO - |2020-05-29|     Asia|Afghanistan| 13745|   250|
+[2024-06-06T16:25:04.689+0530] {subprocess.py:93} INFO - |2020-05-30|     Asia|Afghanistan| 14529|   252|
+[2024-06-06T16:25:04.689+0530] {subprocess.py:93} INFO - |2020-05-31|     Asia|Afghanistan| 15180|   254|
+[2024-06-06T16:25:04.689+0530] {subprocess.py:93} INFO - |2020-06-01|     Asia|Afghanistan| 15836|   269|
+[2024-06-06T16:25:04.690+0530] {subprocess.py:93} INFO - |2020-06-02|     Asia|Afghanistan| 16578|   274|
+[2024-06-06T16:25:04.690+0530] {subprocess.py:93} INFO - |2020-06-03|     Asia|Afghanistan| 17353|   298|
+[2024-06-06T16:25:04.690+0530] {subprocess.py:93} INFO - |2020-06-04|     Asia|Afghanistan| 17977|   303|
+[2024-06-06T16:25:04.690+0530] {subprocess.py:93} INFO - |2020-06-05|     Asia|Afghanistan| 19055|   313|
+[2024-06-06T16:25:04.690+0530] {subprocess.py:93} INFO - |2020-06-06|     Asia|Afghanistan| 19637|   331|
+[2024-06-06T16:25:04.690+0530] {subprocess.py:93} INFO - |2020-06-07|     Asia|Afghanistan| 20428|   361|
+[2024-06-06T16:25:04.691+0530] {subprocess.py:93} INFO - |2020-06-08|     Asia|Afghanistan| 21003|   373|
+[2024-06-06T16:25:04.691+0530] {subprocess.py:93} INFO - |2020-06-09|     Asia|Afghanistan| 21308|   380|
+[2024-06-06T16:25:04.691+0530] {subprocess.py:93} INFO - |2020-06-10|     Asia|Afghanistan| 22228|   409|
+[2024-06-06T16:25:04.691+0530] {subprocess.py:93} INFO - |2020-06-11|     Asia|Afghanistan| 22976|   430|
+[2024-06-06T16:25:04.692+0530] {subprocess.py:93} INFO - |2020-06-12|     Asia|Afghanistan| 23632|   450|
+[2024-06-06T16:25:04.692+0530] {subprocess.py:93} INFO - |2020-06-13|     Asia|Afghanistan| 24188|   455|
+[2024-06-06T16:25:04.693+0530] {subprocess.py:93} INFO - |2020-06-14|     Asia|Afghanistan| 24852|   475|
+[2024-06-06T16:25:04.693+0530] {subprocess.py:93} INFO - |2020-06-15|     Asia|Afghanistan| 25613|   480|
+[2024-06-06T16:25:04.693+0530] {subprocess.py:93} INFO - |2020-06-16|     Asia|Afghanistan| 25719|   488|
+[2024-06-06T16:25:04.693+0530] {subprocess.py:93} INFO - |2020-06-17|     Asia|Afghanistan| 26960|   508|
+[2024-06-06T16:25:04.693+0530] {subprocess.py:93} INFO - |2020-06-18|     Asia|Afghanistan| 27423|   550|
+[2024-06-06T16:25:04.693+0530] {subprocess.py:93} INFO - |2020-06-19|     Asia|Afghanistan| 27964|   552|
+[2024-06-06T16:25:04.693+0530] {subprocess.py:93} INFO - |2020-06-20|     Asia|Afghanistan| 28383|   552|
+[2024-06-06T16:25:04.694+0530] {subprocess.py:93} INFO - |2020-06-21|     Asia|Afghanistan| 28919|   585|
+[2024-06-06T16:25:04.694+0530] {subprocess.py:93} INFO - |2020-06-22|     Asia|Afghanistan| 29229|   602|
+[2024-06-06T16:25:04.694+0530] {subprocess.py:93} INFO - |2020-06-23|     Asia|Afghanistan| 29567|   622|
+[2024-06-06T16:25:04.694+0530] {subprocess.py:93} INFO - |2020-06-24|     Asia|Afghanistan| 29726|   643|
+[2024-06-06T16:25:04.694+0530] {subprocess.py:93} INFO - |2020-06-25|     Asia|Afghanistan| 30261|   679|
+[2024-06-06T16:25:04.694+0530] {subprocess.py:93} INFO - |2020-06-26|     Asia|Afghanistan| 30346|   684|
+[2024-06-06T16:25:04.694+0530] {subprocess.py:93} INFO - |2020-06-27|     Asia|Afghanistan| 30702|   707|
+[2024-06-06T16:25:04.694+0530] {subprocess.py:93} INFO - |2020-06-28|     Asia|Afghanistan| 31053|   733|
+[2024-06-06T16:25:04.694+0530] {subprocess.py:93} INFO - |2020-06-29|     Asia|Afghanistan| 31324|   737|
+[2024-06-06T16:25:04.694+0530] {subprocess.py:93} INFO - |2020-06-30|     Asia|Afghanistan| 31445|   739|
+[2024-06-06T16:25:04.695+0530] {subprocess.py:93} INFO - |2020-07-01|     Asia|Afghanistan| 31848|   778|
+[2024-06-06T16:25:04.695+0530] {subprocess.py:93} INFO - |2020-07-02|     Asia|Afghanistan| 32108|   811|
+[2024-06-06T16:25:04.695+0530] {subprocess.py:93} INFO - |2020-07-03|     Asia|Afghanistan| 32410|   823|
+[2024-06-06T16:25:04.695+0530] {subprocess.py:93} INFO - |2020-07-04|     Asia|Afghanistan| 32758|   830|
+[2024-06-06T16:25:04.695+0530] {subprocess.py:93} INFO - |2020-07-05|     Asia|Afghanistan| 33037|   868|
+[2024-06-06T16:25:04.695+0530] {subprocess.py:93} INFO - |2020-07-06|     Asia|Afghanistan| 33150|   891|
+[2024-06-06T16:25:04.695+0530] {subprocess.py:93} INFO - |2020-07-07|     Asia|Afghanistan| 33470|   924|
+[2024-06-06T16:25:04.695+0530] {subprocess.py:93} INFO - |2020-07-08|     Asia|Afghanistan| 33680|   940|
+[2024-06-06T16:25:04.696+0530] {subprocess.py:93} INFO - |2020-07-09|     Asia|Afghanistan| 33739|   941|
+[2024-06-06T16:25:04.696+0530] {subprocess.py:93} INFO - |2020-07-10|     Asia|Afghanistan| 34280|   975|
+[2024-06-06T16:25:04.696+0530] {subprocess.py:93} INFO - |2020-07-11|     Asia|Afghanistan| 34437|   979|
+[2024-06-06T16:25:04.696+0530] {subprocess.py:93} INFO - |2020-07-12|     Asia|Afghanistan| 34537|  1014|
+[2024-06-06T16:25:04.696+0530] {subprocess.py:93} INFO - |2020-07-13|     Asia|Afghanistan| 34541|  1016|
+[2024-06-06T16:25:04.696+0530] {subprocess.py:93} INFO - |2020-07-14|     Asia|Afghanistan| 34826|  1049|
+[2024-06-06T16:25:04.696+0530] {subprocess.py:93} INFO - |2020-07-15|     Asia|Afghanistan| 35026|  1098|
+[2024-06-06T16:25:04.696+0530] {subprocess.py:93} INFO - |2020-07-16|     Asia|Afghanistan| 35156|  1117|
+[2024-06-06T16:25:04.696+0530] {subprocess.py:93} INFO - |2020-07-17|     Asia|Afghanistan| 35315|  1151|
+[2024-06-06T16:25:04.696+0530] {subprocess.py:93} INFO - |2020-07-18|     Asia|Afghanistan| 35375|  1151|
+[2024-06-06T16:25:04.696+0530] {subprocess.py:93} INFO - |2020-07-19|     Asia|Afghanistan| 35561|  1185|
+[2024-06-06T16:25:04.697+0530] {subprocess.py:93} INFO - |2020-07-20|     Asia|Afghanistan| 35595|  1187|
+[2024-06-06T16:25:04.697+0530] {subprocess.py:93} INFO - |2020-07-21|     Asia|Afghanistan| 35701|  1188|
+[2024-06-06T16:25:04.697+0530] {subprocess.py:93} INFO - |2020-07-22|     Asia|Afghanistan| 35813|  1194|
+[2024-06-06T16:25:04.697+0530] {subprocess.py:93} INFO - |2020-07-23|     Asia|Afghanistan| 36001|  1215|
+[2024-06-06T16:25:04.697+0530] {subprocess.py:93} INFO - |2020-07-24|     Asia|Afghanistan| 36067|  1229|
+[2024-06-06T16:25:04.697+0530] {subprocess.py:93} INFO - |2020-07-25|     Asia|Afghanistan| 36122|  1250|
+[2024-06-06T16:25:04.697+0530] {subprocess.py:93} INFO - |2020-07-26|     Asia|Afghanistan| 36243|  1263|
+[2024-06-06T16:25:04.697+0530] {subprocess.py:93} INFO - |2020-07-27|     Asia|Afghanistan| 36349|  1273|
+[2024-06-06T16:25:04.697+0530] {subprocess.py:93} INFO - |2020-07-28|     Asia|Afghanistan| 36454|  1274|
+[2024-06-06T16:25:04.697+0530] {subprocess.py:93} INFO - |2020-07-29|     Asia|Afghanistan| 36557|  1275|
+[2024-06-06T16:25:04.697+0530] {subprocess.py:93} INFO - |2020-07-30|     Asia|Afghanistan| 36628|  1275|
+[2024-06-06T16:25:04.698+0530] {subprocess.py:93} INFO - |2020-07-31|     Asia|Afghanistan| 36628|  1275|
+[2024-06-06T16:25:04.698+0530] {subprocess.py:93} INFO - |2020-08-01|     Asia|Afghanistan| 36796|  1287|
+[2024-06-06T16:25:04.698+0530] {subprocess.py:93} INFO - |2020-08-02|     Asia|Afghanistan| 36796|  1287|
+[2024-06-06T16:25:04.698+0530] {subprocess.py:93} INFO - |2020-08-03|     Asia|Afghanistan| 36796|  1287|
+[2024-06-06T16:25:04.698+0530] {subprocess.py:93} INFO - |2020-08-04|     Asia|Afghanistan| 36833|  1292|
+[2024-06-06T16:25:04.698+0530] {subprocess.py:93} INFO - |2020-08-05|     Asia|Afghanistan| 36915|  1298|
+[2024-06-06T16:25:04.698+0530] {subprocess.py:93} INFO - |2020-08-06|     Asia|Afghanistan| 36982|  1302|
+[2024-06-06T16:25:04.698+0530] {subprocess.py:93} INFO - |2020-08-07|     Asia|Afghanistan| 37023|  1302|
+[2024-06-06T16:25:04.698+0530] {subprocess.py:93} INFO - |2020-08-08|     Asia|Afghanistan| 37101|  1311|
+[2024-06-06T16:25:04.698+0530] {subprocess.py:93} INFO - |2020-08-09|     Asia|Afghanistan| 37140|  1316|
+[2024-06-06T16:25:04.698+0530] {subprocess.py:93} INFO - |2020-08-10|     Asia|Afghanistan| 37140|  1316|
+[2024-06-06T16:25:04.698+0530] {subprocess.py:93} INFO - |2020-08-11|     Asia|Afghanistan| 37355|  1348|
+[2024-06-06T16:25:04.699+0530] {subprocess.py:93} INFO - |2020-08-12|     Asia|Afghanistan| 37431|  1358|
+[2024-06-06T16:25:04.699+0530] {subprocess.py:93} INFO - |2020-08-13|     Asia|Afghanistan| 37510|  1367|
+[2024-06-06T16:25:04.699+0530] {subprocess.py:93} INFO - |2020-08-14|     Asia|Afghanistan| 37517|  1367|
+[2024-06-06T16:25:04.699+0530] {subprocess.py:93} INFO - |2020-08-15|     Asia|Afghanistan| 37637|  1374|
+[2024-06-06T16:25:04.699+0530] {subprocess.py:93} INFO - |2020-08-16|     Asia|Afghanistan| 37682|  1379|
+[2024-06-06T16:25:04.699+0530] {subprocess.py:93} INFO - |2020-08-17|     Asia|Afghanistan| 37682|  1379|
+[2024-06-06T16:25:04.699+0530] {subprocess.py:93} INFO - |2020-08-18|     Asia|Afghanistan| 37685|  1379|
+[2024-06-06T16:25:04.699+0530] {subprocess.py:93} INFO - |2020-08-19|     Asia|Afghanistan| 37685|  1379|
+[2024-06-06T16:25:04.699+0530] {subprocess.py:93} INFO - |2020-08-20|     Asia|Afghanistan| 37845|  1387|
+[2024-06-06T16:25:04.699+0530] {subprocess.py:93} INFO - |2020-08-21|     Asia|Afghanistan| 37942|  1389|
+[2024-06-06T16:25:04.699+0530] {subprocess.py:93} INFO - |2020-08-22|     Asia|Afghanistan| 37980|  1389|
+[2024-06-06T16:25:04.700+0530] {subprocess.py:93} INFO - |2020-08-23|     Asia|Afghanistan| 38039|  1389|
+[2024-06-06T16:25:04.700+0530] {subprocess.py:93} INFO - |2020-08-24|     Asia|Afghanistan| 38085|  1391|
+[2024-06-06T16:25:04.700+0530] {subprocess.py:93} INFO - |2020-08-25|     Asia|Afghanistan| 38156|  1401|
+[2024-06-06T16:25:04.700+0530] {subprocess.py:93} INFO - |2020-08-26|     Asia|Afghanistan| 38199|  1405|
+[2024-06-06T16:25:04.700+0530] {subprocess.py:93} INFO - |2020-08-27|     Asia|Afghanistan| 38215|  1405|
+[2024-06-06T16:25:04.700+0530] {subprocess.py:93} INFO - |2020-08-28|     Asia|Afghanistan| 38226|  1406|
+[2024-06-06T16:25:04.700+0530] {subprocess.py:93} INFO - |2020-08-29|     Asia|Afghanistan| 38229|  1406|
+[2024-06-06T16:25:04.700+0530] {subprocess.py:93} INFO - |2020-08-30|     Asia|Afghanistan| 38229|  1406|
+[2024-06-06T16:25:04.700+0530] {subprocess.py:93} INFO - |2020-08-31|     Asia|Afghanistan| 38248|  1406|
+[2024-06-06T16:25:04.700+0530] {subprocess.py:93} INFO - |2020-09-01|     Asia|Afghanistan| 38282|  1410|
+[2024-06-06T16:25:04.701+0530] {subprocess.py:93} INFO - |2020-09-02|     Asia|Afghanistan| 38329|  1413|
+[2024-06-06T16:25:04.701+0530] {subprocess.py:93} INFO - |2020-09-03|     Asia|Afghanistan| 38374|  1413|
+[2024-06-06T16:25:04.701+0530] {subprocess.py:93} INFO - |2020-09-04|     Asia|Afghanistan| 38374|  1413|
+[2024-06-06T16:25:04.701+0530] {subprocess.py:93} INFO - |2020-09-05|     Asia|Afghanistan| 38390|  1413|
+[2024-06-06T16:25:04.701+0530] {subprocess.py:93} INFO - |2020-09-06|     Asia|Afghanistan| 38484|  1416|
+[2024-06-06T16:25:04.701+0530] {subprocess.py:93} INFO - |2020-09-07|     Asia|Afghanistan| 38580|  1419|
+[2024-06-06T16:25:04.701+0530] {subprocess.py:93} INFO - |2020-09-08|     Asia|Afghanistan| 38606|  1422|
+[2024-06-06T16:25:04.701+0530] {subprocess.py:93} INFO - |2020-09-09|     Asia|Afghanistan| 38630|  1424|
+[2024-06-06T16:25:04.702+0530] {subprocess.py:93} INFO - |2020-09-10|     Asia|Afghanistan| 38658|  1424|
+[2024-06-06T16:25:04.702+0530] {subprocess.py:93} INFO - |2020-09-11|     Asia|Afghanistan| 38692|  1424|
+[2024-06-06T16:25:04.702+0530] {subprocess.py:93} INFO - |2020-09-12|     Asia|Afghanistan| 38727|  1424|
+[2024-06-06T16:25:04.702+0530] {subprocess.py:93} INFO - |2020-09-13|     Asia|Afghanistan| 38802|  1424|
+[2024-06-06T16:25:04.702+0530] {subprocess.py:93} INFO - |2020-09-14|     Asia|Afghanistan| 38858|  1429|
+[2024-06-06T16:25:04.702+0530] {subprocess.py:93} INFO - |2020-09-15|     Asia|Afghanistan| 38901|  1430|
+[2024-06-06T16:25:04.702+0530] {subprocess.py:93} INFO - |2020-09-16|     Asia|Afghanistan| 38941|  1440|
+[2024-06-06T16:25:04.702+0530] {subprocess.py:93} INFO - |2020-09-17|     Asia|Afghanistan| 38958|  1440|
+[2024-06-06T16:25:04.702+0530] {subprocess.py:93} INFO - |2020-09-18|     Asia|Afghanistan| 38969|  1441|
+[2024-06-06T16:25:04.702+0530] {subprocess.py:93} INFO - |2020-09-19|     Asia|Afghanistan| 39005|  1441|
+[2024-06-06T16:25:04.702+0530] {subprocess.py:93} INFO - |2020-09-20|     Asia|Afghanistan| 39130|  1445|
+[2024-06-06T16:25:04.703+0530] {subprocess.py:93} INFO - |2020-09-21|     Asia|Afghanistan| 39160|  1448|
+[2024-06-06T16:25:04.703+0530] {subprocess.py:93} INFO - |2020-09-22|     Asia|Afghanistan| 39182|  1449|
+[2024-06-06T16:25:04.703+0530] {subprocess.py:93} INFO - |2020-09-23|     Asia|Afghanistan| 39231|  1450|
+[2024-06-06T16:25:04.703+0530] {subprocess.py:93} INFO - |2020-09-24|     Asia|Afghanistan| 39256|  1455|
+[2024-06-06T16:25:04.703+0530] {subprocess.py:93} INFO - |2020-09-25|     Asia|Afghanistan| 39272|  1455|
+[2024-06-06T16:25:04.703+0530] {subprocess.py:93} INFO - |2020-09-26|     Asia|Afghanistan| 39278|  1457|
+[2024-06-06T16:25:04.703+0530] {subprocess.py:93} INFO - |2020-09-27|     Asia|Afghanistan| 39313|  1457|
+[2024-06-06T16:25:04.703+0530] {subprocess.py:93} INFO - |2020-09-28|     Asia|Afghanistan| 39325|  1460|
+[2024-06-06T16:25:04.703+0530] {subprocess.py:93} INFO - |2020-09-29|     Asia|Afghanistan| 39340|  1462|
+[2024-06-06T16:25:04.703+0530] {subprocess.py:93} INFO - |2020-09-30|     Asia|Afghanistan| 39354|  1462|
+[2024-06-06T16:25:04.703+0530] {subprocess.py:93} INFO - |2020-10-01|     Asia|Afghanistan| 39371|  1462|
+[2024-06-06T16:25:04.704+0530] {subprocess.py:93} INFO - |2020-10-02|     Asia|Afghanistan| 39376|  1462|
+[2024-06-06T16:25:04.704+0530] {subprocess.py:93} INFO - |2020-10-03|     Asia|Afghanistan| 39383|  1466|
+[2024-06-06T16:25:04.704+0530] {subprocess.py:93} INFO - |2020-10-04|     Asia|Afghanistan| 39427|  1466|
+[2024-06-06T16:25:04.704+0530] {subprocess.py:93} INFO - |2020-10-05|     Asia|Afghanistan| 39508|  1470|
+[2024-06-06T16:25:04.704+0530] {subprocess.py:93} INFO - |2020-10-06|     Asia|Afghanistan| 39572|  1471|
+[2024-06-06T16:25:04.704+0530] {subprocess.py:93} INFO - |2020-10-07|     Asia|Afghanistan| 39634|  1473|
+[2024-06-06T16:25:04.704+0530] {subprocess.py:93} INFO - |2020-10-08|     Asia|Afghanistan| 39702|  1474|
+[2024-06-06T16:25:04.704+0530] {subprocess.py:93} INFO - |2020-10-09|     Asia|Afghanistan| 39779|  1476|
+[2024-06-06T16:25:04.704+0530] {subprocess.py:93} INFO - |2020-10-10|     Asia|Afghanistan| 39789|  1477|
+[2024-06-06T16:25:04.704+0530] {subprocess.py:93} INFO - |2020-10-11|     Asia|Afghanistan| 39885|  1481|
+[2024-06-06T16:25:04.704+0530] {subprocess.py:93} INFO - |2020-10-12|     Asia|Afghanistan| 39956|  1483|
+[2024-06-06T16:25:04.705+0530] {subprocess.py:93} INFO - |2020-10-13|     Asia|Afghanistan| 40014|  1484|
+[2024-06-06T16:25:04.705+0530] {subprocess.py:93} INFO - |2020-10-14|     Asia|Afghanistan| 40080|  1485|
+[2024-06-06T16:25:04.705+0530] {subprocess.py:93} INFO - |2020-10-15|     Asia|Afghanistan| 40112|  1485|
+[2024-06-06T16:25:04.705+0530] {subprocess.py:93} INFO - |2020-10-16|     Asia|Afghanistan| 40159|  1489|
+[2024-06-06T16:25:04.705+0530] {subprocess.py:93} INFO - |2020-10-17|     Asia|Afghanistan| 40227|  1492|
+[2024-06-06T16:25:04.705+0530] {subprocess.py:93} INFO - |2020-10-18|     Asia|Afghanistan| 40286|  1496|
+[2024-06-06T16:25:04.705+0530] {subprocess.py:93} INFO - |2020-10-19|     Asia|Afghanistan| 40373|  1501|
+[2024-06-06T16:25:04.705+0530] {subprocess.py:93} INFO - |2020-10-20|     Asia|Afghanistan| 40461|  1503|
+[2024-06-06T16:25:04.705+0530] {subprocess.py:93} INFO - |2020-10-21|     Asia|Afghanistan| 40461|  1503|
+[2024-06-06T16:25:04.706+0530] {subprocess.py:93} INFO - |2020-10-22|     Asia|Afghanistan| 40510|  1503|
+[2024-06-06T16:25:04.706+0530] {subprocess.py:93} INFO - |2020-10-23|     Asia|Afghanistan| 40626|  1505|
+[2024-06-06T16:25:04.706+0530] {subprocess.py:93} INFO - |2020-10-24|     Asia|Afghanistan| 40687|  1507|
+[2024-06-06T16:25:04.706+0530] {subprocess.py:93} INFO - |2020-10-25|     Asia|Afghanistan| 40768|  1511|
+[2024-06-06T16:25:04.706+0530] {subprocess.py:93} INFO - |2020-10-26|     Asia|Afghanistan| 40833|  1514|
+[2024-06-06T16:25:04.706+0530] {subprocess.py:93} INFO - |2020-10-27|     Asia|Afghanistan| 40937|  1518|
+[2024-06-06T16:25:04.706+0530] {subprocess.py:93} INFO - |2020-10-28|     Asia|Afghanistan| 41032|  1523|
+[2024-06-06T16:25:04.706+0530] {subprocess.py:93} INFO - |2020-10-29|     Asia|Afghanistan| 41145|  1529|
+[2024-06-06T16:25:04.706+0530] {subprocess.py:93} INFO - |2020-10-30|     Asia|Afghanistan| 41268|  1532|
+[2024-06-06T16:25:04.706+0530] {subprocess.py:93} INFO - |2020-10-31|     Asia|Afghanistan| 41334|  1533|
+[2024-06-06T16:25:04.706+0530] {subprocess.py:93} INFO - |2020-11-01|     Asia|Afghanistan| 41425|  1536|
+[2024-06-06T16:25:04.707+0530] {subprocess.py:93} INFO - |2020-11-02|     Asia|Afghanistan| 41501|  1536|
+[2024-06-06T16:25:04.707+0530] {subprocess.py:93} INFO - |2020-11-03|     Asia|Afghanistan| 41633|  1541|
+[2024-06-06T16:25:04.707+0530] {subprocess.py:93} INFO - |2020-11-04|     Asia|Afghanistan| 41728|  1544|
+[2024-06-06T16:25:04.707+0530] {subprocess.py:93} INFO - |2020-11-05|     Asia|Afghanistan| 41814|  1548|
+[2024-06-06T16:25:04.707+0530] {subprocess.py:93} INFO - |2020-11-06|     Asia|Afghanistan| 41935|  1554|
+[2024-06-06T16:25:04.707+0530] {subprocess.py:93} INFO - |2020-11-07|     Asia|Afghanistan| 41975|  1554|
+[2024-06-06T16:25:04.707+0530] {subprocess.py:93} INFO - |2020-11-08|     Asia|Afghanistan| 42033|  1556|
+[2024-06-06T16:25:04.707+0530] {subprocess.py:93} INFO - |2020-11-09|     Asia|Afghanistan| 42159|  1562|
+[2024-06-06T16:25:04.707+0530] {subprocess.py:93} INFO - |2020-11-10|     Asia|Afghanistan| 42297|  1574|
+[2024-06-06T16:25:04.707+0530] {subprocess.py:93} INFO - |2020-11-11|     Asia|Afghanistan| 42463|  1577|
+[2024-06-06T16:25:04.707+0530] {subprocess.py:93} INFO - |2020-11-12|     Asia|Afghanistan| 42609|  1581|
+[2024-06-06T16:25:04.708+0530] {subprocess.py:93} INFO - |2020-11-13|     Asia|Afghanistan| 42795|  1591|
+[2024-06-06T16:25:04.708+0530] {subprocess.py:93} INFO - |2020-11-14|     Asia|Afghanistan| 42969|  1595|
+[2024-06-06T16:25:04.708+0530] {subprocess.py:93} INFO - |2020-11-15|     Asia|Afghanistan| 43035|  1605|
+[2024-06-06T16:25:04.708+0530] {subprocess.py:93} INFO - |2020-11-16|     Asia|Afghanistan| 43240|  1617|
+[2024-06-06T16:25:04.708+0530] {subprocess.py:93} INFO - |2020-11-17|     Asia|Afghanistan| 43403|  1626|
+[2024-06-06T16:25:04.708+0530] {subprocess.py:93} INFO - |2020-11-18|     Asia|Afghanistan| 43628|  1638|
+[2024-06-06T16:25:04.708+0530] {subprocess.py:93} INFO - |2020-11-19|     Asia|Afghanistan| 43851|  1645|
+[2024-06-06T16:25:04.708+0530] {subprocess.py:93} INFO - |2020-11-20|     Asia|Afghanistan| 44228|  1650|
+[2024-06-06T16:25:04.708+0530] {subprocess.py:93} INFO - |2020-11-21|     Asia|Afghanistan| 44443|  1661|
+[2024-06-06T16:25:04.708+0530] {subprocess.py:93} INFO - |2020-11-22|     Asia|Afghanistan| 44503|  1675|
+[2024-06-06T16:25:04.708+0530] {subprocess.py:93} INFO - |2020-11-23|     Asia|Afghanistan| 44706|  1687|
+[2024-06-06T16:25:04.709+0530] {subprocess.py:93} INFO - |2020-11-24|     Asia|Afghanistan| 44988|  1695|
+[2024-06-06T16:25:04.709+0530] {subprocess.py:93} INFO - |2020-11-25|     Asia|Afghanistan| 45278|  1712|
+[2024-06-06T16:25:04.709+0530] {subprocess.py:93} INFO - |2020-11-26|     Asia|Afghanistan| 45490|  1725|
+[2024-06-06T16:25:04.709+0530] {subprocess.py:93} INFO - |2020-11-27|     Asia|Afghanistan| 45716|  1737|
+[2024-06-06T16:25:04.709+0530] {subprocess.py:93} INFO - |2020-11-28|     Asia|Afghanistan| 45839|  1740|
+[2024-06-06T16:25:04.709+0530] {subprocess.py:93} INFO - |2020-11-29|     Asia|Afghanistan| 45966|  1752|
+[2024-06-06T16:25:04.709+0530] {subprocess.py:93} INFO - |2020-11-30|     Asia|Afghanistan| 46215|  1763|
+[2024-06-06T16:25:04.709+0530] {subprocess.py:93} INFO - |2020-12-01|     Asia|Afghanistan| 46498|  1774|
+[2024-06-06T16:25:04.709+0530] {subprocess.py:93} INFO - |2020-12-02|     Asia|Afghanistan| 46717|  1795|
+[2024-06-06T16:25:04.709+0530] {subprocess.py:93} INFO - |2020-12-03|     Asia|Afghanistan| 46980|  1822|
+[2024-06-06T16:25:04.709+0530] {subprocess.py:93} INFO - |2020-12-04|     Asia|Afghanistan| 47258|  1841|
+[2024-06-06T16:25:04.710+0530] {subprocess.py:93} INFO - |2020-12-05|     Asia|Afghanistan| 47388|  1847|
+[2024-06-06T16:25:04.710+0530] {subprocess.py:93} INFO - |2020-12-06|     Asia|Afghanistan| 47641|  1865|
+[2024-06-06T16:25:04.710+0530] {subprocess.py:93} INFO - |2020-12-07|     Asia|Afghanistan| 47901|  1875|
+[2024-06-06T16:25:04.710+0530] {subprocess.py:93} INFO - |2020-12-08|     Asia|Afghanistan| 48136|  1902|
+[2024-06-06T16:25:04.710+0530] {subprocess.py:93} INFO - |2020-12-09|     Asia|Afghanistan| 48366|  1908|
+[2024-06-06T16:25:04.710+0530] {subprocess.py:93} INFO - |2020-12-10|     Asia|Afghanistan| 48540|  1921|
+[2024-06-06T16:25:04.710+0530] {subprocess.py:93} INFO - |2020-12-11|     Asia|Afghanistan| 48753|  1939|
+[2024-06-06T16:25:04.711+0530] {subprocess.py:93} INFO - |2020-12-12|     Asia|Afghanistan| 48826|  1949|
+[2024-06-06T16:25:04.711+0530] {subprocess.py:93} INFO - |2020-12-13|     Asia|Afghanistan| 48952|  1960|
+[2024-06-06T16:25:04.711+0530] {subprocess.py:93} INFO - |2020-12-14|     Asia|Afghanistan| 49273|  1971|
+[2024-06-06T16:25:04.711+0530] {subprocess.py:93} INFO - |2020-12-15|     Asia|Afghanistan| 49484|  1975|
+[2024-06-06T16:25:04.711+0530] {subprocess.py:93} INFO - |2020-12-16|     Asia|Afghanistan| 49703|  2001|
+[2024-06-06T16:25:04.711+0530] {subprocess.py:93} INFO - |2020-12-17|     Asia|Afghanistan| 49927|  2017|
+[2024-06-06T16:25:04.711+0530] {subprocess.py:93} INFO - |2020-12-18|     Asia|Afghanistan| 50202|  2032|
+[2024-06-06T16:25:04.711+0530] {subprocess.py:93} INFO - |2020-12-19|     Asia|Afghanistan| 50456|  2037|
+[2024-06-06T16:25:04.712+0530] {subprocess.py:93} INFO - |2020-12-20|     Asia|Afghanistan| 50536|  2054|
+[2024-06-06T16:25:04.712+0530] {subprocess.py:93} INFO - |2020-12-21|     Asia|Afghanistan| 50678|  2074|
+[2024-06-06T16:25:04.712+0530] {subprocess.py:93} INFO - |2020-12-22|     Asia|Afghanistan| 50888|  2089|
+[2024-06-06T16:25:04.712+0530] {subprocess.py:93} INFO - |2020-12-23|     Asia|Afghanistan| 51070|  2105|
+[2024-06-06T16:25:04.712+0530] {subprocess.py:93} INFO - |2020-12-24|     Asia|Afghanistan| 51357|  2126|
+[2024-06-06T16:25:04.712+0530] {subprocess.py:93} INFO - |2020-12-25|     Asia|Afghanistan| 51595|  2135|
+[2024-06-06T16:25:04.712+0530] {subprocess.py:93} INFO - |2020-12-26|     Asia|Afghanistan| 51764|  2148|
+[2024-06-06T16:25:04.712+0530] {subprocess.py:93} INFO - |2020-12-27|     Asia|Afghanistan| 51848|  2158|
+[2024-06-06T16:25:04.712+0530] {subprocess.py:93} INFO - |2020-12-28|     Asia|Afghanistan| 52007|  2170|
+[2024-06-06T16:25:04.712+0530] {subprocess.py:93} INFO - |2020-12-29|     Asia|Afghanistan| 52147|  2182|
+[2024-06-06T16:25:04.712+0530] {subprocess.py:93} INFO - |2020-12-30|     Asia|Afghanistan| 52330|  2189|
+[2024-06-06T16:25:04.713+0530] {subprocess.py:93} INFO - |2020-12-31|     Asia|Afghanistan| 52330|  2189|
+[2024-06-06T16:25:04.713+0530] {subprocess.py:93} INFO - |2021-01-01|     Asia|Afghanistan| 52513|  2201|
+[2024-06-06T16:25:04.713+0530] {subprocess.py:93} INFO - |2021-01-02|     Asia|Afghanistan| 52586|  2211|
+[2024-06-06T16:25:04.713+0530] {subprocess.py:93} INFO - |2021-01-03|     Asia|Afghanistan| 52709|  2221|
+[2024-06-06T16:25:04.713+0530] {subprocess.py:93} INFO - |2021-01-04|     Asia|Afghanistan| 52909|  2230|
+[2024-06-06T16:25:04.713+0530] {subprocess.py:93} INFO - |2021-01-05|     Asia|Afghanistan| 53011|  2237|
+[2024-06-06T16:25:04.713+0530] {subprocess.py:93} INFO - |2021-01-06|     Asia|Afghanistan| 53105|  2244|
+[2024-06-06T16:25:04.713+0530] {subprocess.py:93} INFO - |2021-01-07|     Asia|Afghanistan| 53207|  2253|
+[2024-06-06T16:25:04.713+0530] {subprocess.py:93} INFO - |2021-01-08|     Asia|Afghanistan| 53332|  2257|
+[2024-06-06T16:25:04.713+0530] {subprocess.py:93} INFO - |2021-01-09|     Asia|Afghanistan| 53400|  2264|
+[2024-06-06T16:25:04.713+0530] {subprocess.py:93} INFO - |2021-01-10|     Asia|Afghanistan| 53489|  2277|
+[2024-06-06T16:25:04.714+0530] {subprocess.py:93} INFO - |2021-01-11|     Asia|Afghanistan| 53538|  2288|
+[2024-06-06T16:25:04.714+0530] {subprocess.py:93} INFO - |2021-01-12|     Asia|Afghanistan| 53584|  2301|
+[2024-06-06T16:25:04.714+0530] {subprocess.py:93} INFO - |2021-01-13|     Asia|Afghanistan| 53690|  2308|
+[2024-06-06T16:25:04.714+0530] {subprocess.py:93} INFO - |2021-01-14|     Asia|Afghanistan| 53775|  2314|
+[2024-06-06T16:25:04.714+0530] {subprocess.py:93} INFO - |2021-01-15|     Asia|Afghanistan| 53831|  2324|
+[2024-06-06T16:25:04.714+0530] {subprocess.py:93} INFO - |2021-01-16|     Asia|Afghanistan| 53938|  2336|
+[2024-06-06T16:25:04.714+0530] {subprocess.py:93} INFO - |2021-01-17|     Asia|Afghanistan| 53984|  2339|
+[2024-06-06T16:25:04.714+0530] {subprocess.py:93} INFO - |2021-01-18|     Asia|Afghanistan| 54062|  2343|
+[2024-06-06T16:25:04.714+0530] {subprocess.py:93} INFO - |2021-01-19|     Asia|Afghanistan| 54141|  2346|
+[2024-06-06T16:25:04.714+0530] {subprocess.py:93} INFO - |2021-01-20|     Asia|Afghanistan| 54278|  2354|
+[2024-06-06T16:25:04.714+0530] {subprocess.py:93} INFO - |2021-01-21|     Asia|Afghanistan| 54403|  2363|
+[2024-06-06T16:25:04.715+0530] {subprocess.py:93} INFO - |2021-01-22|     Asia|Afghanistan| 54483|  2370|
+[2024-06-06T16:25:04.715+0530] {subprocess.py:93} INFO - |2021-01-23|     Asia|Afghanistan| 54559|  2373|
+[2024-06-06T16:25:04.715+0530] {subprocess.py:93} INFO - |2021-01-24|     Asia|Afghanistan| 54595|  2378|
+[2024-06-06T16:25:04.715+0530] {subprocess.py:93} INFO - |2021-01-25|     Asia|Afghanistan| 54672|  2385|
+[2024-06-06T16:25:04.715+0530] {subprocess.py:93} INFO - |2021-01-26|     Asia|Afghanistan| 54750|  2389|
+[2024-06-06T16:25:04.715+0530] {subprocess.py:93} INFO - |2021-01-27|     Asia|Afghanistan| 54854|  2389|
+[2024-06-06T16:25:04.715+0530] {subprocess.py:93} INFO - |2021-01-28|     Asia|Afghanistan| 54891|  2397|
+[2024-06-06T16:25:04.715+0530] {subprocess.py:93} INFO - |2021-01-29|     Asia|Afghanistan| 54939|  2399|
+[2024-06-06T16:25:04.716+0530] {subprocess.py:93} INFO - |2021-01-30|     Asia|Afghanistan| 55008|  2400|
+[2024-06-06T16:25:04.716+0530] {subprocess.py:93} INFO - |2021-01-31|     Asia|Afghanistan| 55023|  2400|
+[2024-06-06T16:25:04.716+0530] {subprocess.py:93} INFO - |2021-02-01|     Asia|Afghanistan| 55059|  2404|
+[2024-06-06T16:25:04.716+0530] {subprocess.py:93} INFO - |2021-02-02|     Asia|Afghanistan| 55121|  2405|
+[2024-06-06T16:25:04.716+0530] {subprocess.py:93} INFO - |2021-02-03|     Asia|Afghanistan| 55174|  2406|
+[2024-06-06T16:25:04.716+0530] {subprocess.py:93} INFO - |2021-02-04|     Asia|Afghanistan| 55231|  2407|
+[2024-06-06T16:25:04.716+0530] {subprocess.py:93} INFO - |2021-02-05|     Asia|Afghanistan| 55265|  2407|
+[2024-06-06T16:25:04.716+0530] {subprocess.py:93} INFO - |2021-02-06|     Asia|Afghanistan| 55330|  2408|
+[2024-06-06T16:25:04.716+0530] {subprocess.py:93} INFO - |2021-02-07|     Asia|Afghanistan| 55335|  2410|
+[2024-06-06T16:25:04.717+0530] {subprocess.py:93} INFO - |2021-02-08|     Asia|Afghanistan| 55359|  2413|
+[2024-06-06T16:25:04.717+0530] {subprocess.py:93} INFO - |2021-02-09|     Asia|Afghanistan| 55384|  2414|
+[2024-06-06T16:25:04.717+0530] {subprocess.py:93} INFO - |2021-02-10|     Asia|Afghanistan| 55402|  2418|
+[2024-06-06T16:25:04.717+0530] {subprocess.py:93} INFO - |2021-02-11|     Asia|Afghanistan| 55420|  2419|
+[2024-06-06T16:25:04.717+0530] {subprocess.py:93} INFO - |2021-02-12|     Asia|Afghanistan| 55445|  2424|
+[2024-06-06T16:25:04.717+0530] {subprocess.py:93} INFO - |2021-02-13|     Asia|Afghanistan| 55473|  2427|
+[2024-06-06T16:25:04.717+0530] {subprocess.py:93} INFO - |2021-02-14|     Asia|Afghanistan| 55492|  2427|
+[2024-06-06T16:25:04.717+0530] {subprocess.py:93} INFO - |2021-02-15|     Asia|Afghanistan| 55514|  2427|
+[2024-06-06T16:25:04.717+0530] {subprocess.py:93} INFO - |2021-02-16|     Asia|Afghanistan| 55518|  2428|
+[2024-06-06T16:25:04.717+0530] {subprocess.py:93} INFO - |2021-02-17|     Asia|Afghanistan| 55540|  2428|
+[2024-06-06T16:25:04.718+0530] {subprocess.py:93} INFO - |2021-02-18|     Asia|Afghanistan| 55557|  2430|
+[2024-06-06T16:25:04.718+0530] {subprocess.py:93} INFO - |2021-02-19|     Asia|Afghanistan| 55575|  2430|
+[2024-06-06T16:25:04.718+0530] {subprocess.py:93} INFO - |2021-02-20|     Asia|Afghanistan| 55580|  2430|
+[2024-06-06T16:25:04.718+0530] {subprocess.py:93} INFO - |2021-02-21|     Asia|Afghanistan| 55604|  2432|
+[2024-06-06T16:25:04.718+0530] {subprocess.py:93} INFO - |2021-02-22|     Asia|Afghanistan| 55617|  2433|
+[2024-06-06T16:25:04.718+0530] {subprocess.py:93} INFO - |2021-02-23|     Asia|Afghanistan| 55646|  2435|
+[2024-06-06T16:25:04.718+0530] {subprocess.py:93} INFO - |2021-02-24|     Asia|Afghanistan| 55664|  2436|
+[2024-06-06T16:25:04.718+0530] {subprocess.py:93} INFO - |2021-02-25|     Asia|Afghanistan| 55680|  2438|
+[2024-06-06T16:25:04.718+0530] {subprocess.py:93} INFO - |2021-02-26|     Asia|Afghanistan| 55696|  2442|
+[2024-06-06T16:25:04.718+0530] {subprocess.py:93} INFO - |2021-02-27|     Asia|Afghanistan| 55707|  2443|
+[2024-06-06T16:25:04.718+0530] {subprocess.py:93} INFO - |2021-02-28|     Asia|Afghanistan| 55714|  2443|
+[2024-06-06T16:25:04.719+0530] {subprocess.py:93} INFO - |2021-03-01|     Asia|Afghanistan| 55733|  2444|
+[2024-06-06T16:25:04.719+0530] {subprocess.py:93} INFO - |2021-03-02|     Asia|Afghanistan| 55759|  2446|
+[2024-06-06T16:25:04.719+0530] {subprocess.py:93} INFO - |2021-03-03|     Asia|Afghanistan| 55770|  2446|
+[2024-06-06T16:25:04.719+0530] {subprocess.py:93} INFO - |2021-03-04|     Asia|Afghanistan| 55775|  2446|
+[2024-06-06T16:25:04.719+0530] {subprocess.py:93} INFO - |2021-03-05|     Asia|Afghanistan| 55827|  2449|
+[2024-06-06T16:25:04.719+0530] {subprocess.py:93} INFO - |2021-03-06|     Asia|Afghanistan| 55840|  2449|
+[2024-06-06T16:25:04.719+0530] {subprocess.py:93} INFO - |2021-03-07|     Asia|Afghanistan| 55847|  2449|
+[2024-06-06T16:25:04.719+0530] {subprocess.py:93} INFO - |2021-03-08|     Asia|Afghanistan| 55876|  2451|
+[2024-06-06T16:25:04.719+0530] {subprocess.py:93} INFO - |2021-03-09|     Asia|Afghanistan| 55876|  2451|
+[2024-06-06T16:25:04.719+0530] {subprocess.py:93} INFO - |2021-03-10|     Asia|Afghanistan| 55894|  2451|
+[2024-06-06T16:25:04.719+0530] {subprocess.py:93} INFO - |2021-03-11|     Asia|Afghanistan| 55917|  2451|
+[2024-06-06T16:25:04.720+0530] {subprocess.py:93} INFO - |2021-03-12|     Asia|Afghanistan| 55959|  2454|
+[2024-06-06T16:25:04.720+0530] {subprocess.py:93} INFO - |2021-03-13|     Asia|Afghanistan| 55959|  2454|
+[2024-06-06T16:25:04.720+0530] {subprocess.py:93} INFO - |2021-03-14|     Asia|Afghanistan| 55985|  2457|
+[2024-06-06T16:25:04.720+0530] {subprocess.py:93} INFO - |2021-03-15|     Asia|Afghanistan| 55985|  2459|
+[2024-06-06T16:25:04.720+0530] {subprocess.py:93} INFO - |2021-03-16|     Asia|Afghanistan| 55995|  2460|
+[2024-06-06T16:25:04.720+0530] {subprocess.py:93} INFO - |2021-03-17|     Asia|Afghanistan| 56016|  2460|
+[2024-06-06T16:25:04.720+0530] {subprocess.py:93} INFO - |2021-03-18|     Asia|Afghanistan| 56044|  2462|
+[2024-06-06T16:25:04.720+0530] {subprocess.py:93} INFO - |2021-03-19|     Asia|Afghanistan| 56069|  2462|
+[2024-06-06T16:25:04.720+0530] {subprocess.py:93} INFO - |2021-03-20|     Asia|Afghanistan| 56093|  2462|
+[2024-06-06T16:25:04.720+0530] {subprocess.py:93} INFO - |2021-03-21|     Asia|Afghanistan| 56103|  2463|
+[2024-06-06T16:25:04.721+0530] {subprocess.py:93} INFO - |2021-03-22|     Asia|Afghanistan| 56153|  2464|
+[2024-06-06T16:25:04.721+0530] {subprocess.py:93} INFO - |2021-03-23|     Asia|Afghanistan| 56177|  2466|
+[2024-06-06T16:25:04.721+0530] {subprocess.py:93} INFO - |2021-03-24|     Asia|Afghanistan| 56192|  2466|
+[2024-06-06T16:25:04.721+0530] {subprocess.py:93} INFO - |2021-03-25|     Asia|Afghanistan| 56226|  2467|
+[2024-06-06T16:25:04.721+0530] {subprocess.py:93} INFO - |2021-03-26|     Asia|Afghanistan| 56254|  2467|
+[2024-06-06T16:25:04.721+0530] {subprocess.py:93} INFO - |2021-03-27|     Asia|Afghanistan| 56290|  2469|
+[2024-06-06T16:25:04.721+0530] {subprocess.py:93} INFO - |2021-03-28|     Asia|Afghanistan| 56294|  2470|
+[2024-06-06T16:25:04.721+0530] {subprocess.py:93} INFO - |2021-03-29|     Asia|Afghanistan| 56322|  2472|
+[2024-06-06T16:25:04.722+0530] {subprocess.py:93} INFO - |2021-03-30|     Asia|Afghanistan| 56384|  2476|
+[2024-06-06T16:25:04.722+0530] {subprocess.py:93} INFO - |2021-03-31|     Asia|Afghanistan| 56454|  2484|
+[2024-06-06T16:25:04.722+0530] {subprocess.py:93} INFO - |2021-04-01|     Asia|Afghanistan| 56517|  2489|
+[2024-06-06T16:25:04.722+0530] {subprocess.py:93} INFO - |2021-04-02|     Asia|Afghanistan| 56572|  2495|
+[2024-06-06T16:25:04.722+0530] {subprocess.py:93} INFO - |2021-04-03|     Asia|Afghanistan| 56595|  2496|
+[2024-06-06T16:25:04.722+0530] {subprocess.py:93} INFO - |2021-04-04|     Asia|Afghanistan| 56676|  2497|
+[2024-06-06T16:25:04.722+0530] {subprocess.py:93} INFO - |2021-04-05|     Asia|Afghanistan| 56717|  2508|
+[2024-06-06T16:25:04.722+0530] {subprocess.py:93} INFO - |2021-04-06|     Asia|Afghanistan| 56779|  2512|
+[2024-06-06T16:25:04.722+0530] {subprocess.py:93} INFO - |2021-04-07|     Asia|Afghanistan| 56873|  2512|
+[2024-06-06T16:25:04.722+0530] {subprocess.py:93} INFO - |2021-04-08|     Asia|Afghanistan| 56943|  2516|
+[2024-06-06T16:25:04.722+0530] {subprocess.py:93} INFO - |2021-04-09|     Asia|Afghanistan| 57019|  2521|
+[2024-06-06T16:25:04.723+0530] {subprocess.py:93} INFO - |2021-04-10|     Asia|Afghanistan| 57144|  2521|
+[2024-06-06T16:25:04.723+0530] {subprocess.py:93} INFO - |2021-04-11|     Asia|Afghanistan| 57160|  2521|
+[2024-06-06T16:25:04.723+0530] {subprocess.py:93} INFO - |2021-04-12|     Asia|Afghanistan| 57242|  2529|
+[2024-06-06T16:25:04.723+0530] {subprocess.py:93} INFO - |2021-04-13|     Asia|Afghanistan| 57364|  2529|
+[2024-06-06T16:25:04.723+0530] {subprocess.py:93} INFO - |2021-04-14|     Asia|Afghanistan| 57492|  2532|
+[2024-06-06T16:25:04.723+0530] {subprocess.py:93} INFO - |2021-04-15|     Asia|Afghanistan| 57534|  2533|
+[2024-06-06T16:25:04.723+0530] {subprocess.py:93} INFO - |2021-04-16|     Asia|Afghanistan| 57612|  2535|
+[2024-06-06T16:25:04.723+0530] {subprocess.py:93} INFO - |2021-04-17|     Asia|Afghanistan| 57721|  2539|
+[2024-06-06T16:25:04.723+0530] {subprocess.py:93} INFO - |2021-04-18|     Asia|Afghanistan| 57793|  2539|
+[2024-06-06T16:25:04.723+0530] {subprocess.py:93} INFO - |2021-04-19|     Asia|Afghanistan| 57898|  2546|
+[2024-06-06T16:25:04.723+0530] {subprocess.py:93} INFO - |2021-04-20|     Asia|Afghanistan| 58037|  2549|
+[2024-06-06T16:25:04.724+0530] {subprocess.py:93} INFO - |2021-04-21|     Asia|Afghanistan| 58214|  2557|
+[2024-06-06T16:25:04.724+0530] {subprocess.py:93} INFO - |2021-04-22|     Asia|Afghanistan| 58312|  2561|
+[2024-06-06T16:25:04.724+0530] {subprocess.py:93} INFO - |2021-04-23|     Asia|Afghanistan| 58542|  2565|
+[2024-06-06T16:25:04.724+0530] {subprocess.py:93} INFO - |2021-04-24|     Asia|Afghanistan| 58730|  2572|
+[2024-06-06T16:25:04.724+0530] {subprocess.py:93} INFO - |2021-04-25|     Asia|Afghanistan| 58843|  2582|
+[2024-06-06T16:25:04.724+0530] {subprocess.py:93} INFO - |2021-04-26|     Asia|Afghanistan| 59015|  2592|
+[2024-06-06T16:25:04.724+0530] {subprocess.py:93} INFO - |2021-04-27|     Asia|Afghanistan| 59225|  2598|
+[2024-06-06T16:25:04.724+0530] {subprocess.py:93} INFO - |2021-04-28|     Asia|Afghanistan| 59370|  2611|
+[2024-06-06T16:25:04.724+0530] {subprocess.py:93} INFO - |2021-04-29|     Asia|Afghanistan| 59576|  2618|
+[2024-06-06T16:25:04.724+0530] {subprocess.py:93} INFO - |2021-04-30|     Asia|Afghanistan| 59745|  2625|
+[2024-06-06T16:25:04.724+0530] {subprocess.py:93} INFO - |2021-05-01|     Asia|Afghanistan| 59939|  2631|
+[2024-06-06T16:25:04.724+0530] {subprocess.py:93} INFO - |2021-05-02|     Asia|Afghanistan| 60122|  2637|
+[2024-06-06T16:25:04.725+0530] {subprocess.py:93} INFO - |2021-05-03|     Asia|Afghanistan| 60300|  2642|
+[2024-06-06T16:25:04.725+0530] {subprocess.py:93} INFO - |2021-05-04|     Asia|Afghanistan| 60563|  2648|
+[2024-06-06T16:25:04.725+0530] {subprocess.py:93} INFO - |2021-05-05|     Asia|Afghanistan| 60797|  2654|
+[2024-06-06T16:25:04.725+0530] {subprocess.py:93} INFO - |2021-05-06|     Asia|Afghanistan| 61162|  2664|
+[2024-06-06T16:25:04.725+0530] {subprocess.py:93} INFO - |2021-05-07|     Asia|Afghanistan| 61455|  2673|
+[2024-06-06T16:25:04.725+0530] {subprocess.py:93} INFO - |2021-05-08|     Asia|Afghanistan| 61755|  2683|
+[2024-06-06T16:25:04.725+0530] {subprocess.py:93} INFO - |2021-05-09|     Asia|Afghanistan| 61842|  2686|
+[2024-06-06T16:25:04.725+0530] {subprocess.py:93} INFO - |2021-05-10|     Asia|Afghanistan| 62063|  2698|
+[2024-06-06T16:25:04.725+0530] {subprocess.py:93} INFO - |2021-05-11|     Asia|Afghanistan| 62403|  2710|
+[2024-06-06T16:25:04.726+0530] {subprocess.py:93} INFO - |2021-05-12|     Asia|Afghanistan| 62718|  2713|
+[2024-06-06T16:25:04.726+0530] {subprocess.py:93} INFO - |2021-05-13|     Asia|Afghanistan| 63045|  2721|
+[2024-06-06T16:25:04.726+0530] {subprocess.py:93} INFO - |2021-05-14|     Asia|Afghanistan| 63355|  2730|
+[2024-06-06T16:25:04.726+0530] {subprocess.py:93} INFO - |2021-05-15|     Asia|Afghanistan| 63412|  2733|
+[2024-06-06T16:25:04.726+0530] {subprocess.py:93} INFO - |2021-05-16|     Asia|Afghanistan| 63484|  2742|
+[2024-06-06T16:25:04.726+0530] {subprocess.py:93} INFO - |2021-05-17|     Asia|Afghanistan| 63598|  2745|
+[2024-06-06T16:25:04.726+0530] {subprocess.py:93} INFO - |2021-05-18|     Asia|Afghanistan| 63819|  2751|
+[2024-06-06T16:25:04.726+0530] {subprocess.py:93} INFO - |2021-05-19|     Asia|Afghanistan| 64122|  2762|
+[2024-06-06T16:25:04.726+0530] {subprocess.py:93} INFO - |2021-05-20|     Asia|Afghanistan| 64575|  2772|
+[2024-06-06T16:25:04.727+0530] {subprocess.py:93} INFO - |2021-05-21|     Asia|Afghanistan| 65080|  2782|
+[2024-06-06T16:25:04.727+0530] {subprocess.py:93} INFO - |2021-05-22|     Asia|Afghanistan| 65486|  2792|
+[2024-06-06T16:25:04.728+0530] {subprocess.py:93} INFO - |2021-05-23|     Asia|Afghanistan| 65728|  2802|
+[2024-06-06T16:25:04.728+0530] {subprocess.py:93} INFO - |2021-05-24|     Asia|Afghanistan| 66275|  2812|
+[2024-06-06T16:25:04.728+0530] {subprocess.py:93} INFO - |2021-05-25|     Asia|Afghanistan| 66903|  2836|
+[2024-06-06T16:25:04.729+0530] {subprocess.py:93} INFO - |2021-05-26|     Asia|Afghanistan| 67743|  2855|
+[2024-06-06T16:25:04.729+0530] {subprocess.py:93} INFO - |2021-05-27|     Asia|Afghanistan| 68366|  2869|
+[2024-06-06T16:25:04.730+0530] {subprocess.py:93} INFO - |2021-05-28|     Asia|Afghanistan| 69130|  2881|
+[2024-06-06T16:25:04.730+0530] {subprocess.py:93} INFO - |2021-05-29|     Asia|Afghanistan| 70111|  2899|
+[2024-06-06T16:25:04.731+0530] {subprocess.py:93} INFO - |2021-05-30|     Asia|Afghanistan| 70761|  2919|
+[2024-06-06T16:25:04.731+0530] {subprocess.py:93} INFO - |2021-05-31|     Asia|Afghanistan| 71838|  2944|
+[2024-06-06T16:25:04.731+0530] {subprocess.py:93} INFO - |2021-06-01|     Asia|Afghanistan| 72977|  2973|
+[2024-06-06T16:25:04.732+0530] {subprocess.py:93} INFO - |2021-06-02|     Asia|Afghanistan| 74026|  3007|
+[2024-06-06T16:25:04.732+0530] {subprocess.py:93} INFO - |2021-06-03|     Asia|Afghanistan| 75119|  3034|
+[2024-06-06T16:25:04.732+0530] {subprocess.py:93} INFO - |2021-06-04|     Asia|Afghanistan| 76628|  3068|
+[2024-06-06T16:25:04.732+0530] {subprocess.py:93} INFO - |2021-06-05|     Asia|Afghanistan| 77963|  3104|
+[2024-06-06T16:25:04.732+0530] {subprocess.py:93} INFO - |2021-06-06|     Asia|Afghanistan| 79224|  3145|
+[2024-06-06T16:25:04.733+0530] {subprocess.py:93} INFO - |2021-06-07|     Asia|Afghanistan| 80841|  3187|
+[2024-06-06T16:25:04.733+0530] {subprocess.py:93} INFO - |2021-06-08|     Asia|Afghanistan| 82326|  3251|
+[2024-06-06T16:25:04.733+0530] {subprocess.py:93} INFO - |2021-06-09|     Asia|Afghanistan| 84050|  3305|
+[2024-06-06T16:25:04.733+0530] {subprocess.py:93} INFO - |2021-06-10|     Asia|Afghanistan| 85892|  3356|
+[2024-06-06T16:25:04.733+0530] {subprocess.py:93} INFO - |2021-06-11|     Asia|Afghanistan| 87716|  3412|
+[2024-06-06T16:25:04.734+0530] {subprocess.py:93} INFO - |2021-06-12|     Asia|Afghanistan| 88740|  3449|
+[2024-06-06T16:25:04.734+0530] {subprocess.py:93} INFO - |2021-06-13|     Asia|Afghanistan| 89861|  3527|
+[2024-06-06T16:25:04.734+0530] {subprocess.py:93} INFO - |2021-06-14|     Asia|Afghanistan| 91458|  3612|
+[2024-06-06T16:25:04.734+0530] {subprocess.py:93} INFO - |2021-06-15|     Asia|Afghanistan| 93272|  3683|
+[2024-06-06T16:25:04.734+0530] {subprocess.py:93} INFO - |2021-06-16|     Asia|Afghanistan| 93288|  3683|
+[2024-06-06T16:25:04.735+0530] {subprocess.py:93} INFO - |2021-06-17|     Asia|Afghanistan| 96531|  3842|
+[2024-06-06T16:25:04.735+0530] {subprocess.py:93} INFO - |2021-06-18|     Asia|Afghanistan| 98734|  3934|
+[2024-06-06T16:25:04.735+0530] {subprocess.py:93} INFO - |2021-06-19|     Asia|Afghanistan|100521|  4030|
+[2024-06-06T16:25:04.735+0530] {subprocess.py:93} INFO - |2021-06-20|     Asia|Afghanistan|101906|  4122|
+[2024-06-06T16:25:04.735+0530] {subprocess.py:93} INFO - |2021-06-21|     Asia|Afghanistan|103902|  4215|
+[2024-06-06T16:25:04.736+0530] {subprocess.py:93} INFO - |2021-06-22|     Asia|Afghanistan|105749|  4293|
+[2024-06-06T16:25:04.736+0530] {subprocess.py:93} INFO - |2021-06-23|     Asia|Afghanistan|107957|  4366|
+[2024-06-06T16:25:04.736+0530] {subprocess.py:93} INFO - |2021-06-24|     Asia|Afghanistan|109532|  4452|
+[2024-06-06T16:25:04.736+0530] {subprocess.py:93} INFO - |2021-06-25|     Asia|Afghanistan|111592|  4519|
+[2024-06-06T16:25:04.737+0530] {subprocess.py:93} INFO - |2021-06-26|     Asia|Afghanistan|113124|  4594|
+[2024-06-06T16:25:04.738+0530] {subprocess.py:93} INFO - |2021-06-27|     Asia|Afghanistan|114220|  4650|
+[2024-06-06T16:25:04.738+0530] {subprocess.py:93} INFO - |2021-06-28|     Asia|Afghanistan|115751|  4730|
+[2024-06-06T16:25:04.739+0530] {subprocess.py:93} INFO - |2021-06-29|     Asia|Afghanistan|117158|  4794|
+[2024-06-06T16:25:04.739+0530] {subprocess.py:93} INFO - |2021-06-30|     Asia|Afghanistan|118659|  4871|
+[2024-06-06T16:25:04.739+0530] {subprocess.py:93} INFO - |2021-07-01|     Asia|Afghanistan|120216|  4962|
+[2024-06-06T16:25:04.739+0530] {subprocess.py:93} INFO - |2021-07-02|     Asia|Afghanistan|122156|  5048|
+[2024-06-06T16:25:04.740+0530] {subprocess.py:93} INFO - |2021-07-03|     Asia|Afghanistan|123485|  5107|
+[2024-06-06T16:25:04.740+0530] {subprocess.py:93} INFO - |2021-07-04|     Asia|Afghanistan|124748|  5199|
+[2024-06-06T16:25:04.740+0530] {subprocess.py:93} INFO - |2021-07-05|     Asia|Afghanistan|125937|  5283|
+[2024-06-06T16:25:04.740+0530] {subprocess.py:93} INFO - |2021-07-06|     Asia|Afghanistan|127464|  5360|
+[2024-06-06T16:25:04.741+0530] {subprocess.py:93} INFO - |2021-07-07|     Asia|Afghanistan|129021|  5415|
+[2024-06-06T16:25:04.741+0530] {subprocess.py:93} INFO - |2021-07-08|     Asia|Afghanistan|130113|  5477|
+[2024-06-06T16:25:04.741+0530] {subprocess.py:93} INFO - |2021-07-09|     Asia|Afghanistan|131586|  5561|
+[2024-06-06T16:25:04.741+0530] {subprocess.py:93} INFO - |2021-07-10|     Asia|Afghanistan|132777|  5638|
+[2024-06-06T16:25:04.741+0530] {subprocess.py:93} INFO - |2021-07-11|     Asia|Afghanistan|133578|  5724|
+[2024-06-06T16:25:04.742+0530] {subprocess.py:93} INFO - |2021-07-12|     Asia|Afghanistan|134653|  5791|
+[2024-06-06T16:25:04.742+0530] {subprocess.py:93} INFO - |2021-07-13|     Asia|Afghanistan|135889|  5849|
+[2024-06-06T16:25:04.743+0530] {subprocess.py:93} INFO - |2021-07-14|     Asia|Afghanistan|136643|  5923|
+[2024-06-06T16:25:04.743+0530] {subprocess.py:93} INFO - |2021-07-15|     Asia|Afghanistan|137853|  5983|
+[2024-06-06T16:25:04.743+0530] {subprocess.py:93} INFO - |2021-07-16|     Asia|Afghanistan|139051|  6072|
+[2024-06-06T16:25:04.743+0530] {subprocess.py:93} INFO - |2021-07-17|     Asia|Afghanistan|140224|  6098|
+[2024-06-06T16:25:04.744+0530] {subprocess.py:93} INFO - |2021-07-18|     Asia|Afghanistan|140602|  6147|
+[2024-06-06T16:25:04.744+0530] {subprocess.py:93} INFO - |2021-07-19|     Asia|Afghanistan|141499|  6213|
+[2024-06-06T16:25:04.744+0530] {subprocess.py:93} INFO - |2021-07-20|     Asia|Afghanistan|142414|  6266|
+[2024-06-06T16:25:04.744+0530] {subprocess.py:93} INFO - |2021-07-21|     Asia|Afghanistan|142762|  6293|
+[2024-06-06T16:25:04.744+0530] {subprocess.py:93} INFO - |2021-07-22|     Asia|Afghanistan|143183|  6325|
+[2024-06-06T16:25:04.744+0530] {subprocess.py:93} INFO - |2021-07-23|     Asia|Afghanistan|143439|  6357|
+[2024-06-06T16:25:04.745+0530] {subprocess.py:93} INFO - |2021-07-24|     Asia|Afghanistan|143666|  6393|
+[2024-06-06T16:25:04.745+0530] {subprocess.py:93} INFO - |2021-07-25|     Asia|Afghanistan|143871|  6425|
+[2024-06-06T16:25:04.745+0530] {subprocess.py:93} INFO - |2021-07-26|     Asia|Afghanistan|144285|  6477|
+[2024-06-06T16:25:04.745+0530] {subprocess.py:93} INFO - |2021-07-27|     Asia|Afghanistan|145008|  6515|
+[2024-06-06T16:25:04.745+0530] {subprocess.py:93} INFO - |2021-07-28|     Asia|Afghanistan|145552|  6577|
+[2024-06-06T16:25:04.745+0530] {subprocess.py:93} INFO - |2021-07-29|     Asia|Afghanistan|145996|  6615|
+[2024-06-06T16:25:04.745+0530] {subprocess.py:93} INFO - |2021-07-30|     Asia|Afghanistan|146523|  6677|
+[2024-06-06T16:25:04.745+0530] {subprocess.py:93} INFO - |2021-07-31|     Asia|Afghanistan|147154|  6708|
+[2024-06-06T16:25:04.745+0530] {subprocess.py:93} INFO - |2021-08-01|     Asia|Afghanistan|147501|  6737|
+[2024-06-06T16:25:04.746+0530] {subprocess.py:93} INFO - |2021-08-02|     Asia|Afghanistan|147985|  6774|
+[2024-06-06T16:25:04.746+0530] {subprocess.py:93} INFO - |2021-08-03|     Asia|Afghanistan|148572|  6804|
+[2024-06-06T16:25:04.746+0530] {subprocess.py:93} INFO - |2021-08-04|     Asia|Afghanistan|148933|  6836|
+[2024-06-06T16:25:04.746+0530] {subprocess.py:93} INFO - |2021-08-05|     Asia|Afghanistan|149361|  6864|
+[2024-06-06T16:25:04.746+0530] {subprocess.py:93} INFO - |2021-08-06|     Asia|Afghanistan|149810|  6879|
+[2024-06-06T16:25:04.746+0530] {subprocess.py:93} INFO - |2021-08-07|     Asia|Afghanistan|150240|  6897|
+[2024-06-06T16:25:04.746+0530] {subprocess.py:93} INFO - |2021-08-08|     Asia|Afghanistan|150458|  6908|
+[2024-06-06T16:25:04.746+0530] {subprocess.py:93} INFO - |2021-08-09|     Asia|Afghanistan|150778|  6936|
+[2024-06-06T16:25:04.746+0530] {subprocess.py:93} INFO - |2021-08-10|     Asia|Afghanistan|151013|  6961|
+[2024-06-06T16:25:04.747+0530] {subprocess.py:93} INFO - |2021-08-11|     Asia|Afghanistan|151291|  6978|
+[2024-06-06T16:25:04.747+0530] {subprocess.py:93} INFO - |2021-08-12|     Asia|Afghanistan|151563|  6988|
+[2024-06-06T16:25:04.747+0530] {subprocess.py:93} INFO - |2021-08-13|     Asia|Afghanistan|151770|  7000|
+[2024-06-06T16:25:04.747+0530] {subprocess.py:93} INFO - |2021-08-14|     Asia|Afghanistan|151941|  7010|
+[2024-06-06T16:25:04.747+0530] {subprocess.py:93} INFO - |2021-08-15|     Asia|Afghanistan|152033|  7021|
+[2024-06-06T16:25:04.747+0530] {subprocess.py:93} INFO - |2021-08-16|     Asia|Afghanistan|152142|  7025|
+[2024-06-06T16:25:04.747+0530] {subprocess.py:93} INFO - |2021-08-17|     Asia|Afghanistan|152243|  7031|
+[2024-06-06T16:25:04.747+0530] {subprocess.py:93} INFO - |2021-08-18|     Asia|Afghanistan|152363|  7043|
+[2024-06-06T16:25:04.747+0530] {subprocess.py:93} INFO - |2021-08-19|     Asia|Afghanistan|152411|  7047|
+[2024-06-06T16:25:04.747+0530] {subprocess.py:93} INFO - |2021-08-20|     Asia|Afghanistan|152448|  7054|
+[2024-06-06T16:25:04.747+0530] {subprocess.py:93} INFO - |2021-08-21|     Asia|Afghanistan|152497|  7065|
+[2024-06-06T16:25:04.748+0530] {subprocess.py:93} INFO - |2021-08-22|     Asia|Afghanistan|152511|  7070|
+[2024-06-06T16:25:04.748+0530] {subprocess.py:93} INFO - |2021-08-23|     Asia|Afghanistan|152583|  7076|
+[2024-06-06T16:25:04.748+0530] {subprocess.py:93} INFO - |2021-08-24|     Asia|Afghanistan|152660|  7083|
+[2024-06-06T16:25:04.748+0530] {subprocess.py:93} INFO - |2021-08-25|     Asia|Afghanistan|152722|  7090|
+[2024-06-06T16:25:04.748+0530] {subprocess.py:93} INFO - |2021-08-26|     Asia|Afghanistan|152822|  7093|
+[2024-06-06T16:25:04.748+0530] {subprocess.py:93} INFO - |2021-08-27|     Asia|Afghanistan|152960|  7101|
+[2024-06-06T16:25:04.748+0530] {subprocess.py:93} INFO - |2021-08-28|     Asia|Afghanistan|153007|  7103|
+[2024-06-06T16:25:04.748+0530] {subprocess.py:93} INFO - |2021-08-29|     Asia|Afghanistan|153033|  7109|
+[2024-06-06T16:25:04.748+0530] {subprocess.py:93} INFO - |2021-08-30|     Asia|Afghanistan|153148|  7116|
+[2024-06-06T16:25:04.748+0530] {subprocess.py:93} INFO - |2021-08-31|     Asia|Afghanistan|153220|  7118|
+[2024-06-06T16:25:04.749+0530] {subprocess.py:93} INFO - |2021-09-01|     Asia|Afghanistan|153260|  7123|
+[2024-06-06T16:25:04.749+0530] {subprocess.py:93} INFO - |2021-09-02|     Asia|Afghanistan|153306|  7127|
+[2024-06-06T16:25:04.749+0530] {subprocess.py:93} INFO - |2021-09-03|     Asia|Afghanistan|153375|  7127|
+[2024-06-06T16:25:04.749+0530] {subprocess.py:93} INFO - |2021-09-04|     Asia|Afghanistan|153395|  7128|
+[2024-06-06T16:25:04.749+0530] {subprocess.py:93} INFO - |2021-09-05|     Asia|Afghanistan|153423|  7132|
+[2024-06-06T16:25:04.749+0530] {subprocess.py:93} INFO - |2021-09-06|     Asia|Afghanistan|153534|  7141|
+[2024-06-06T16:25:04.749+0530] {subprocess.py:93} INFO - |2021-09-07|     Asia|Afghanistan|153626|  7144|
+[2024-06-06T16:25:04.749+0530] {subprocess.py:93} INFO - |2021-09-08|     Asia|Afghanistan|153736|  7151|
+[2024-06-06T16:25:04.749+0530] {subprocess.py:93} INFO - |2021-09-09|     Asia|Afghanistan|153840|  7157|
+[2024-06-06T16:25:04.749+0530] {subprocess.py:93} INFO - |2021-09-10|     Asia|Afghanistan|153962|  7164|
+[2024-06-06T16:25:04.749+0530] {subprocess.py:93} INFO - |2021-09-11|     Asia|Afghanistan|153982|  7167|
+[2024-06-06T16:25:04.750+0530] {subprocess.py:93} INFO - |2021-09-12|     Asia|Afghanistan|153990|  7167|
+[2024-06-06T16:25:04.750+0530] {subprocess.py:93} INFO - |2021-09-13|     Asia|Afghanistan|154094|  7169|
+[2024-06-06T16:25:04.750+0530] {subprocess.py:93} INFO - |2021-09-14|     Asia|Afghanistan|154180|  7171|
+[2024-06-06T16:25:04.750+0530] {subprocess.py:93} INFO - |2021-09-15|     Asia|Afghanistan|154283|  7174|
+[2024-06-06T16:25:04.750+0530] {subprocess.py:93} INFO - |2021-09-16|     Asia|Afghanistan|154361|  7183|
+[2024-06-06T16:25:04.750+0530] {subprocess.py:93} INFO - |2021-09-17|     Asia|Afghanistan|154487|  7186|
+[2024-06-06T16:25:04.750+0530] {subprocess.py:93} INFO - |2021-09-18|     Asia|Afghanistan|154487|  7186|
+[2024-06-06T16:25:04.750+0530] {subprocess.py:93} INFO - |2021-09-19|     Asia|Afghanistan|154487|  7186|
+[2024-06-06T16:25:04.750+0530] {subprocess.py:93} INFO - |2021-09-20|     Asia|Afghanistan|154585|  7199|
+[2024-06-06T16:25:04.750+0530] {subprocess.py:93} INFO - |2021-09-21|     Asia|Afghanistan|154712|  7199|
+[2024-06-06T16:25:04.750+0530] {subprocess.py:93} INFO - |2021-09-22|     Asia|Afghanistan|154757|  7199|
+[2024-06-06T16:25:04.751+0530] {subprocess.py:93} INFO - |2021-09-23|     Asia|Afghanistan|154800|  7199|
+[2024-06-06T16:25:04.751+0530] {subprocess.py:93} INFO - |2021-09-24|     Asia|Afghanistan|154960|  7199|
+[2024-06-06T16:25:04.751+0530] {subprocess.py:93} INFO - |2021-09-25|     Asia|Afghanistan|154960|  7199|
+[2024-06-06T16:25:04.751+0530] {subprocess.py:93} INFO - |2021-09-26|     Asia|Afghanistan|154960|  7199|
+[2024-06-06T16:25:04.751+0530] {subprocess.py:93} INFO - |2021-09-27|     Asia|Afghanistan|155072|  7200|
+[2024-06-06T16:25:04.751+0530] {subprocess.py:93} INFO - |2021-09-28|     Asia|Afghanistan|155093|  7201|
+[2024-06-06T16:25:04.751+0530] {subprocess.py:93} INFO - |2021-09-29|     Asia|Afghanistan|155128|  7204|
+[2024-06-06T16:25:04.751+0530] {subprocess.py:93} INFO - |2021-09-30|     Asia|Afghanistan|155174|  7204|
+[2024-06-06T16:25:04.751+0530] {subprocess.py:93} INFO - |2021-10-01|     Asia|Afghanistan|155191|  7206|
+[2024-06-06T16:25:04.751+0530] {subprocess.py:93} INFO - |2021-10-02|     Asia|Afghanistan|155191|  7206|
+[2024-06-06T16:25:04.751+0530] {subprocess.py:93} INFO - |2021-10-03|     Asia|Afghanistan|155191|  7206|
+[2024-06-06T16:25:04.752+0530] {subprocess.py:93} INFO - |2021-10-04|     Asia|Afghanistan|155287|  7212|
+[2024-06-06T16:25:04.752+0530] {subprocess.py:93} INFO - |2021-10-05|     Asia|Afghanistan|155309|  7214|
+[2024-06-06T16:25:04.752+0530] {subprocess.py:93} INFO - |2021-10-06|     Asia|Afghanistan|155380|  7220|
+[2024-06-06T16:25:04.752+0530] {subprocess.py:93} INFO - |2021-10-07|     Asia|Afghanistan|155429|  7221|
+[2024-06-06T16:25:04.752+0530] {subprocess.py:93} INFO - |2021-10-08|     Asia|Afghanistan|155448|  7221|
+[2024-06-06T16:25:04.752+0530] {subprocess.py:93} INFO - |2021-10-09|     Asia|Afghanistan|155466|  7221|
+[2024-06-06T16:25:04.752+0530] {subprocess.py:93} INFO - |2021-10-10|     Asia|Afghanistan|155508|  7225|
+[2024-06-06T16:25:04.752+0530] {subprocess.py:93} INFO - |2021-10-11|     Asia|Afghanistan|155540|  7228|
+[2024-06-06T16:25:04.753+0530] {subprocess.py:93} INFO - |2021-10-12|     Asia|Afghanistan|155599|  7230|
+[2024-06-06T16:25:04.753+0530] {subprocess.py:93} INFO - |2021-10-13|     Asia|Afghanistan|155627|  7234|
+[2024-06-06T16:25:04.753+0530] {subprocess.py:93} INFO - |2021-10-14|     Asia|Afghanistan|155682|  7238|
+[2024-06-06T16:25:04.753+0530] {subprocess.py:93} INFO - |2021-10-15|     Asia|Afghanistan|155688|  7238|
+[2024-06-06T16:25:04.753+0530] {subprocess.py:93} INFO - |2021-10-16|     Asia|Afghanistan|155739|  7238|
+[2024-06-06T16:25:04.753+0530] {subprocess.py:93} INFO - |2021-10-17|     Asia|Afghanistan|155764|  7243|
+[2024-06-06T16:25:04.753+0530] {subprocess.py:93} INFO - |2021-10-18|     Asia|Afghanistan|155776|  7246|
+[2024-06-06T16:25:04.753+0530] {subprocess.py:93} INFO - |2021-10-19|     Asia|Afghanistan|155801|  7247|
+[2024-06-06T16:25:04.754+0530] {subprocess.py:93} INFO - |2021-10-20|     Asia|Afghanistan|155859|  7247|
+[2024-06-06T16:25:04.754+0530] {subprocess.py:93} INFO - |2021-10-21|     Asia|Afghanistan|155891|  7249|
+[2024-06-06T16:25:04.754+0530] {subprocess.py:93} INFO - |2021-10-22|     Asia|Afghanistan|155931|  7252|
+[2024-06-06T16:25:04.755+0530] {subprocess.py:93} INFO - |2021-10-23|     Asia|Afghanistan|155940|  7253|
+[2024-06-06T16:25:04.755+0530] {subprocess.py:93} INFO - |2021-10-24|     Asia|Afghanistan|155944|  7255|
+[2024-06-06T16:25:04.755+0530] {subprocess.py:93} INFO - |2021-10-25|     Asia|Afghanistan|156040|  7260|
+[2024-06-06T16:25:04.755+0530] {subprocess.py:93} INFO - |2021-10-26|     Asia|Afghanistan|156071|  7262|
+[2024-06-06T16:25:04.756+0530] {subprocess.py:93} INFO - |2021-10-27|     Asia|Afghanistan|156124|  7266|
+[2024-06-06T16:25:04.756+0530] {subprocess.py:93} INFO - |2021-10-28|     Asia|Afghanistan|156166|  7268|
+[2024-06-06T16:25:04.756+0530] {subprocess.py:93} INFO - |2021-10-29|     Asia|Afghanistan|156196|  7269|
+[2024-06-06T16:25:04.756+0530] {subprocess.py:93} INFO - |2021-10-30|     Asia|Afghanistan|156210|  7272|
+[2024-06-06T16:25:04.757+0530] {subprocess.py:93} INFO - |2021-10-31|     Asia|Afghanistan|156250|  7280|
+[2024-06-06T16:25:04.757+0530] {subprocess.py:93} INFO - |2021-11-01|     Asia|Afghanistan|156284|  7281|
+[2024-06-06T16:25:04.757+0530] {subprocess.py:93} INFO - |2021-11-02|     Asia|Afghanistan|156307|  7281|
+[2024-06-06T16:25:04.757+0530] {subprocess.py:93} INFO - |2021-11-03|     Asia|Afghanistan|156323|  7284|
+[2024-06-06T16:25:04.757+0530] {subprocess.py:93} INFO - |2021-11-04|     Asia|Afghanistan|156363|  7284|
+[2024-06-06T16:25:04.758+0530] {subprocess.py:93} INFO - |2021-11-05|     Asia|Afghanistan|156392|  7284|
+[2024-06-06T16:25:04.758+0530] {subprocess.py:93} INFO - |2021-11-06|     Asia|Afghanistan|156397|  7284|
+[2024-06-06T16:25:04.758+0530] {subprocess.py:93} INFO - |2021-11-07|     Asia|Afghanistan|156397|  7284|
+[2024-06-06T16:25:04.758+0530] {subprocess.py:93} INFO - |2021-11-08|     Asia|Afghanistan|156397|  7288|
+[2024-06-06T16:25:04.758+0530] {subprocess.py:93} INFO - |2021-11-09|     Asia|Afghanistan|156397|  7290|
+[2024-06-06T16:25:04.759+0530] {subprocess.py:93} INFO - |2021-11-10|     Asia|Afghanistan|156414|  7291|
+[2024-06-06T16:25:04.759+0530] {subprocess.py:93} INFO - |2021-11-11|     Asia|Afghanistan|156456|  7292|
+[2024-06-06T16:25:04.759+0530] {subprocess.py:93} INFO - |2021-11-12|     Asia|Afghanistan|156487|  7292|
+[2024-06-06T16:25:04.759+0530] {subprocess.py:93} INFO - |2021-11-13|     Asia|Afghanistan|156510|  7292|
+[2024-06-06T16:25:04.759+0530] {subprocess.py:93} INFO - |2021-11-14|     Asia|Afghanistan|156552|  7293|
+[2024-06-06T16:25:04.759+0530] {subprocess.py:93} INFO - |2021-11-15|     Asia|Afghanistan|156610|  7294|
+[2024-06-06T16:25:04.760+0530] {subprocess.py:93} INFO - |2021-11-16|     Asia|Afghanistan|156649|  7295|
+[2024-06-06T16:25:04.760+0530] {subprocess.py:93} INFO - |2021-11-17|     Asia|Afghanistan|156739|  7297|
+[2024-06-06T16:25:04.760+0530] {subprocess.py:93} INFO - |2021-11-18|     Asia|Afghanistan|156739|  7297|
+[2024-06-06T16:25:04.760+0530] {subprocess.py:93} INFO - |2021-11-19|     Asia|Afghanistan|156812|  7299|
+[2024-06-06T16:25:04.760+0530] {subprocess.py:93} INFO - |2021-11-20|     Asia|Afghanistan|156864|  7301|
+[2024-06-06T16:25:04.761+0530] {subprocess.py:93} INFO - |2021-11-21|     Asia|Afghanistan|156896|  7303|
+[2024-06-06T16:25:04.761+0530] {subprocess.py:93} INFO - |2021-11-22|     Asia|Afghanistan|156911|  7303|
+[2024-06-06T16:25:04.761+0530] {subprocess.py:93} INFO - |2021-11-23|     Asia|Afghanistan|157015|  7305|
+[2024-06-06T16:25:04.761+0530] {subprocess.py:93} INFO - |2021-11-24|     Asia|Afghanistan|157032|  7306|
+[2024-06-06T16:25:04.762+0530] {subprocess.py:93} INFO - |2021-11-25|     Asia|Afghanistan|157144|  7307|
+[2024-06-06T16:25:04.762+0530] {subprocess.py:93} INFO - |2021-11-26|     Asia|Afghanistan|157171|  7307|
+[2024-06-06T16:25:04.762+0530] {subprocess.py:93} INFO - |2021-11-27|     Asia|Afghanistan|157190|  7308|
+[2024-06-06T16:25:04.762+0530] {subprocess.py:93} INFO - |2021-11-28|     Asia|Afghanistan|157218|  7308|
+[2024-06-06T16:25:04.763+0530] {subprocess.py:93} INFO - |2021-11-29|     Asia|Afghanistan|157260|  7308|
+[2024-06-06T16:25:04.763+0530] {subprocess.py:93} INFO - |2021-11-30|     Asia|Afghanistan|157289|  7308|
+[2024-06-06T16:25:04.763+0530] {subprocess.py:93} INFO - |2021-12-01|     Asia|Afghanistan|157359|  7309|
+[2024-06-06T16:25:04.763+0530] {subprocess.py:93} INFO - |2021-12-02|     Asia|Afghanistan|157387|  7310|
+[2024-06-06T16:25:04.764+0530] {subprocess.py:93} INFO - |2021-12-03|     Asia|Afghanistan|157412|  7311|
+[2024-06-06T16:25:04.764+0530] {subprocess.py:93} INFO - |2021-12-04|     Asia|Afghanistan|157431|  7312|
+[2024-06-06T16:25:04.764+0530] {subprocess.py:93} INFO - |2021-12-05|     Asia|Afghanistan|157454|  7312|
+[2024-06-06T16:25:04.764+0530] {subprocess.py:93} INFO - |2021-12-06|     Asia|Afghanistan|157499|  7316|
+[2024-06-06T16:25:04.764+0530] {subprocess.py:93} INFO - |2021-12-07|     Asia|Afghanistan|157508|  7317|
+[2024-06-06T16:25:04.765+0530] {subprocess.py:93} INFO - |2021-12-08|     Asia|Afghanistan|157542|  7319|
+[2024-06-06T16:25:04.765+0530] {subprocess.py:93} INFO - |2021-12-09|     Asia|Afghanistan|157585|  7321|
+[2024-06-06T16:25:04.765+0530] {subprocess.py:93} INFO - |2021-12-10|     Asia|Afghanistan|157603|  7324|
+[2024-06-06T16:25:04.765+0530] {subprocess.py:93} INFO - |2021-12-11|     Asia|Afghanistan|157611|  7325|
+[2024-06-06T16:25:04.766+0530] {subprocess.py:93} INFO - |2021-12-12|     Asia|Afghanistan|157633|  7328|
+[2024-06-06T16:25:04.766+0530] {subprocess.py:93} INFO - |2021-12-13|     Asia|Afghanistan|157648|  7328|
+[2024-06-06T16:25:04.766+0530] {subprocess.py:93} INFO - |2021-12-14|     Asia|Afghanistan|157660|  7329|
+[2024-06-06T16:25:04.766+0530] {subprocess.py:93} INFO - |2021-12-15|     Asia|Afghanistan|157665|  7331|
+[2024-06-06T16:25:04.766+0530] {subprocess.py:93} INFO - |2021-12-16|     Asia|Afghanistan|157725|  7332|
+[2024-06-06T16:25:04.767+0530] {subprocess.py:93} INFO - |2021-12-17|     Asia|Afghanistan|157734|  7332|
+[2024-06-06T16:25:04.767+0530] {subprocess.py:93} INFO - |2021-12-18|     Asia|Afghanistan|157745|  7333|
+[2024-06-06T16:25:04.767+0530] {subprocess.py:93} INFO - |2021-12-19|     Asia|Afghanistan|157787|  7335|
+[2024-06-06T16:25:04.767+0530] {subprocess.py:93} INFO - |2021-12-20|     Asia|Afghanistan|157797|  7335|
+[2024-06-06T16:25:04.767+0530] {subprocess.py:93} INFO - |2021-12-21|     Asia|Afghanistan|157816|  7335|
+[2024-06-06T16:25:04.768+0530] {subprocess.py:93} INFO - |2021-12-22|     Asia|Afghanistan|157841|  7341|
+[2024-06-06T16:25:04.768+0530] {subprocess.py:93} INFO - |2021-12-23|     Asia|Afghanistan|157878|  7346|
+[2024-06-06T16:25:04.768+0530] {subprocess.py:93} INFO - |2021-12-24|     Asia|Afghanistan|157887|  7348|
+[2024-06-06T16:25:04.768+0530] {subprocess.py:93} INFO - |2021-12-25|     Asia|Afghanistan|157895|  7349|
+[2024-06-06T16:25:04.768+0530] {subprocess.py:93} INFO - |2021-12-26|     Asia|Afghanistan|157951|  7354|
+[2024-06-06T16:25:04.768+0530] {subprocess.py:93} INFO - |2021-12-27|     Asia|Afghanistan|157967|  7354|
+[2024-06-06T16:25:04.769+0530] {subprocess.py:93} INFO - |2021-12-28|     Asia|Afghanistan|157998|  7355|
+[2024-06-06T16:25:04.769+0530] {subprocess.py:93} INFO - |2021-12-29|     Asia|Afghanistan|158037|  7356|
+[2024-06-06T16:25:04.769+0530] {subprocess.py:93} INFO - |2021-12-30|     Asia|Afghanistan|158056|  7356|
+[2024-06-06T16:25:04.769+0530] {subprocess.py:93} INFO - |2021-12-31|     Asia|Afghanistan|158084|  7356|
+[2024-06-06T16:25:04.769+0530] {subprocess.py:93} INFO - |2022-01-01|     Asia|Afghanistan|158107|  7356|
+[2024-06-06T16:25:04.769+0530] {subprocess.py:93} INFO - |2022-01-02|     Asia|Afghanistan|158189|  7361|
+[2024-06-06T16:25:04.770+0530] {subprocess.py:93} INFO - |2022-01-04|     Asia|Afghanistan|158205|  7365|
+[2024-06-06T16:25:04.770+0530] {subprocess.py:93} INFO - |2022-01-05|     Asia|Afghanistan|158245|  7367|
+[2024-06-06T16:25:04.770+0530] {subprocess.py:93} INFO - |2022-01-06|     Asia|Afghanistan|158275|  7367|
+[2024-06-06T16:25:04.770+0530] {subprocess.py:93} INFO - |2022-01-07|     Asia|Afghanistan|158300|  7368|
+[2024-06-06T16:25:04.770+0530] {subprocess.py:93} INFO - |2022-01-08|     Asia|Afghanistan|158309|  7369|
+[2024-06-06T16:25:04.771+0530] {subprocess.py:93} INFO - |2022-01-09|     Asia|Afghanistan|158381|  7373|
+[2024-06-06T16:25:04.771+0530] {subprocess.py:93} INFO - |2022-01-10|     Asia|Afghanistan|158394|  7373|
+[2024-06-06T16:25:04.771+0530] {subprocess.py:93} INFO - |2022-01-11|     Asia|Afghanistan|158471|  7374|
+[2024-06-06T16:25:04.772+0530] {subprocess.py:93} INFO - |2022-01-12|     Asia|Afghanistan|158511|  7376|
+[2024-06-06T16:25:04.772+0530] {subprocess.py:93} INFO - |2022-01-13|     Asia|Afghanistan|158602|  7376|
+[2024-06-06T16:25:04.772+0530] {subprocess.py:93} INFO - |2022-01-14|     Asia|Afghanistan|158639|  7376|
+[2024-06-06T16:25:04.772+0530] {subprocess.py:93} INFO - |2022-01-15|     Asia|Afghanistan|158678|  7378|
+[2024-06-06T16:25:04.772+0530] {subprocess.py:93} INFO - |2022-01-16|     Asia|Afghanistan|158717|  7379|
+[2024-06-06T16:25:04.772+0530] {subprocess.py:93} INFO - |2022-01-17|     Asia|Afghanistan|158826|  7381|
+[2024-06-06T16:25:04.772+0530] {subprocess.py:93} INFO - |2022-01-18|     Asia|Afghanistan|158974|  7383|
+[2024-06-06T16:25:04.773+0530] {subprocess.py:93} INFO - |2022-01-19|     Asia|Afghanistan|159070|  7386|
+[2024-06-06T16:25:04.773+0530] {subprocess.py:93} INFO - |2022-01-20|     Asia|Afghanistan|159303|  7386|
+[2024-06-06T16:25:04.773+0530] {subprocess.py:93} INFO - |2022-01-21|     Asia|Afghanistan|159516|  7390|
+[2024-06-06T16:25:04.773+0530] {subprocess.py:93} INFO - |2022-01-22|     Asia|Afghanistan|159548|  7390|
+[2024-06-06T16:25:04.773+0530] {subprocess.py:93} INFO - |2022-01-23|     Asia|Afghanistan|159649|  7393|
+[2024-06-06T16:25:04.773+0530] {subprocess.py:93} INFO - |2022-01-24|     Asia|Afghanistan|159896|  7393|
+[2024-06-06T16:25:04.773+0530] {subprocess.py:93} INFO - |2022-01-25|     Asia|Afghanistan|160252|  7397|
+[2024-06-06T16:25:04.773+0530] {subprocess.py:93} INFO - |2022-01-26|     Asia|Afghanistan|160692|  7401|
+[2024-06-06T16:25:04.773+0530] {subprocess.py:93} INFO - |2022-01-27|     Asia|Afghanistan|161004|  7403|
+[2024-06-06T16:25:04.773+0530] {subprocess.py:93} INFO - |2022-01-28|     Asia|Afghanistan|161057|  7403|
+[2024-06-06T16:25:04.774+0530] {subprocess.py:93} INFO - |2022-01-29|     Asia|Afghanistan|161290|  7405|
+[2024-06-06T16:25:04.774+0530] {subprocess.py:93} INFO - |2022-01-30|     Asia|Afghanistan|162111|  7408|
+[2024-06-06T16:25:04.774+0530] {subprocess.py:93} INFO - |2022-01-31|     Asia|Afghanistan|162926|  7414|
+[2024-06-06T16:25:04.774+0530] {subprocess.py:93} INFO - |2022-02-01|     Asia|Afghanistan|163555|  7417|
+[2024-06-06T16:25:04.774+0530] {subprocess.py:93} INFO - |2022-02-02|     Asia|Afghanistan|164190|  7418|
+[2024-06-06T16:25:04.774+0530] {subprocess.py:93} INFO - |2022-02-03|     Asia|Afghanistan|164727|  7420|
+[2024-06-06T16:25:04.774+0530] {subprocess.py:93} INFO - |2022-02-04|     Asia|Afghanistan|165358|  7420|
+[2024-06-06T16:25:04.774+0530] {subprocess.py:93} INFO - |2022-02-05|     Asia|Afghanistan|165711|  7425|
+[2024-06-06T16:25:04.774+0530] {subprocess.py:93} INFO - |2022-02-06|     Asia|Afghanistan|166191|  7432|
+[2024-06-06T16:25:04.774+0530] {subprocess.py:93} INFO - |2022-02-07|     Asia|Afghanistan|166924|  7442|
+[2024-06-06T16:25:04.774+0530] {subprocess.py:93} INFO - |2022-02-08|     Asia|Afghanistan|167739|  7454|
+[2024-06-06T16:25:04.775+0530] {subprocess.py:93} INFO - |2022-02-09|     Asia|Afghanistan|168550|  7465|
+[2024-06-06T16:25:04.775+0530] {subprocess.py:93} INFO - |2022-02-10|     Asia|Afghanistan|169448|  7477|
+[2024-06-06T16:25:04.775+0530] {subprocess.py:93} INFO - |2022-02-11|     Asia|Afghanistan|169940|  7478|
+[2024-06-06T16:25:04.775+0530] {subprocess.py:93} INFO - |2022-02-12|     Asia|Afghanistan|170152|  7488|
+[2024-06-06T16:25:04.775+0530] {subprocess.py:93} INFO - |2022-02-13|     Asia|Afghanistan|170604|  7494|
+[2024-06-06T16:25:04.775+0530] {subprocess.py:93} INFO - |2022-02-14|     Asia|Afghanistan|171246|  7501|
+[2024-06-06T16:25:04.775+0530] {subprocess.py:93} INFO - |2022-02-15|     Asia|Afghanistan|171422|  7504|
+[2024-06-06T16:25:04.776+0530] {subprocess.py:93} INFO - |2022-02-16|     Asia|Afghanistan|171519|  7513|
+[2024-06-06T16:25:04.776+0530] {subprocess.py:93} INFO - |2022-02-17|     Asia|Afghanistan|171673|  7524|
+[2024-06-06T16:25:04.776+0530] {subprocess.py:93} INFO - |2022-02-18|     Asia|Afghanistan|171857|  7526|
+[2024-06-06T16:25:04.776+0530] {subprocess.py:93} INFO - |2022-02-19|     Asia|Afghanistan|171931|  7534|
+[2024-06-06T16:25:04.776+0530] {subprocess.py:93} INFO - |2022-02-20|     Asia|Afghanistan|172205|  7539|
+[2024-06-06T16:25:04.776+0530] {subprocess.py:93} INFO - |2022-02-21|     Asia|Afghanistan|172441|  7549|
+[2024-06-06T16:25:04.776+0530] {subprocess.py:93} INFO - |2022-02-22|     Asia|Afghanistan|172716|  7569|
+[2024-06-06T16:25:04.776+0530] {subprocess.py:93} INFO - |2022-02-23|     Asia|Afghanistan|172901|  7574|
+[2024-06-06T16:25:04.776+0530] {subprocess.py:93} INFO - |2022-02-24|     Asia|Afghanistan|173047|  7578|
+[2024-06-06T16:25:04.776+0530] {subprocess.py:93} INFO - |2022-02-25|     Asia|Afghanistan|173084|  7579|
+[2024-06-06T16:25:04.776+0530] {subprocess.py:93} INFO - |2022-02-26|     Asia|Afghanistan|173146|  7585|
+[2024-06-06T16:25:04.777+0530] {subprocess.py:93} INFO - |2022-02-27|     Asia|Afghanistan|173395|  7593|
+[2024-06-06T16:25:04.777+0530] {subprocess.py:93} INFO - |2022-02-28|     Asia|Afghanistan|173659|  7598|
+[2024-06-06T16:25:04.777+0530] {subprocess.py:93} INFO - |2022-03-01|     Asia|Afghanistan|173879|  7609|
+[2024-06-06T16:25:04.777+0530] {subprocess.py:93} INFO - |2022-03-02|     Asia|Afghanistan|174073|  7617|
+[2024-06-06T16:25:04.777+0530] {subprocess.py:93} INFO - |2022-03-03|     Asia|Afghanistan|174214|  7619|
+[2024-06-06T16:25:04.777+0530] {subprocess.py:93} INFO - |2022-03-04|     Asia|Afghanistan|174214|  7619|
+[2024-06-06T16:25:04.778+0530] {subprocess.py:93} INFO - |2022-03-05|     Asia|Afghanistan|174331|  7622|
+[2024-06-06T16:25:04.778+0530] {subprocess.py:93} INFO - |2020-03-26|     Asia|    Armenia|   290|     1|
+[2024-06-06T16:25:04.778+0530] {subprocess.py:93} INFO - |2020-03-27|     Asia|    Armenia|   329|     1|
+[2024-06-06T16:25:04.778+0530] {subprocess.py:93} INFO - |2020-03-28|     Asia|    Armenia|   407|     1|
+[2024-06-06T16:25:04.778+0530] {subprocess.py:93} INFO - |2020-03-29|     Asia|    Armenia|   424|     3|
+[2024-06-06T16:25:04.778+0530] {subprocess.py:93} INFO - |2020-03-30|     Asia|    Armenia|   482|     3|
+[2024-06-06T16:25:04.778+0530] {subprocess.py:93} INFO - |2020-03-31|     Asia|    Armenia|   532|     3|
+[2024-06-06T16:25:04.778+0530] {subprocess.py:93} INFO - |2020-04-01|     Asia|    Armenia|   571|     4|
+[2024-06-06T16:25:04.778+0530] {subprocess.py:93} INFO - |2020-04-02|     Asia|    Armenia|   663|     7|
+[2024-06-06T16:25:04.779+0530] {subprocess.py:93} INFO - |2020-04-03|     Asia|    Armenia|   736|     7|
+[2024-06-06T16:25:04.779+0530] {subprocess.py:93} INFO - |2020-04-04|     Asia|    Armenia|   770|     7|
+[2024-06-06T16:25:04.779+0530] {subprocess.py:93} INFO - |2020-04-05|     Asia|    Armenia|   822|     7|
+[2024-06-06T16:25:04.779+0530] {subprocess.py:93} INFO - |2020-04-06|     Asia|    Armenia|   833|     8|
+[2024-06-06T16:25:04.779+0530] {subprocess.py:93} INFO - |2020-04-07|     Asia|    Armenia|   853|     8|
+[2024-06-06T16:25:04.779+0530] {subprocess.py:93} INFO - |2020-04-08|     Asia|    Armenia|   881|     9|
+[2024-06-06T16:25:04.779+0530] {subprocess.py:93} INFO - |2020-04-09|     Asia|    Armenia|   921|    10|
+[2024-06-06T16:25:04.779+0530] {subprocess.py:93} INFO - |2020-04-10|     Asia|    Armenia|   937|    12|
+[2024-06-06T16:25:04.779+0530] {subprocess.py:93} INFO - |2020-04-11|     Asia|    Armenia|   967|    13|
+[2024-06-06T16:25:04.779+0530] {subprocess.py:93} INFO - |2020-04-12|     Asia|    Armenia|  1013|    13|
+[2024-06-06T16:25:04.780+0530] {subprocess.py:93} INFO - |2020-04-13|     Asia|    Armenia|  1039|    14|
+[2024-06-06T16:25:04.780+0530] {subprocess.py:93} INFO - |2020-04-14|     Asia|    Armenia|  1067|    16|
+[2024-06-06T16:25:04.780+0530] {subprocess.py:93} INFO - |2020-04-15|     Asia|    Armenia|  1111|    17|
+[2024-06-06T16:25:04.780+0530] {subprocess.py:93} INFO - |2020-04-16|     Asia|    Armenia|  1159|    18|
+[2024-06-06T16:25:04.780+0530] {subprocess.py:93} INFO - |2020-04-17|     Asia|    Armenia|  1201|    19|
+[2024-06-06T16:25:04.780+0530] {subprocess.py:93} INFO - |2020-04-18|     Asia|    Armenia|  1248|    20|
+[2024-06-06T16:25:04.780+0530] {subprocess.py:93} INFO - |2020-04-19|     Asia|    Armenia|  1291|    20|
+[2024-06-06T16:25:04.780+0530] {subprocess.py:93} INFO - |2020-04-20|     Asia|    Armenia|  1339|    22|
+[2024-06-06T16:25:04.780+0530] {subprocess.py:93} INFO - |2020-04-21|     Asia|    Armenia|  1401|    24|
+[2024-06-06T16:25:04.780+0530] {subprocess.py:93} INFO - |2020-04-22|     Asia|    Armenia|  1473|    24|
+[2024-06-06T16:25:04.780+0530] {subprocess.py:93} INFO - |2020-04-23|     Asia|    Armenia|  1523|    24|
+[2024-06-06T16:25:04.781+0530] {subprocess.py:93} INFO - |2020-04-24|     Asia|    Armenia|  1596|    27|
+[2024-06-06T16:25:04.781+0530] {subprocess.py:93} INFO - |2020-04-25|     Asia|    Armenia|  1677|    28|
+[2024-06-06T16:25:04.781+0530] {subprocess.py:93} INFO - |2020-04-26|     Asia|    Armenia|  1746|    28|
+[2024-06-06T16:25:04.781+0530] {subprocess.py:93} INFO - |2020-04-27|     Asia|    Armenia|  1808|    29|
+[2024-06-06T16:25:04.781+0530] {subprocess.py:93} INFO - |2020-04-28|     Asia|    Armenia|  1867|    30|
+[2024-06-06T16:25:04.781+0530] {subprocess.py:93} INFO - |2020-04-29|     Asia|    Armenia|  1932|    30|
+[2024-06-06T16:25:04.781+0530] {subprocess.py:93} INFO - |2020-04-30|     Asia|    Armenia|  2066|    32|
+[2024-06-06T16:25:04.781+0530] {subprocess.py:93} INFO - |2020-05-01|     Asia|    Armenia|  2148|    33|
+[2024-06-06T16:25:04.781+0530] {subprocess.py:93} INFO - |2020-05-02|     Asia|    Armenia|  2273|    33|
+[2024-06-06T16:25:04.781+0530] {subprocess.py:93} INFO - |2020-05-03|     Asia|    Armenia|  2386|    35|
+[2024-06-06T16:25:04.781+0530] {subprocess.py:93} INFO - |2020-05-04|     Asia|    Armenia|  2507|    39|
+[2024-06-06T16:25:04.782+0530] {subprocess.py:93} INFO - |2020-05-05|     Asia|    Armenia|  2619|    40|
+[2024-06-06T16:25:04.782+0530] {subprocess.py:93} INFO - |2020-05-06|     Asia|    Armenia|  2782|    40|
+[2024-06-06T16:25:04.782+0530] {subprocess.py:93} INFO - |2020-05-07|     Asia|    Armenia|  2884|    42|
+[2024-06-06T16:25:04.782+0530] {subprocess.py:93} INFO - |2020-05-08|     Asia|    Armenia|  3029|    43|
+[2024-06-06T16:25:04.782+0530] {subprocess.py:93} INFO - |2020-05-09|     Asia|    Armenia|  3175|    44|
+[2024-06-06T16:25:04.782+0530] {subprocess.py:93} INFO - |2020-05-10|     Asia|    Armenia|  3313|    45|
+[2024-06-06T16:25:04.782+0530] {subprocess.py:93} INFO - |2020-05-11|     Asia|    Armenia|  3392|    46|
+[2024-06-06T16:25:04.782+0530] {subprocess.py:93} INFO - |2020-05-12|     Asia|    Armenia|  3538|    47|
+[2024-06-06T16:25:04.782+0530] {subprocess.py:93} INFO - |2020-05-13|     Asia|    Armenia|  3718|    48|
+[2024-06-06T16:25:04.783+0530] {subprocess.py:93} INFO - |2020-05-14|     Asia|    Armenia|  3860|    49|
+[2024-06-06T16:25:04.783+0530] {subprocess.py:93} INFO - |2020-05-15|     Asia|    Armenia|  4044|    52|
+[2024-06-06T16:25:04.783+0530] {subprocess.py:93} INFO - |2020-05-16|     Asia|    Armenia|  4283|    55|
+[2024-06-06T16:25:04.783+0530] {subprocess.py:93} INFO - |2020-05-17|     Asia|    Armenia|  4472|    60|
+[2024-06-06T16:25:04.783+0530] {subprocess.py:93} INFO - |2020-05-18|     Asia|    Armenia|  4823|    61|
+[2024-06-06T16:25:04.783+0530] {subprocess.py:93} INFO - |2020-05-19|     Asia|    Armenia|  5041|    64|
+[2024-06-06T16:25:04.783+0530] {subprocess.py:93} INFO - |2020-05-20|     Asia|    Armenia|  5271|    67|
+[2024-06-06T16:25:04.783+0530] {subprocess.py:93} INFO - |2020-05-21|     Asia|    Armenia|  5606|    70|
+[2024-06-06T16:25:04.783+0530] {subprocess.py:93} INFO - |2020-05-22|     Asia|    Armenia|  5928|    74|
+[2024-06-06T16:25:04.783+0530] {subprocess.py:93} INFO - |2020-05-23|     Asia|    Armenia|  6302|    77|
+[2024-06-06T16:25:04.784+0530] {subprocess.py:93} INFO - |2020-05-24|     Asia|    Armenia|  6661|    81|
+[2024-06-06T16:25:04.784+0530] {subprocess.py:93} INFO - |2020-05-25|     Asia|    Armenia|  7113|    87|
+[2024-06-06T16:25:04.784+0530] {subprocess.py:93} INFO - |2020-05-26|     Asia|    Armenia|  7402|    91|
+[2024-06-06T16:25:04.784+0530] {subprocess.py:93} INFO - |2020-05-27|     Asia|    Armenia|  7774|    98|
+[2024-06-06T16:25:04.784+0530] {subprocess.py:93} INFO - |2020-05-28|     Asia|    Armenia|  8216|   113|
+[2024-06-06T16:25:04.784+0530] {subprocess.py:93} INFO - |2020-05-29|     Asia|    Armenia|  8676|   120|
+[2024-06-06T16:25:04.784+0530] {subprocess.py:93} INFO - |2020-05-30|     Asia|    Armenia|  8927|   127|
+[2024-06-06T16:25:04.784+0530] {subprocess.py:93} INFO - |2020-05-31|     Asia|    Armenia|  9282|   131|
+[2024-06-06T16:25:04.785+0530] {subprocess.py:93} INFO - |2020-06-01|     Asia|    Armenia|  9492|   139|
+[2024-06-06T16:25:04.785+0530] {subprocess.py:93} INFO - |2020-06-02|     Asia|    Armenia| 10009|   158|
+[2024-06-06T16:25:04.785+0530] {subprocess.py:93} INFO - |2020-06-03|     Asia|    Armenia| 10524|   170|
+[2024-06-06T16:25:04.785+0530] {subprocess.py:93} INFO - |2020-06-04|     Asia|    Armenia| 11221|   176|
+[2024-06-06T16:25:04.786+0530] {subprocess.py:93} INFO - |2020-06-05|     Asia|    Armenia| 11817|   183|
+[2024-06-06T16:25:04.786+0530] {subprocess.py:93} INFO - |2020-06-06|     Asia|    Armenia| 12364|   190|
+[2024-06-06T16:25:04.786+0530] {subprocess.py:93} INFO - |2020-06-07|     Asia|    Armenia| 13130|   200|
+[2024-06-06T16:25:04.786+0530] {subprocess.py:93} INFO - |2020-06-08|     Asia|    Armenia| 13325|   211|
+[2024-06-06T16:25:04.786+0530] {subprocess.py:93} INFO - |2020-06-09|     Asia|    Armenia| 13675|   217|
+[2024-06-06T16:25:04.787+0530] {subprocess.py:93} INFO - |2020-06-10|     Asia|    Armenia| 14103|   227|
+[2024-06-06T16:25:04.787+0530] {subprocess.py:93} INFO - |2020-06-11|     Asia|    Armenia| 14669|   245|
+[2024-06-06T16:25:04.787+0530] {subprocess.py:93} INFO - |2020-06-12|     Asia|    Armenia| 15281|   258|
+[2024-06-06T16:25:04.787+0530] {subprocess.py:93} INFO - |2020-06-13|     Asia|    Armenia| 16004|   264|
+[2024-06-06T16:25:04.788+0530] {subprocess.py:93} INFO - |2020-06-14|     Asia|    Armenia| 16667|   269|
+[2024-06-06T16:25:04.788+0530] {subprocess.py:93} INFO - |2020-06-15|     Asia|    Armenia| 17064|   285|
+[2024-06-06T16:25:04.788+0530] {subprocess.py:93} INFO - |2020-06-16|     Asia|    Armenia| 17489|   293|
+[2024-06-06T16:25:04.788+0530] {subprocess.py:93} INFO - |2020-06-17|     Asia|    Armenia| 18033|   302|
+[2024-06-06T16:25:04.788+0530] {subprocess.py:93} INFO - |2020-06-18|     Asia|    Armenia| 18698|   309|
+[2024-06-06T16:25:04.789+0530] {subprocess.py:93} INFO - |2020-06-19|     Asia|    Armenia| 19157|   319|
+[2024-06-06T16:25:04.789+0530] {subprocess.py:93} INFO - |2020-06-20|     Asia|    Armenia| 19708|   332|
+[2024-06-06T16:25:04.789+0530] {subprocess.py:93} INFO - |2020-06-21|     Asia|    Armenia| 20268|   350|
+[2024-06-06T16:25:04.789+0530] {subprocess.py:93} INFO - |2020-06-22|     Asia|    Armenia| 20588|   360|
+[2024-06-06T16:25:04.789+0530] {subprocess.py:93} INFO - |2020-06-23|     Asia|    Armenia| 21006|   372|
+[2024-06-06T16:25:04.790+0530] {subprocess.py:93} INFO - |2020-06-24|     Asia|    Armenia| 21717|   386|
+[2024-06-06T16:25:04.790+0530] {subprocess.py:93} INFO - |2020-06-25|     Asia|    Armenia| 22488|   397|
+[2024-06-06T16:25:04.790+0530] {subprocess.py:93} INFO - |2020-06-26|     Asia|    Armenia| 23247|   410|
+[2024-06-06T16:25:04.790+0530] {subprocess.py:93} INFO - |2020-06-27|     Asia|    Armenia| 23909|   421|
+[2024-06-06T16:25:04.790+0530] {subprocess.py:93} INFO - |2020-06-28|     Asia|    Armenia| 24645|   426|
+[2024-06-06T16:25:04.791+0530] {subprocess.py:93} INFO - |2020-06-29|     Asia|    Armenia| 25127|   433|
+[2024-06-06T16:25:04.791+0530] {subprocess.py:93} INFO - |2020-06-30|     Asia|    Armenia| 25542|   443|
+[2024-06-06T16:25:04.791+0530] {subprocess.py:93} INFO - |2020-07-01|     Asia|    Armenia| 26065|   453|
+[2024-06-06T16:25:04.791+0530] {subprocess.py:93} INFO - |2020-07-02|     Asia|    Armenia| 26658|   459|
+[2024-06-06T16:25:04.791+0530] {subprocess.py:93} INFO - |2020-07-03|     Asia|    Armenia| 27320|   469|
+[2024-06-06T16:25:04.791+0530] {subprocess.py:93} INFO - |2020-07-04|     Asia|    Armenia| 27900|   477|
+[2024-06-06T16:25:04.792+0530] {subprocess.py:93} INFO - |2020-07-05|     Asia|    Armenia| 28606|   484|
+[2024-06-06T16:25:04.792+0530] {subprocess.py:93} INFO - |2020-07-06|     Asia|    Armenia| 28936|   491|
+[2024-06-06T16:25:04.792+0530] {subprocess.py:93} INFO - |2020-07-07|     Asia|    Armenia| 29285|   503|
+[2024-06-06T16:25:04.792+0530] {subprocess.py:93} INFO - |2020-07-08|     Asia|    Armenia| 29820|   521|
+[2024-06-06T16:25:04.792+0530] {subprocess.py:93} INFO - |2020-07-09|     Asia|    Armenia| 30346|   535|
+[2024-06-06T16:25:04.792+0530] {subprocess.py:93} INFO - |2020-07-10|     Asia|    Armenia| 30903|   546|
+[2024-06-06T16:25:04.793+0530] {subprocess.py:93} INFO - |2020-07-11|     Asia|    Armenia| 31392|   559|
+[2024-06-06T16:25:04.793+0530] {subprocess.py:93} INFO - |2020-07-12|     Asia|    Armenia| 31969|   565|
+[2024-06-06T16:25:04.793+0530] {subprocess.py:93} INFO - |2020-07-13|     Asia|    Armenia| 32151|   573|
+[2024-06-06T16:25:04.793+0530] {subprocess.py:93} INFO - |2020-07-14|     Asia|    Armenia| 32490|   581|
+[2024-06-06T16:25:04.794+0530] {subprocess.py:93} INFO - |2020-07-15|     Asia|    Armenia| 33005|   592|
+[2024-06-06T16:25:04.794+0530] {subprocess.py:93} INFO - |2020-07-16|     Asia|    Armenia| 33559|   607|
+[2024-06-06T16:25:04.794+0530] {subprocess.py:93} INFO - |2020-07-17|     Asia|    Armenia| 34001|   620|
+[2024-06-06T16:25:04.794+0530] {subprocess.py:93} INFO - |2020-07-18|     Asia|    Armenia| 34462|   631|
+[2024-06-06T16:25:04.794+0530] {subprocess.py:93} INFO - |2020-07-19|     Asia|    Armenia| 34877|   641|
+[2024-06-06T16:25:04.795+0530] {subprocess.py:93} INFO - |2020-07-20|     Asia|    Armenia| 34981|   650|
+[2024-06-06T16:25:04.795+0530] {subprocess.py:93} INFO - |2020-07-21|     Asia|    Armenia| 35254|   662|
+[2024-06-06T16:25:04.795+0530] {subprocess.py:93} INFO - |2020-07-22|     Asia|    Armenia| 35693|   678|
+[2024-06-06T16:25:04.795+0530] {subprocess.py:93} INFO - |2020-07-23|     Asia|    Armenia| 36162|   688|
+[2024-06-06T16:25:04.795+0530] {subprocess.py:93} INFO - |2020-07-24|     Asia|    Armenia| 36613|   692|
+[2024-06-06T16:25:04.796+0530] {subprocess.py:93} INFO - |2020-07-25|     Asia|    Armenia| 36996|   700|
+[2024-06-06T16:25:04.796+0530] {subprocess.py:93} INFO - |2020-07-26|     Asia|    Armenia| 37317|   705|
+[2024-06-06T16:25:04.796+0530] {subprocess.py:93} INFO - |2020-07-27|     Asia|    Armenia| 37390|   711|
+[2024-06-06T16:25:04.797+0530] {subprocess.py:93} INFO - |2020-07-28|     Asia|    Armenia| 37629|   719|
+[2024-06-06T16:25:04.797+0530] {subprocess.py:93} INFO - |2020-07-29|     Asia|    Armenia| 37937|   723|
+[2024-06-06T16:25:04.798+0530] {subprocess.py:93} INFO - |2020-07-30|     Asia|    Armenia| 38196|   728|
+[2024-06-06T16:25:04.798+0530] {subprocess.py:93} INFO - |2020-07-31|     Asia|    Armenia| 38550|   738|
+[2024-06-06T16:25:04.798+0530] {subprocess.py:93} INFO - |2020-08-01|     Asia|    Armenia| 38841|   749|
+[2024-06-06T16:25:04.798+0530] {subprocess.py:93} INFO - |2020-08-02|     Asia|    Armenia| 39050|   754|
+[2024-06-06T16:25:04.799+0530] {subprocess.py:93} INFO - |2020-08-03|     Asia|    Armenia| 39102|   762|
+[2024-06-06T16:25:04.799+0530] {subprocess.py:93} INFO - |2020-08-04|     Asia|    Armenia| 39298|   768|
+[2024-06-06T16:25:04.799+0530] {subprocess.py:93} INFO - |2020-08-05|     Asia|    Armenia| 39586|   770|
+[2024-06-06T16:25:04.799+0530] {subprocess.py:93} INFO - |2020-08-06|     Asia|    Armenia| 39819|   772|
+[2024-06-06T16:25:04.800+0530] {subprocess.py:93} INFO - |2020-08-07|     Asia|    Armenia| 39985|   777|
+[2024-06-06T16:25:04.800+0530] {subprocess.py:93} INFO - |2020-08-08|     Asia|    Armenia| 40185|   785|
+[2024-06-06T16:25:04.801+0530] {subprocess.py:93} INFO - |2020-08-09|     Asia|    Armenia| 40410|   791|
+[2024-06-06T16:25:04.801+0530] {subprocess.py:93} INFO - |2020-08-10|     Asia|    Armenia| 40433|   796|
+[2024-06-06T16:25:04.802+0530] {subprocess.py:93} INFO - |2020-08-11|     Asia|    Armenia| 40593|   803|
+[2024-06-06T16:25:04.803+0530] {subprocess.py:93} INFO - |2020-08-12|     Asia|    Armenia| 40794|   806|
+[2024-06-06T16:25:04.803+0530] {subprocess.py:93} INFO - |2020-08-13|     Asia|    Armenia| 41023|   809|
+[2024-06-06T16:25:04.804+0530] {subprocess.py:93} INFO - |2020-08-14|     Asia|    Armenia| 41299|   814|
+[2024-06-06T16:25:04.804+0530] {subprocess.py:93} INFO - |2020-08-15|     Asia|    Armenia| 41495|   817|
+[2024-06-06T16:25:04.804+0530] {subprocess.py:93} INFO - |2020-08-16|     Asia|    Armenia| 41663|   818|
+[2024-06-06T16:25:04.804+0530] {subprocess.py:93} INFO - |2020-08-17|     Asia|    Armenia| 41701|   824|
+[2024-06-06T16:25:04.805+0530] {subprocess.py:93} INFO - |2020-08-18|     Asia|    Armenia| 41846|   832|
+[2024-06-06T16:25:04.805+0530] {subprocess.py:93} INFO - |2020-08-19|     Asia|    Armenia| 42056|   833|
+[2024-06-06T16:25:04.805+0530] {subprocess.py:93} INFO - |2020-08-20|     Asia|    Armenia| 42319|   836|
+[2024-06-06T16:25:04.805+0530] {subprocess.py:93} INFO - |2020-08-21|     Asia|    Armenia| 42477|   842|
+[2024-06-06T16:25:04.806+0530] {subprocess.py:93} INFO - |2020-08-22|     Asia|    Armenia| 42616|   850|
+[2024-06-06T16:25:04.806+0530] {subprocess.py:93} INFO - |2020-08-23|     Asia|    Armenia| 42792|   852|
+[2024-06-06T16:25:04.806+0530] {subprocess.py:93} INFO - |2020-08-24|     Asia|    Armenia| 42825|   854|
+[2024-06-06T16:25:04.807+0530] {subprocess.py:93} INFO - |2020-08-25|     Asia|    Armenia| 42936|   858|
+[2024-06-06T16:25:04.807+0530] {subprocess.py:93} INFO - |2020-08-26|     Asia|    Armenia| 43067|   861|
+[2024-06-06T16:25:04.807+0530] {subprocess.py:93} INFO - |2020-08-27|     Asia|    Armenia| 43270|   864|
+[2024-06-06T16:25:04.807+0530] {subprocess.py:93} INFO - |2020-08-28|     Asia|    Armenia| 43451|   869|
+[2024-06-06T16:25:04.808+0530] {subprocess.py:93} INFO - |2020-08-29|     Asia|    Armenia| 43626|   872|
+[2024-06-06T16:25:04.808+0530] {subprocess.py:93} INFO - |2020-08-30|     Asia|    Armenia| 43750|   877|
+[2024-06-06T16:25:04.808+0530] {subprocess.py:93} INFO - |2020-08-31|     Asia|    Armenia| 43781|   879|
+[2024-06-06T16:25:04.808+0530] {subprocess.py:93} INFO - |2020-09-01|     Asia|    Armenia| 43878|   881|
+[2024-06-06T16:25:04.808+0530] {subprocess.py:93} INFO - |2020-09-02|     Asia|    Armenia| 44075|   884|
+[2024-06-06T16:25:04.809+0530] {subprocess.py:93} INFO - |2020-09-03|     Asia|    Armenia| 44271|   887|
+[2024-06-06T16:25:04.809+0530] {subprocess.py:93} INFO - |2020-09-04|     Asia|    Armenia| 44461|   891|
+[2024-06-06T16:25:04.809+0530] {subprocess.py:93} INFO - |2020-09-05|     Asia|    Armenia| 44649|   895|
+[2024-06-06T16:25:04.809+0530] {subprocess.py:93} INFO - |2020-09-06|     Asia|    Armenia| 44783|   897|
+[2024-06-06T16:25:04.809+0530] {subprocess.py:93} INFO - |2020-09-07|     Asia|    Armenia| 44845|   900|
+[2024-06-06T16:25:04.809+0530] {subprocess.py:93} INFO - |2020-09-08|     Asia|    Armenia| 44953|   903|
+[2024-06-06T16:25:04.810+0530] {subprocess.py:93} INFO - |2020-09-09|     Asia|    Armenia| 45152|   905|
+[2024-06-06T16:25:04.810+0530] {subprocess.py:93} INFO - |2020-09-10|     Asia|    Armenia| 45326|   906|
+[2024-06-06T16:25:04.810+0530] {subprocess.py:93} INFO - |2020-09-11|     Asia|    Armenia| 45503|   909|
+[2024-06-06T16:25:04.810+0530] {subprocess.py:93} INFO - |2020-09-12|     Asia|    Armenia| 45675|   911|
+[2024-06-06T16:25:04.810+0530] {subprocess.py:93} INFO - |2020-09-13|     Asia|    Armenia| 45862|   916|
+[2024-06-06T16:25:04.811+0530] {subprocess.py:93} INFO - |2020-09-14|     Asia|    Armenia| 45969|   919|
+[2024-06-06T16:25:04.811+0530] {subprocess.py:93} INFO - |2020-09-15|     Asia|    Armenia| 46119|   920|
+[2024-06-06T16:25:04.811+0530] {subprocess.py:93} INFO - |2020-09-16|     Asia|    Armenia| 46376|   923|
+[2024-06-06T16:25:04.811+0530] {subprocess.py:93} INFO - |2020-09-17|     Asia|    Armenia| 46671|   925|
+[2024-06-06T16:25:04.811+0530] {subprocess.py:93} INFO - |2020-09-18|     Asia|    Armenia| 46910|   926|
+[2024-06-06T16:25:04.811+0530] {subprocess.py:93} INFO - |2020-09-19|     Asia|    Armenia| 47154|   928|
+[2024-06-06T16:25:04.811+0530] {subprocess.py:93} INFO - |2020-09-20|     Asia|    Armenia| 47431|   930|
+[2024-06-06T16:25:04.812+0530] {subprocess.py:93} INFO - |2020-09-21|     Asia|    Armenia| 47552|   936|
+[2024-06-06T16:25:04.812+0530] {subprocess.py:93} INFO - |2020-09-22|     Asia|    Armenia| 47667|   938|
+[2024-06-06T16:25:04.812+0530] {subprocess.py:93} INFO - |2020-09-23|     Asia|    Armenia| 47877|   942|
+[2024-06-06T16:25:04.812+0530] {subprocess.py:93} INFO - |2020-09-24|     Asia|    Armenia| 48251|   945|
+[2024-06-06T16:25:04.812+0530] {subprocess.py:93} INFO - |2020-09-25|     Asia|    Armenia| 48643|   947|
+[2024-06-06T16:25:04.813+0530] {subprocess.py:93} INFO - |2020-09-26|     Asia|    Armenia| 49072|   948|
+[2024-06-06T16:25:04.813+0530] {subprocess.py:93} INFO - |2020-09-27|     Asia|    Armenia| 49400|   951|
+[2024-06-06T16:25:04.813+0530] {subprocess.py:93} INFO - |2020-09-28|     Asia|    Armenia| 49574|   957|
+[2024-06-06T16:25:04.813+0530] {subprocess.py:93} INFO - |2020-09-29|     Asia|    Armenia| 49901|   958|
+[2024-06-06T16:25:04.813+0530] {subprocess.py:93} INFO - |2020-09-30|     Asia|    Armenia| 50359|   959|
+[2024-06-06T16:25:04.813+0530] {subprocess.py:93} INFO - |2020-10-01|     Asia|    Armenia| 50850|   963|
+[2024-06-06T16:25:04.814+0530] {subprocess.py:93} INFO - |2020-10-02|     Asia|    Armenia| 51382|   966|
+[2024-06-06T16:25:04.814+0530] {subprocess.py:93} INFO - |2020-10-03|     Asia|    Armenia| 51925|   972|
+[2024-06-06T16:25:04.814+0530] {subprocess.py:93} INFO - |2020-10-04|     Asia|    Armenia| 52496|   977|
+[2024-06-06T16:25:04.814+0530] {subprocess.py:93} INFO - |2020-10-05|     Asia|    Armenia| 52677|   984|
+[2024-06-06T16:25:04.814+0530] {subprocess.py:93} INFO - |2020-10-06|     Asia|    Armenia| 53083|   990|
+[2024-06-06T16:25:04.815+0530] {subprocess.py:93} INFO - |2020-10-07|     Asia|    Armenia| 53755|   995|
+[2024-06-06T16:25:04.815+0530] {subprocess.py:93} INFO - |2020-10-08|     Asia|    Armenia| 54473|  1004|
+[2024-06-06T16:25:04.815+0530] {subprocess.py:93} INFO - |2020-10-09|     Asia|    Armenia| 55087|  1010|
+[2024-06-06T16:25:04.815+0530] {subprocess.py:93} INFO - |2020-10-10|     Asia|    Armenia| 55736|  1016|
+[2024-06-06T16:25:04.815+0530] {subprocess.py:93} INFO - |2020-10-11|     Asia|    Armenia| 56451|  1020|
+[2024-06-06T16:25:04.816+0530] {subprocess.py:93} INFO - |2020-10-12|     Asia|    Armenia| 56821|  1026|
+[2024-06-06T16:25:04.820+0530] {subprocess.py:93} INFO - |2020-10-13|     Asia|    Armenia| 57566|  1032|
+[2024-06-06T16:25:04.821+0530] {subprocess.py:93} INFO - |2020-10-14|     Asia|    Armenia| 58624|  1039|
+[2024-06-06T16:25:04.822+0530] {subprocess.py:93} INFO - |2020-10-15|     Asia|    Armenia| 59995|  1046|
+[2024-06-06T16:25:04.822+0530] {subprocess.py:93} INFO - |2020-10-16|     Asia|    Armenia| 61460|  1056|
+[2024-06-06T16:25:04.823+0530] {subprocess.py:93} INFO - |2020-10-17|     Asia|    Armenia| 63000|  1067|
+[2024-06-06T16:25:04.823+0530] {subprocess.py:93} INFO - |2020-10-18|     Asia|    Armenia| 64694|  1081|
+[2024-06-06T16:25:04.823+0530] {subprocess.py:93} INFO - |2020-10-19|     Asia|    Armenia| 65460|  1091|
+[2024-06-06T16:25:04.823+0530] {subprocess.py:93} INFO - |2020-10-20|     Asia|    Armenia| 66694|  1101|
+[2024-06-06T16:25:04.824+0530] {subprocess.py:93} INFO - |2020-10-21|     Asia|    Armenia| 68530|  1121|
+[2024-06-06T16:25:04.824+0530] {subprocess.py:93} INFO - |2020-10-22|     Asia|    Armenia| 70836|  1131|
+[2024-06-06T16:25:04.824+0530] {subprocess.py:93} INFO - |2020-10-23|     Asia|    Armenia| 73310|  1145|
+[2024-06-06T16:25:04.825+0530] {subprocess.py:93} INFO - |2020-10-24|     Asia|    Armenia| 75523|  1157|
+[2024-06-06T16:25:04.825+0530] {subprocess.py:93} INFO - |2020-10-25|     Asia|    Armenia| 77837|  1180|
+[2024-06-06T16:25:04.825+0530] {subprocess.py:93} INFO - |2020-10-26|     Asia|    Armenia| 78810|  1196|
+[2024-06-06T16:25:04.825+0530] {subprocess.py:93} INFO - |2020-10-27|     Asia|    Armenia| 80410|  1222|
+[2024-06-06T16:25:04.825+0530] {subprocess.py:93} INFO - |2020-10-28|     Asia|    Armenia| 82651|  1243|
+[2024-06-06T16:25:04.826+0530] {subprocess.py:93} INFO - |2020-10-29|     Asia|    Armenia| 85034|  1272|
+[2024-06-06T16:25:04.826+0530] {subprocess.py:93} INFO - |2020-10-30|     Asia|    Armenia| 87432|  1300|
+[2024-06-06T16:25:04.826+0530] {subprocess.py:93} INFO - |2020-10-31|     Asia|    Armenia| 89813|  1341|
+[2024-06-06T16:25:04.826+0530] {subprocess.py:93} INFO - |2020-11-01|     Asia|    Armenia| 92254|  1363|
+[2024-06-06T16:25:04.827+0530] {subprocess.py:93} INFO - |2020-11-02|     Asia|    Armenia| 93448|  1391|
+[2024-06-06T16:25:04.827+0530] {subprocess.py:93} INFO - |2020-11-03|     Asia|    Armenia| 94776|  1413|
+[2024-06-06T16:25:04.827+0530] {subprocess.py:93} INFO - |2020-11-04|     Asia|    Armenia| 97150|  1448|
+[2024-06-06T16:25:04.827+0530] {subprocess.py:93} INFO - |2020-11-05|     Asia|    Armenia| 99563|  1476|
+[2024-06-06T16:25:04.828+0530] {subprocess.py:93} INFO - |2020-11-06|     Asia|    Armenia|101773|  1506|
+[2024-06-06T16:25:04.828+0530] {subprocess.py:93} INFO - |2020-11-07|     Asia|    Armenia|104249|  1533|
+[2024-06-06T16:25:04.828+0530] {subprocess.py:93} INFO - |2020-11-08|     Asia|    Armenia|106424|  1559|
+[2024-06-06T16:25:04.828+0530] {subprocess.py:93} INFO - |2020-11-09|     Asia|    Armenia|107466|  1580|
+[2024-06-06T16:25:04.829+0530] {subprocess.py:93} INFO - |2020-11-10|     Asia|    Armenia|108687|  1609|
+[2024-06-06T16:25:04.829+0530] {subprocess.py:93} INFO - |2020-11-11|     Asia|    Armenia|110548|  1636|
+[2024-06-06T16:25:04.829+0530] {subprocess.py:93} INFO - |2020-11-12|     Asia|    Armenia|112680|  1668|
+[2024-06-06T16:25:04.829+0530] {subprocess.py:93} INFO - |2020-11-13|     Asia|    Armenia|114383|  1697|
+[2024-06-06T16:25:04.830+0530] {subprocess.py:93} INFO - |2020-11-14|     Asia|    Armenia|115855|  1738|
+[2024-06-06T16:25:04.830+0530] {subprocess.py:93} INFO - |2020-11-15|     Asia|    Armenia|117337|  1763|
+[2024-06-06T16:25:04.830+0530] {subprocess.py:93} INFO - |2020-11-16|     Asia|    Armenia|117886|  1788|
+[2024-06-06T16:25:04.830+0530] {subprocess.py:93} INFO - |2020-11-17|     Asia|    Armenia|118870|  1811|
+[2024-06-06T16:25:04.831+0530] {subprocess.py:93} INFO - |2020-11-18|     Asia|    Armenia|120459|  1839|
+[2024-06-06T16:25:04.831+0530] {subprocess.py:93} INFO - |2020-11-19|     Asia|    Armenia|121979|  1870|
+[2024-06-06T16:25:04.831+0530] {subprocess.py:93} INFO - |2020-11-20|     Asia|    Armenia|123646|  1900|
+[2024-06-06T16:25:04.832+0530] {subprocess.py:93} INFO - |2020-11-21|     Asia|    Armenia|124839|  1931|
+[2024-06-06T16:25:04.832+0530] {subprocess.py:93} INFO - |2020-11-22|     Asia|    Armenia|126224|  1952|
+[2024-06-06T16:25:04.832+0530] {subprocess.py:93} INFO - |2020-11-23|     Asia|    Armenia|126709|  1976|
+[2024-06-06T16:25:04.832+0530] {subprocess.py:93} INFO - |2020-11-24|     Asia|    Armenia|127522|  2002|
+[2024-06-06T16:25:04.832+0530] {subprocess.py:93} INFO - |2020-11-25|     Asia|    Armenia|129085|  2040|
+[2024-06-06T16:25:04.832+0530] {subprocess.py:93} INFO - |2020-11-26|     Asia|    Armenia|130870|  2068|
+[2024-06-06T16:25:04.833+0530] {subprocess.py:93} INFO - |2020-11-27|     Asia|    Armenia|132346|  2090|
+[2024-06-06T16:25:04.833+0530] {subprocess.py:93} INFO - |2020-11-28|     Asia|    Armenia|133594|  2121|
+[2024-06-06T16:25:04.833+0530] {subprocess.py:93} INFO - |2020-11-29|     Asia|    Armenia|134768|  2142|
+[2024-06-06T16:25:04.833+0530] {subprocess.py:93} INFO - |2020-11-30|     Asia|    Armenia|135124|  2164|
+[2024-06-06T16:25:04.833+0530] {subprocess.py:93} INFO - |2020-12-01|     Asia|    Armenia|135967|  2193|
+[2024-06-06T16:25:04.833+0530] {subprocess.py:93} INFO - |2020-12-02|     Asia|    Armenia|137231|  2228|
+[2024-06-06T16:25:04.833+0530] {subprocess.py:93} INFO - |2020-12-03|     Asia|    Armenia|138508|  2254|
+[2024-06-06T16:25:04.834+0530] {subprocess.py:93} INFO - |2020-12-04|     Asia|    Armenia|139692|  2277|
+[2024-06-06T16:25:04.834+0530] {subprocess.py:93} INFO - |2020-12-05|     Asia|    Armenia|140959|  2309|
+[2024-06-06T16:25:04.834+0530] {subprocess.py:93} INFO - |2020-12-06|     Asia|    Armenia|141937|  2326|
+[2024-06-06T16:25:04.834+0530] {subprocess.py:93} INFO - |2020-12-07|     Asia|    Armenia|142344|  2344|
+[2024-06-06T16:25:04.834+0530] {subprocess.py:93} INFO - |2020-12-08|     Asia|    Armenia|142928|  2372|
+[2024-06-06T16:25:04.834+0530] {subprocess.py:93} INFO - |2020-12-09|     Asia|    Armenia|144066|  2393|
+[2024-06-06T16:25:04.834+0530] {subprocess.py:93} INFO - |2020-12-10|     Asia|    Armenia|145240|  2416|
+[2024-06-06T16:25:04.834+0530] {subprocess.py:93} INFO - |2020-12-11|     Asia|    Armenia|146317|  2445|
+[2024-06-06T16:25:04.834+0530] {subprocess.py:93} INFO - |2020-12-12|     Asia|    Armenia|147312|  2462|
+[2024-06-06T16:25:04.835+0530] {subprocess.py:93} INFO - |2020-12-13|     Asia|    Armenia|148325|  2486|
+[2024-06-06T16:25:04.835+0530] {subprocess.py:93} INFO - |2020-12-14|     Asia|    Armenia|148682|  2503|
+[2024-06-06T16:25:04.835+0530] {subprocess.py:93} INFO - |2020-12-15|     Asia|    Armenia|149120|  2529|
+[2024-06-06T16:25:04.835+0530] {subprocess.py:93} INFO - |2020-12-16|     Asia|    Armenia|150218|  2556|
+[2024-06-06T16:25:04.835+0530] {subprocess.py:93} INFO - |2020-12-17|     Asia|    Armenia|151392|  2581|
+[2024-06-06T16:25:04.835+0530] {subprocess.py:93} INFO - |2020-12-18|     Asia|    Armenia|152253|  2596|
+[2024-06-06T16:25:04.835+0530] {subprocess.py:93} INFO - |2020-12-19|     Asia|    Armenia|153173|  2616|
+[2024-06-06T16:25:04.835+0530] {subprocess.py:93} INFO - |2020-12-20|     Asia|    Armenia|153825|  2630|
+[2024-06-06T16:25:04.835+0530] {subprocess.py:93} INFO - |2020-12-21|     Asia|    Armenia|154065|  2656|
+[2024-06-06T16:25:04.836+0530] {subprocess.py:93} INFO - |2020-12-22|     Asia|    Armenia|154602|  2673|
+[2024-06-06T16:25:04.836+0530] {subprocess.py:93} INFO - |2020-12-23|     Asia|    Armenia|155440|  2691|
+[2024-06-06T16:25:04.836+0530] {subprocess.py:93} INFO - |2020-12-24|     Asia|    Armenia|156142|  2714|
+[2024-06-06T16:25:04.836+0530] {subprocess.py:93} INFO - |2020-12-25|     Asia|    Armenia|156763|  2733|
+[2024-06-06T16:25:04.836+0530] {subprocess.py:93} INFO - |2020-12-26|     Asia|    Armenia|157349|  2752|
+[2024-06-06T16:25:04.836+0530] {subprocess.py:93} INFO - |2020-12-27|     Asia|    Armenia|157834|  2768|
+[2024-06-06T16:25:04.836+0530] {subprocess.py:93} INFO - |2020-12-28|     Asia|    Armenia|157948|  2775|
+[2024-06-06T16:25:04.836+0530] {subprocess.py:93} INFO - |2020-12-29|     Asia|    Armenia|158296|  2797|
+[2024-06-06T16:25:04.837+0530] {subprocess.py:93} INFO - |2020-12-30|     Asia|    Armenia|158878|  2807|
+[2024-06-06T16:25:04.837+0530] {subprocess.py:93} INFO - |2020-12-31|     Asia|    Armenia|159409|  2823|
+[2024-06-06T16:25:04.837+0530] {subprocess.py:93} INFO - |2021-01-01|     Asia|    Armenia|159738|  2828|
+[2024-06-06T16:25:04.837+0530] {subprocess.py:93} INFO - |2021-01-02|     Asia|    Armenia|159798|  2836|
+[2024-06-06T16:25:04.837+0530] {subprocess.py:93} INFO - |2021-01-03|     Asia|    Armenia|160027|  2850|
+[2024-06-06T16:25:04.837+0530] {subprocess.py:93} INFO - |2021-01-04|     Asia|    Armenia|160220|  2864|
+[2024-06-06T16:25:04.837+0530] {subprocess.py:93} INFO - |2021-01-05|     Asia|    Armenia|160544|  2878|
+[2024-06-06T16:25:04.837+0530] {subprocess.py:93} INFO - |2021-01-06|     Asia|    Armenia|160853|  2890|
+[2024-06-06T16:25:04.838+0530] {subprocess.py:93} INFO - |2021-01-07|     Asia|    Armenia|161054|  2901|
+[2024-06-06T16:25:04.838+0530] {subprocess.py:93} INFO - +----------+---------+-----------+------+------+
+[2024-06-06T16:25:04.838+0530] {subprocess.py:93} INFO - only showing top 1000 rows
+[2024-06-06T16:25:04.838+0530] {subprocess.py:93} INFO - 
+[2024-06-06T16:25:05.389+0530] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-06-06T16:25:05.392+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-06T16:25:05.621+0530] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=my_data_pipeline_dag, task_id=collect_data_3, execution_date=20240606T105224, start_date=20240606T105442, end_date=20240606T105505
+[2024-06-06T16:25:05.850+0530] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-06T16:25:05.889+0530] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-06T16:25:05.891+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

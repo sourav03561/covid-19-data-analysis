@@ -1,0 +1,42 @@
+[2024-06-15T05:49:21.022+0530] {processor.py:161} INFO - Started process (PID=43910) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-15T05:49:21.027+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-15T05:49:21.031+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:49:21.030+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-15T05:49:21.052+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-15T05:49:21.077+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:49:21.076+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-15T05:49:21.149+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:49:21.148+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-15T05:49:21.261+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 0.267 seconds
+[2024-06-15T05:52:00.884+0530] {processor.py:161} INFO - Started process (PID=45325) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-15T05:52:00.886+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-15T05:52:00.888+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:52:00.888+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-15T05:52:00.898+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-15T05:52:01.144+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:52:01.143+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-15T05:52:01.155+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:52:01.155+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-15T05:52:01.209+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 0.338 seconds
+[2024-06-15T05:52:59.723+0530] {processor.py:161} INFO - Started process (PID=45821) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-15T05:52:59.725+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-15T05:52:59.727+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:52:59.726+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-15T05:52:59.735+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-15T05:52:59.753+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:52:59.753+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-15T05:52:59.770+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:52:59.769+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-15T05:52:59.803+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 0.087 seconds
+[2024-06-15T06:16:53.035+0530] {processor.py:161} INFO - Started process (PID=1688) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-15T06:16:53.043+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-15T06:16:53.047+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:16:53.047+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-15T06:16:53.068+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-15T06:16:53.077+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:16:53.077+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-15T06:16:53.098+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:16:53.097+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-15T06:16:53.146+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 0.121 seconds
+[2024-06-15T06:23:05.554+0530] {processor.py:161} INFO - Started process (PID=3758) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-15T06:23:05.557+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-15T06:23:05.568+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:23:05.567+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-15T06:23:05.599+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-15T06:23:06.457+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:23:06.457+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-15T06:23:06.505+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:23:06.505+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-15T06:23:06.752+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 1.241 seconds
+[2024-06-15T06:25:35.562+0530] {processor.py:161} INFO - Started process (PID=5635) to work on /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-15T06:25:35.843+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/my_first_dag.py for tasks to queue
+[2024-06-15T06:25:35.846+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:25:35.846+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-15T06:25:35.855+0530] {processor.py:840} INFO - DAG(s) 'my_data_pipeline_dag' retrieved from /home/wsl/airflow/dags/my_first_dag.py
+[2024-06-15T06:25:35.879+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:25:35.878+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-15T06:25:35.892+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:25:35.892+0530] {dag.py:3954} INFO - Setting next_dagrun for my_data_pipeline_dag to None, run_after=None
+[2024-06-15T06:25:36.594+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/my_first_dag.py took 1.041 seconds

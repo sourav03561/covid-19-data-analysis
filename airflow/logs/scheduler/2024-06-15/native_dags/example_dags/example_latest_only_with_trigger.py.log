@@ -1,0 +1,21 @@
+[2024-06-15T05:51:55.409+0530] {processor.py:161} INFO - Started process (PID=45297) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-15T05:51:55.410+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-06-15T05:51:55.414+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:51:55.413+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-15T05:51:55.424+0530] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-15T05:51:55.570+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:51:55.569+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-15T05:51:55.697+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:51:55.696+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-06-14 20:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-15T05:51:55.736+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.335 seconds
+[2024-06-15T05:54:15.897+0530] {processor.py:161} INFO - Started process (PID=46521) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-15T05:54:15.902+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-06-15T05:54:15.905+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:54:15.904+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-15T05:54:15.916+0530] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-15T05:54:15.977+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:54:15.977+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-15T05:54:16.045+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:54:16.044+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-06-14 20:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-15T05:54:16.223+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.337 seconds
+[2024-06-15T06:22:55.564+0530] {processor.py:161} INFO - Started process (PID=3444) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-15T06:22:55.625+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-06-15T06:22:55.631+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:22:55.629+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-15T06:22:55.647+0530] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-15T06:22:56.643+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:22:56.642+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-15T06:22:56.662+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:22:56.662+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-06-14 20:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-15T06:22:56.750+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 1.198 seconds

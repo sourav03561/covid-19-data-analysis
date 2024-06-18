@@ -1,0 +1,21 @@
+[2024-06-15T05:51:49.960+0530] {processor.py:161} INFO - Started process (PID=45272) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-06-15T05:51:49.962+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-06-15T05:51:49.965+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:51:49.964+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-06-15T05:51:50.018+0530] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-06-15T05:51:50.533+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:51:50.532+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-15T05:51:50.873+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:51:50.872+0530] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-15T05:51:50.915+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.986 seconds
+[2024-06-15T05:54:09.774+0530] {processor.py:161} INFO - Started process (PID=46487) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-06-15T05:54:09.782+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-06-15T05:54:09.788+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:54:09.787+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-06-15T05:54:09.853+0530] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-06-15T05:54:09.968+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:54:09.967+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-15T05:54:10.062+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:54:10.061+0530] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-15T05:54:10.333+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.578 seconds
+[2024-06-15T06:22:34.445+0530] {processor.py:161} INFO - Started process (PID=3155) to work on /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-06-15T06:22:34.475+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-06-15T06:22:34.479+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:22:34.478+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-06-15T06:22:34.533+0530] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-06-15T06:22:35.528+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:22:35.528+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-15T06:22:35.611+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:22:35.610+0530] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-15T06:22:35.745+0530] {processor.py:183} INFO - Processing /home/wsl/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 1.331 seconds

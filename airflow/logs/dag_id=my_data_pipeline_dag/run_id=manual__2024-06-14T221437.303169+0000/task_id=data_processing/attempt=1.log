@@ -1,0 +1,85 @@
+[2024-06-15T03:47:32.733+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-15T03:47:33.434+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_data_pipeline_dag.data_processing manual__2024-06-14T22:14:37.303169+00:00 [queued]>
+[2024-06-15T03:47:33.467+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_data_pipeline_dag.data_processing manual__2024-06-14T22:14:37.303169+00:00 [queued]>
+[2024-06-15T03:47:33.468+0530] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-06-15T03:47:34.081+0530] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): data_processing> on 2024-06-14 22:14:37.303169+00:00
+[2024-06-15T03:47:34.088+0530] {standard_task_runner.py:63} INFO - Started process 7071 to run task
+[2024-06-15T03:47:34.094+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'my_data_pipeline_dag', 'data_processing', 'manual__2024-06-14T22:14:37.303169+00:00', '--job-id', '113', '--raw', '--subdir', 'DAGS_FOLDER/my_first_dag.py', '--cfg-path', '/tmp/tmp3_qh9yg_']
+[2024-06-15T03:47:34.097+0530] {standard_task_runner.py:91} INFO - Job 113: Subtask data_processing
+[2024-06-15T03:47:34.834+0530] {task_command.py:426} INFO - Running <TaskInstance: my_data_pipeline_dag.data_processing manual__2024-06-14T22:14:37.303169+00:00 [running]> on host DESKTOP-J05K55U.
+[2024-06-15T03:47:37.095+0530] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='my_data_pipeline_dag' AIRFLOW_CTX_TASK_ID='data_processing' AIRFLOW_CTX_EXECUTION_DATE='2024-06-14T22:14:37.303169+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-14T22:14:37.303169+00:00'
+[2024-06-15T03:47:37.107+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-15T03:47:37.108+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-06-15T03:47:37.109+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python "/home/wsl/airflow/dags/Collect Data/data_processing.py"']
+[2024-06-15T03:47:37.122+0530] {subprocess.py:86} INFO - Output:
+[2024-06-15T03:47:56.984+0530] {subprocess.py:93} INFO - 24/06/15 03:47:56 WARN Utils: Your hostname, DESKTOP-J05K55U resolves to a loopback address: 127.0.1.1; using 172.31.56.255 instead (on interface eth0)
+[2024-06-15T03:47:57.001+0530] {subprocess.py:93} INFO - 24/06/15 03:47:57 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2024-06-15T03:48:10.445+0530] {subprocess.py:93} INFO - Setting default log level to "WARN".
+[2024-06-15T03:48:10.446+0530] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2024-06-15T03:48:14.895+0530] {subprocess.py:93} INFO - 24/06/15 03:48:14 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2024-06-15T03:51:29.689+0530] {subprocess.py:93} INFO - [Stage 0:>                                                          (0 + 0) / 1][Stage 0:>                                                          (0 + 1) / 1][Stage 0:===========================================================(1 + 0) / 1]                                                                                24/06/15 03:51:23 WARN NettyRpcEnv: Ignored failure: java.util.concurrent.TimeoutException: Cannot receive any reply from 172.31.56.255:34261 in 10000 milliseconds
+[2024-06-15T03:55:48.101+0530] {subprocess.py:93} INFO - [Stage 2:>                                                          (0 + 1) / 1]                                                                                24/06/15 03:55:48 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2024-06-15T03:55:49.261+0530] {subprocess.py:93} INFO - 24/06/15 03:55:49 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2024-06-15T03:55:49.630+0530] {subprocess.py:93} INFO - 24/06/15 03:55:49 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2024-06-15T03:56:55.720+0530] {subprocess.py:93} INFO - 24/06/15 03:56:54 WARN NettyRpcEnv: Ignored failure: java.util.concurrent.TimeoutException: Cannot receive any reply from 172.31.56.255:34261 in 10000 milliseconds
+[2024-06-15T03:57:49.301+0530] {subprocess.py:93} INFO - 24/06/15 03:57:44 WARN Executor: Issue communicating with driver in heartbeater
+[2024-06-15T03:57:49.488+0530] {subprocess.py:93} INFO - org.apache.spark.rpc.RpcTimeoutException: Futures timed out after [10000 milliseconds]. This timeout is controlled by spark.executor.heartbeatInterval
+[2024-06-15T03:57:49.752+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.RpcTimeout.org$apache$spark$rpc$RpcTimeout$$createRpcTimeoutException(RpcTimeout.scala:47)
+[2024-06-15T03:57:50.105+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.RpcTimeout$$anonfun$addMessageIfTimeout$1.applyOrElse(RpcTimeout.scala:62)
+[2024-06-15T03:57:50.708+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.RpcTimeout$$anonfun$addMessageIfTimeout$1.applyOrElse(RpcTimeout.scala:58)
+[2024-06-15T03:57:55.078+0530] {subprocess.py:93} INFO - 	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+[2024-06-15T03:58:00.252+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.RpcTimeout.awaitResult(RpcTimeout.scala:76)
+[2024-06-15T03:58:07.395+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.RpcEndpointRef.askSync(RpcEndpointRef.scala:101)
+[2024-06-15T03:58:12.756+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor.reportHeartBeat(Executor.scala:1219)
+[2024-06-15T03:58:16.394+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor.$anonfun$heartbeater$1(Executor.scala:295)
+[2024-06-15T03:58:20.295+0530] {subprocess.py:93} INFO - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[2024-06-15T03:58:30.761+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1928)
+[2024-06-15T03:58:37.591+0530] {subprocess.py:93} INFO - 	at org.apache.spark.Heartbeater$$anon$1.run(Heartbeater.scala:46)
+[2024-06-15T03:58:37.619+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+[2024-06-15T03:58:37.619+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+[2024-06-15T03:58:37.619+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+[2024-06-15T03:58:37.620+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[2024-06-15T03:58:37.620+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[2024-06-15T03:58:37.621+0530] {subprocess.py:93} INFO - 	at java.base/java.lang.Thread.run(Thread.java:829)
+[2024-06-15T03:58:37.621+0530] {subprocess.py:93} INFO - Caused by: java.util.concurrent.TimeoutException: Futures timed out after [10000 milliseconds]
+[2024-06-15T03:58:37.621+0530] {subprocess.py:93} INFO - 	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:259)
+[2024-06-15T03:58:37.621+0530] {subprocess.py:93} INFO - 	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:263)
+[2024-06-15T03:58:37.621+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.SparkThreadUtils$.awaitResult(SparkThreadUtils.scala:48)
+[2024-06-15T03:58:37.622+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.ThreadUtils$.awaitResult(ThreadUtils.scala:310)
+[2024-06-15T03:58:37.622+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.RpcTimeout.awaitResult(RpcTimeout.scala:75)
+[2024-06-15T03:58:37.622+0530] {subprocess.py:93} INFO - 	... 12 more
+[2024-06-15T03:58:59.708+0530] {subprocess.py:93} INFO - 24/06/15 03:58:56 WARN NettyRpcEnv: Ignored failure: java.util.concurrent.TimeoutException: Cannot receive any reply from 172.31.56.255:34261 in 10000 milliseconds
+[2024-06-15T03:59:29.500+0530] {subprocess.py:93} INFO - [Stage 3:>                                                          (0 + 3) / 3][Stage 3:===================>                                       (1 + 2) / 3][Stage 3:=======================================>                   (2 + 1) / 3]24/06/15 03:59:29 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2024-06-15T03:59:29.576+0530] {subprocess.py:93} INFO - 24/06/15 03:59:29 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2024-06-15T04:04:13.325+0530] {subprocess.py:93} INFO - [Stage 5:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1]24/06/15 04:04:13 WARN NettyRpcEnv: Ignored failure: java.util.concurrent.TimeoutException: Cannot receive any reply from 172.31.56.255:34261 in 10000 milliseconds
+[2024-06-15T04:04:13.416+0530] {subprocess.py:93} INFO - 24/06/15 04:04:13 WARN Executor: Issue communicating with driver in heartbeater
+[2024-06-15T04:04:13.416+0530] {subprocess.py:93} INFO - org.apache.spark.rpc.RpcTimeoutException: Futures timed out after [10000 milliseconds]. This timeout is controlled by spark.executor.heartbeatInterval
+[2024-06-15T04:04:13.417+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.RpcTimeout.org$apache$spark$rpc$RpcTimeout$$createRpcTimeoutException(RpcTimeout.scala:47)
+[2024-06-15T04:04:13.417+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.RpcTimeout$$anonfun$addMessageIfTimeout$1.applyOrElse(RpcTimeout.scala:62)
+[2024-06-15T04:04:13.417+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.RpcTimeout$$anonfun$addMessageIfTimeout$1.applyOrElse(RpcTimeout.scala:58)
+[2024-06-15T04:04:13.418+0530] {subprocess.py:93} INFO - 	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+[2024-06-15T04:04:13.418+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.RpcTimeout.awaitResult(RpcTimeout.scala:76)
+[2024-06-15T04:04:13.418+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.RpcEndpointRef.askSync(RpcEndpointRef.scala:101)
+[2024-06-15T04:04:13.418+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor.reportHeartBeat(Executor.scala:1219)
+[2024-06-15T04:04:13.419+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor.$anonfun$heartbeater$1(Executor.scala:295)
+[2024-06-15T04:04:13.419+0530] {subprocess.py:93} INFO - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[2024-06-15T04:04:13.419+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1928)
+[2024-06-15T04:04:13.419+0530] {subprocess.py:93} INFO - 	at org.apache.spark.Heartbeater$$anon$1.run(Heartbeater.scala:46)
+[2024-06-15T04:04:13.420+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+[2024-06-15T04:04:13.420+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+[2024-06-15T04:04:13.420+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+[2024-06-15T04:04:13.420+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[2024-06-15T04:04:13.420+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[2024-06-15T04:04:13.420+0530] {subprocess.py:93} INFO - 	at java.base/java.lang.Thread.run(Thread.java:829)
+[2024-06-15T04:04:13.421+0530] {subprocess.py:93} INFO - Caused by: java.util.concurrent.TimeoutException: Futures timed out after [10000 milliseconds]
+[2024-06-15T04:04:13.421+0530] {subprocess.py:93} INFO - 	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:259)
+[2024-06-15T04:04:13.421+0530] {subprocess.py:93} INFO - 	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:263)
+[2024-06-15T04:04:13.422+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.SparkThreadUtils$.awaitResult(SparkThreadUtils.scala:48)
+[2024-06-15T04:04:13.422+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.ThreadUtils$.awaitResult(ThreadUtils.scala:310)
+[2024-06-15T04:04:13.422+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.RpcTimeout.awaitResult(RpcTimeout.scala:75)
+[2024-06-15T04:04:13.422+0530] {subprocess.py:93} INFO - 	... 12 more
+[2024-06-15T04:04:19.078+0530] {subprocess.py:93} INFO -                                                                                 <pyspark.sql.session.SparkSession object at 0x7fc4fcb41cf0>
+[2024-06-15T04:04:19.079+0530] {subprocess.py:93} INFO - Data saved successfully as Parquet file at /home/wsl/airflow/dags/Collect Data/world.parquet
+[2024-06-15T04:04:20.326+0530] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-06-15T04:04:20.340+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-15T04:04:20.434+0530] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=my_data_pipeline_dag, task_id=data_processing, execution_date=20240614T221437, start_date=20240614T221733, end_date=20240614T223420

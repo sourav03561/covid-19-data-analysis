@@ -1,0 +1,30 @@
+[2024-06-15T05:49:22.777+0530] {processor.py:161} INFO - Started process (PID=43917) to work on /home/wsl/airflow/dags/Collect Data/covid_19_usa.py
+[2024-06-15T05:49:22.779+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/covid_19_usa.py for tasks to queue
+[2024-06-15T05:49:22.782+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:49:22.782+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/covid_19_usa.py
+[2024-06-15T05:49:27.505+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/covid_19_usa.py
+[2024-06-15T05:49:27.557+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/covid_19_usa.py took 4.789 seconds
+[2024-06-15T05:52:02.338+0530] {processor.py:161} INFO - Started process (PID=45332) to work on /home/wsl/airflow/dags/Collect Data/covid_19_usa.py
+[2024-06-15T05:52:02.342+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/covid_19_usa.py for tasks to queue
+[2024-06-15T05:52:02.346+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:52:02.345+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/covid_19_usa.py
+[2024-06-15T05:52:03.047+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/covid_19_usa.py
+[2024-06-15T05:52:03.085+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/covid_19_usa.py took 0.757 seconds
+[2024-06-15T05:53:00.870+0530] {processor.py:161} INFO - Started process (PID=45826) to work on /home/wsl/airflow/dags/Collect Data/covid_19_usa.py
+[2024-06-15T05:53:00.872+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/covid_19_usa.py for tasks to queue
+[2024-06-15T05:53:00.874+0530] {logging_mixin.py:188} INFO - [2024-06-15T05:53:00.874+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/covid_19_usa.py
+[2024-06-15T05:53:01.601+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/covid_19_usa.py
+[2024-06-15T05:53:01.608+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/covid_19_usa.py took 0.746 seconds
+[2024-06-15T06:20:06.999+0530] {processor.py:161} INFO - Started process (PID=2206) to work on /home/wsl/airflow/dags/Collect Data/covid_19_usa.py
+[2024-06-15T06:20:07.001+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/covid_19_usa.py for tasks to queue
+[2024-06-15T06:20:07.003+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:20:07.002+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/covid_19_usa.py
+[2024-06-15T06:20:07.633+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/covid_19_usa.py
+[2024-06-15T06:20:07.646+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/covid_19_usa.py took 0.655 seconds
+[2024-06-15T06:23:56.369+0530] {processor.py:161} INFO - Started process (PID=4353) to work on /home/wsl/airflow/dags/Collect Data/covid_19_usa.py
+[2024-06-15T06:23:56.373+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/covid_19_usa.py for tasks to queue
+[2024-06-15T06:23:56.376+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:23:56.375+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/covid_19_usa.py
+[2024-06-15T06:23:59.704+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/covid_19_usa.py
+[2024-06-15T06:23:59.718+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/covid_19_usa.py took 3.362 seconds
+[2024-06-15T06:27:22.359+0530] {processor.py:161} INFO - Started process (PID=6725) to work on /home/wsl/airflow/dags/Collect Data/covid_19_usa.py
+[2024-06-15T06:27:22.361+0530] {processor.py:830} INFO - Processing file /home/wsl/airflow/dags/Collect Data/covid_19_usa.py for tasks to queue
+[2024-06-15T06:27:22.366+0530] {logging_mixin.py:188} INFO - [2024-06-15T06:27:22.365+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/wsl/airflow/dags/Collect Data/covid_19_usa.py
+[2024-06-15T06:27:43.691+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/wsl/airflow/dags/Collect Data/covid_19_usa.py
+[2024-06-15T06:27:44.821+0530] {processor.py:183} INFO - Processing /home/wsl/airflow/dags/Collect Data/covid_19_usa.py took 22.484 seconds

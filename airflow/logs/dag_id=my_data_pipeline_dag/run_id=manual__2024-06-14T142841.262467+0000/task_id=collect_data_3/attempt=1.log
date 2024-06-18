@@ -1,0 +1,26 @@
+[2024-06-14T19:58:59.469+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-14T19:58:59.529+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_data_pipeline_dag.collect_data_3 manual__2024-06-14T14:28:41.262467+00:00 [queued]>
+[2024-06-14T19:58:59.542+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_data_pipeline_dag.collect_data_3 manual__2024-06-14T14:28:41.262467+00:00 [queued]>
+[2024-06-14T19:58:59.543+0530] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-06-14T19:58:59.567+0530] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): collect_data_3> on 2024-06-14 14:28:41.262467+00:00
+[2024-06-14T19:58:59.571+0530] {standard_task_runner.py:63} INFO - Started process 78910 to run task
+[2024-06-14T19:58:59.576+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'my_data_pipeline_dag', 'collect_data_3', 'manual__2024-06-14T14:28:41.262467+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/my_first_dag.py', '--cfg-path', '/tmp/tmpx9ldv03_']
+[2024-06-14T19:58:59.580+0530] {standard_task_runner.py:91} INFO - Job 84: Subtask collect_data_3
+[2024-06-14T19:58:59.692+0530] {task_command.py:426} INFO - Running <TaskInstance: my_data_pipeline_dag.collect_data_3 manual__2024-06-14T14:28:41.262467+00:00 [running]> on host DESKTOP-J05K55U.
+[2024-06-14T19:58:59.771+0530] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='my_data_pipeline_dag' AIRFLOW_CTX_TASK_ID='collect_data_3' AIRFLOW_CTX_EXECUTION_DATE='2024-06-14T14:28:41.262467+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-14T14:28:41.262467+00:00'
+[2024-06-14T19:58:59.773+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-14T19:58:59.773+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-06-14T19:58:59.774+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python "/home/wsl/airflow/dags/Collect Data/test3.py"']
+[2024-06-14T19:58:59.784+0530] {subprocess.py:86} INFO - Output:
+[2024-06-14T19:59:02.816+0530] {subprocess.py:93} INFO - 24/06/14 19:59:02 WARN Utils: Your hostname, DESKTOP-J05K55U resolves to a loopback address: 127.0.1.1; using 172.31.56.255 instead (on interface eth0)
+[2024-06-14T19:59:02.820+0530] {subprocess.py:93} INFO - 24/06/14 19:59:02 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2024-06-14T19:59:04.451+0530] {subprocess.py:93} INFO - Setting default log level to "WARN".
+[2024-06-14T19:59:04.452+0530] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2024-06-14T19:59:04.926+0530] {subprocess.py:93} INFO - 24/06/14 19:59:04 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2024-06-14T19:59:16.141+0530] {subprocess.py:93} INFO - [Stage 0:>                                                          (0 + 1) / 1][Stage 0:===========================================================(1 + 0) / 1]                                                                                <pyspark.sql.session.SparkSession object at 0x7f7f97be5ba0>
+[2024-06-14T19:59:16.708+0530] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-06-14T19:59:16.709+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-14T19:59:17.247+0530] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=my_data_pipeline_dag, task_id=collect_data_3, execution_date=20240614T142841, start_date=20240614T142859, end_date=20240614T142917
+[2024-06-14T19:59:17.397+0530] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-14T19:59:17.410+0530] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-14T19:59:17.411+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

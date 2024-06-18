@@ -1,0 +1,32 @@
+[2024-06-15T02:56:24.022+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-15T02:56:24.043+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_data_pipeline_dag.data_processing manual__2024-06-14T21:25:22.488368+00:00 [queued]>
+[2024-06-15T02:56:24.050+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_data_pipeline_dag.data_processing manual__2024-06-14T21:25:22.488368+00:00 [queued]>
+[2024-06-15T02:56:24.050+0530] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-06-15T02:56:25.476+0530] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): data_processing> on 2024-06-14 21:25:22.488368+00:00
+[2024-06-15T02:56:25.482+0530] {standard_task_runner.py:63} INFO - Started process 107089 to run task
+[2024-06-15T02:56:25.489+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'my_data_pipeline_dag', 'data_processing', 'manual__2024-06-14T21:25:22.488368+00:00', '--job-id', '107', '--raw', '--subdir', 'DAGS_FOLDER/my_first_dag.py', '--cfg-path', '/tmp/tmpezfnt5cp']
+[2024-06-15T02:56:25.492+0530] {standard_task_runner.py:91} INFO - Job 107: Subtask data_processing
+[2024-06-15T02:56:26.151+0530] {task_command.py:426} INFO - Running <TaskInstance: my_data_pipeline_dag.data_processing manual__2024-06-14T21:25:22.488368+00:00 [running]> on host DESKTOP-J05K55U.
+[2024-06-15T02:56:28.231+0530] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='my_data_pipeline_dag' AIRFLOW_CTX_TASK_ID='data_processing' AIRFLOW_CTX_EXECUTION_DATE='2024-06-14T21:25:22.488368+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-14T21:25:22.488368+00:00'
+[2024-06-15T02:56:28.234+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-15T02:56:28.235+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-06-15T02:56:28.236+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python "/home/wsl/airflow/dags/Collect Data/data_processing.py"']
+[2024-06-15T02:56:28.247+0530] {subprocess.py:86} INFO - Output:
+[2024-06-15T02:56:40.738+0530] {subprocess.py:93} INFO - 24/06/15 02:56:40 WARN Utils: Your hostname, DESKTOP-J05K55U resolves to a loopback address: 127.0.1.1; using 172.31.56.255 instead (on interface eth0)
+[2024-06-15T02:56:40.748+0530] {subprocess.py:93} INFO - 24/06/15 02:56:40 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2024-06-15T02:56:42.465+0530] {subprocess.py:93} INFO - Setting default log level to "WARN".
+[2024-06-15T02:56:42.466+0530] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2024-06-15T02:56:42.830+0530] {subprocess.py:93} INFO - 24/06/15 02:56:42 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2024-06-15T02:57:04.065+0530] {subprocess.py:93} INFO - [Stage 0:>                                                          (0 + 1) / 1]                                                                                [Stage 1:>                                                          (0 + 1) / 1]                                                                                [Stage 2:>                                                          (0 + 0) / 1][Stage 2:>                                                          (0 + 1) / 1]                                                                                24/06/15 02:57:04 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2024-06-15T02:57:04.535+0530] {subprocess.py:93} INFO - 24/06/15 02:57:04 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2024-06-15T02:57:04.618+0530] {subprocess.py:93} INFO - 24/06/15 02:57:04 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2024-06-15T02:57:10.553+0530] {subprocess.py:93} INFO - [Stage 3:>                                                          (0 + 3) / 3][Stage 3:===================>                                       (1 + 2) / 3][Stage 3:=======================================>                   (2 + 1) / 3]24/06/15 02:57:10 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2024-06-15T02:57:10.554+0530] {subprocess.py:93} INFO - 24/06/15 02:57:10 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2024-06-15T02:57:20.125+0530] {subprocess.py:93} INFO - [Stage 5:>                                                          (0 + 1) / 1]                                                                                <pyspark.sql.session.SparkSession object at 0x7f06ddd95cc0>
+[2024-06-15T02:57:20.126+0530] {subprocess.py:93} INFO - Data saved successfully as Parquet file at /home/wsl/airflow/dags/Collect Data/world.parquet
+[2024-06-15T02:57:20.921+0530] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-06-15T02:57:20.921+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-15T02:57:21.741+0530] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=my_data_pipeline_dag, task_id=data_processing, execution_date=20240614T212522, start_date=20240614T212624, end_date=20240614T212721
+[2024-06-15T02:57:22.487+0530] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-15T02:57:22.500+0530] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-06-15T02:57:24.418+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

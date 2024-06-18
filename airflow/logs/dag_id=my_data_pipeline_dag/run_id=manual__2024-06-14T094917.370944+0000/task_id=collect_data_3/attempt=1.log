@@ -1,0 +1,155 @@
+[2024-06-14T15:21:50.302+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-14T15:21:50.758+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_data_pipeline_dag.collect_data_3 manual__2024-06-14T09:49:17.370944+00:00 [queued]>
+[2024-06-14T15:21:50.768+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_data_pipeline_dag.collect_data_3 manual__2024-06-14T09:49:17.370944+00:00 [queued]>
+[2024-06-14T15:21:50.768+0530] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-06-14T15:21:53.697+0530] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): collect_data_3> on 2024-06-14 09:49:17.370944+00:00
+[2024-06-14T15:21:53.702+0530] {standard_task_runner.py:63} INFO - Started process 61721 to run task
+[2024-06-14T15:21:53.707+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'my_data_pipeline_dag', 'collect_data_3', 'manual__2024-06-14T09:49:17.370944+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/my_first_dag.py', '--cfg-path', '/tmp/tmpyg09t96q']
+[2024-06-14T15:21:53.710+0530] {standard_task_runner.py:91} INFO - Job 19: Subtask collect_data_3
+[2024-06-14T15:21:53.884+0530] {task_command.py:426} INFO - Running <TaskInstance: my_data_pipeline_dag.collect_data_3 manual__2024-06-14T09:49:17.370944+00:00 [running]> on host DESKTOP-J05K55U.
+[2024-06-14T15:21:54.229+0530] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='my_data_pipeline_dag' AIRFLOW_CTX_TASK_ID='collect_data_3' AIRFLOW_CTX_EXECUTION_DATE='2024-06-14T09:49:17.370944+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-14T09:49:17.370944+00:00'
+[2024-06-14T15:21:54.231+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-14T15:21:54.233+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-06-14T15:21:54.234+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python "/home/wsl/airflow/dags/Collect Data/test3.py"']
+[2024-06-14T15:21:54.253+0530] {subprocess.py:86} INFO - Output:
+[2024-06-14T15:22:05.372+0530] {subprocess.py:93} INFO - 24/06/14 15:22:05 WARN Utils: Your hostname, DESKTOP-J05K55U resolves to a loopback address: 127.0.1.1; using 172.31.56.255 instead (on interface eth0)
+[2024-06-14T15:22:05.376+0530] {subprocess.py:93} INFO - 24/06/14 15:22:05 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2024-06-14T15:22:07.096+0530] {subprocess.py:93} INFO - :: loading settings :: url = jar:file:/home/wsl/airflow_venv/lib/python3.10/site-packages/pyspark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[2024-06-14T15:22:07.322+0530] {subprocess.py:93} INFO - Ivy Default Cache set to: /home/wsl/.ivy2/cache
+[2024-06-14T15:22:07.322+0530] {subprocess.py:93} INFO - The jars for the packages stored in: /home/wsl/.ivy2/jars
+[2024-06-14T15:22:07.330+0530] {subprocess.py:93} INFO - org.elasticsearch#elasticsearch-hadoop added as a dependency
+[2024-06-14T15:22:07.331+0530] {subprocess.py:93} INFO - :: resolving dependencies :: org.apache.spark#spark-submit-parent-1d534dac-8297-4330-bc52-35cd26cb27da;1.0
+[2024-06-14T15:22:07.332+0530] {subprocess.py:93} INFO - 	confs: [default]
+[2024-06-14T15:22:07.514+0530] {subprocess.py:93} INFO - 	found org.elasticsearch#elasticsearch-hadoop;8.6.2 in central
+[2024-06-14T15:22:07.640+0530] {subprocess.py:93} INFO - 	found commons-logging#commons-logging;1.1.1 in central
+[2024-06-14T15:22:07.691+0530] {subprocess.py:93} INFO - 	found commons-codec#commons-codec;1.4 in central
+[2024-06-14T15:22:07.788+0530] {subprocess.py:93} INFO - 	found javax.xml.bind#jaxb-api;2.3.1 in central
+[2024-06-14T15:22:07.967+0530] {subprocess.py:93} INFO - 	found org.apache.hive#hive-service;3.1.2 in central
+[2024-06-14T15:22:08.113+0530] {subprocess.py:93} INFO - 	found org.apache.hive#hive-exec;3.1.2 in central
+[2024-06-14T15:22:08.193+0530] {subprocess.py:93} INFO - 	found org.apache.hive#hive-metastore;3.1.2 in central
+[2024-06-14T15:22:08.253+0530] {subprocess.py:93} INFO - 	found org.apache.pig#pig;0.15.0 in central
+[2024-06-14T15:22:08.357+0530] {subprocess.py:93} INFO - 	found org.apache.spark#spark-yarn_2.11;2.3.0 in central
+[2024-06-14T15:22:08.417+0530] {subprocess.py:93} INFO - 	found org.scala-lang#scala-reflect;2.11.12 in central
+[2024-06-14T15:22:08.479+0530] {subprocess.py:93} INFO - 	found org.apache.storm#storm-core;1.0.6 in central
+[2024-06-14T15:22:08.546+0530] {subprocess.py:93} INFO - 	found org.apache.hadoop#hadoop-client;3.1.2 in central
+[2024-06-14T15:22:08.601+0530] {subprocess.py:93} INFO - 	found org.apache.hadoop#hadoop-common;3.1.2 in central
+[2024-06-14T15:22:08.642+0530] {subprocess.py:93} INFO - 	found org.apache.hadoop#hadoop-mapreduce-client-core;3.1.2 in central
+[2024-06-14T15:22:08.673+0530] {subprocess.py:93} INFO - 	found joda-time#joda-time;2.9.3 in central
+[2024-06-14T15:22:08.747+0530] {subprocess.py:93} INFO - :: resolution report :: resolve 1372ms :: artifacts dl 44ms
+[2024-06-14T15:22:08.748+0530] {subprocess.py:93} INFO - 	:: modules in use:
+[2024-06-14T15:22:08.750+0530] {subprocess.py:93} INFO - 	commons-codec#commons-codec;1.4 from central in [default]
+[2024-06-14T15:22:08.750+0530] {subprocess.py:93} INFO - 	commons-logging#commons-logging;1.1.1 from central in [default]
+[2024-06-14T15:22:08.751+0530] {subprocess.py:93} INFO - 	javax.xml.bind#jaxb-api;2.3.1 from central in [default]
+[2024-06-14T15:22:08.751+0530] {subprocess.py:93} INFO - 	joda-time#joda-time;2.9.3 from central in [default]
+[2024-06-14T15:22:08.752+0530] {subprocess.py:93} INFO - 	org.apache.hadoop#hadoop-client;3.1.2 from central in [default]
+[2024-06-14T15:22:08.752+0530] {subprocess.py:93} INFO - 	org.apache.hadoop#hadoop-common;3.1.2 from central in [default]
+[2024-06-14T15:22:08.752+0530] {subprocess.py:93} INFO - 	org.apache.hadoop#hadoop-mapreduce-client-core;3.1.2 from central in [default]
+[2024-06-14T15:22:08.752+0530] {subprocess.py:93} INFO - 	org.apache.hive#hive-exec;3.1.2 from central in [default]
+[2024-06-14T15:22:08.753+0530] {subprocess.py:93} INFO - 	org.apache.hive#hive-metastore;3.1.2 from central in [default]
+[2024-06-14T15:22:08.753+0530] {subprocess.py:93} INFO - 	org.apache.hive#hive-service;3.1.2 from central in [default]
+[2024-06-14T15:22:08.754+0530] {subprocess.py:93} INFO - 	org.apache.pig#pig;0.15.0 from central in [default]
+[2024-06-14T15:22:08.754+0530] {subprocess.py:93} INFO - 	org.apache.spark#spark-yarn_2.11;2.3.0 from central in [default]
+[2024-06-14T15:22:08.754+0530] {subprocess.py:93} INFO - 	org.apache.storm#storm-core;1.0.6 from central in [default]
+[2024-06-14T15:22:08.755+0530] {subprocess.py:93} INFO - 	org.elasticsearch#elasticsearch-hadoop;8.6.2 from central in [default]
+[2024-06-14T15:22:08.755+0530] {subprocess.py:93} INFO - 	org.scala-lang#scala-reflect;2.11.12 from central in [default]
+[2024-06-14T15:22:08.755+0530] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2024-06-14T15:22:08.755+0530] {subprocess.py:93} INFO - 	|                  |            modules            ||   artifacts   |
+[2024-06-14T15:22:08.756+0530] {subprocess.py:93} INFO - 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[2024-06-14T15:22:08.756+0530] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2024-06-14T15:22:08.756+0530] {subprocess.py:93} INFO - 	|      default     |   15  |   0   |   0   |   0   ||   15  |   0   |
+[2024-06-14T15:22:08.773+0530] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2024-06-14T15:22:08.777+0530] {subprocess.py:93} INFO - :: retrieving :: org.apache.spark#spark-submit-parent-1d534dac-8297-4330-bc52-35cd26cb27da
+[2024-06-14T15:22:08.778+0530] {subprocess.py:93} INFO - 	confs: [default]
+[2024-06-14T15:22:08.802+0530] {subprocess.py:93} INFO - 	0 artifacts copied, 15 already retrieved (0kB/23ms)
+[2024-06-14T15:22:09.331+0530] {subprocess.py:93} INFO - 24/06/14 15:22:09 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2024-06-14T15:22:10.276+0530] {subprocess.py:93} INFO - Setting default log level to "WARN".
+[2024-06-14T15:22:10.304+0530] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2024-06-14T15:22:28.790+0530] {subprocess.py:93} INFO - 24/06/14 15:22:28 ERROR Inbox: Ignoring error
+[2024-06-14T15:22:28.791+0530] {subprocess.py:93} INFO - java.lang.NullPointerException
+[2024-06-14T15:22:28.791+0530] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManagerMasterEndpoint.org$apache$spark$storage$BlockManagerMasterEndpoint$$register(BlockManagerMasterEndpoint.scala:677)
+[2024-06-14T15:22:28.792+0530] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManagerMasterEndpoint$$anonfun$receiveAndReply$1.applyOrElse(BlockManagerMasterEndpoint.scala:133)
+[2024-06-14T15:22:28.792+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.Inbox.$anonfun$process$1(Inbox.scala:103)
+[2024-06-14T15:22:28.793+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.Inbox.safelyCall(Inbox.scala:213)
+[2024-06-14T15:22:28.793+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.Inbox.process(Inbox.scala:100)
+[2024-06-14T15:22:28.793+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.MessageLoop.org$apache$spark$rpc$netty$MessageLoop$$receiveLoop(MessageLoop.scala:75)
+[2024-06-14T15:22:28.793+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.MessageLoop$$anon$1.run(MessageLoop.scala:41)
+[2024-06-14T15:22:28.793+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[2024-06-14T15:22:28.793+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[2024-06-14T15:22:28.793+0530] {subprocess.py:93} INFO - 	at java.base/java.lang.Thread.run(Thread.java:829)
+[2024-06-14T15:22:28.793+0530] {subprocess.py:93} INFO - 24/06/14 15:22:28 WARN Executor: Issue communicating with driver in heartbeater
+[2024-06-14T15:22:28.793+0530] {subprocess.py:93} INFO - org.apache.spark.SparkException: Exception thrown in awaitResult:
+[2024-06-14T15:22:28.794+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.SparkThreadUtils$.awaitResult(SparkThreadUtils.scala:56)
+[2024-06-14T15:22:28.794+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.ThreadUtils$.awaitResult(ThreadUtils.scala:310)
+[2024-06-14T15:22:28.794+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.RpcTimeout.awaitResult(RpcTimeout.scala:75)
+[2024-06-14T15:22:28.794+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.RpcEndpointRef.askSync(RpcEndpointRef.scala:101)
+[2024-06-14T15:22:28.794+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.RpcEndpointRef.askSync(RpcEndpointRef.scala:85)
+[2024-06-14T15:22:28.794+0530] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManagerMaster.registerBlockManager(BlockManagerMaster.scala:80)
+[2024-06-14T15:22:28.794+0530] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManager.reregister(BlockManager.scala:642)
+[2024-06-14T15:22:28.794+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor.reportHeartBeat(Executor.scala:1223)
+[2024-06-14T15:22:28.794+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor.$anonfun$heartbeater$1(Executor.scala:295)
+[2024-06-14T15:22:28.794+0530] {subprocess.py:93} INFO - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[2024-06-14T15:22:28.795+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1928)
+[2024-06-14T15:22:28.795+0530] {subprocess.py:93} INFO - 	at org.apache.spark.Heartbeater$$anon$1.run(Heartbeater.scala:46)
+[2024-06-14T15:22:28.795+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+[2024-06-14T15:22:28.795+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+[2024-06-14T15:22:28.795+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+[2024-06-14T15:22:28.795+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[2024-06-14T15:22:28.795+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[2024-06-14T15:22:28.795+0530] {subprocess.py:93} INFO - 	at java.base/java.lang.Thread.run(Thread.java:829)
+[2024-06-14T15:22:28.795+0530] {subprocess.py:93} INFO - Caused by: java.lang.NullPointerException
+[2024-06-14T15:22:28.795+0530] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManagerMasterEndpoint.org$apache$spark$storage$BlockManagerMasterEndpoint$$register(BlockManagerMasterEndpoint.scala:677)
+[2024-06-14T15:22:28.795+0530] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManagerMasterEndpoint$$anonfun$receiveAndReply$1.applyOrElse(BlockManagerMasterEndpoint.scala:133)
+[2024-06-14T15:22:28.796+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.Inbox.$anonfun$process$1(Inbox.scala:103)
+[2024-06-14T15:22:28.796+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.Inbox.safelyCall(Inbox.scala:213)
+[2024-06-14T15:22:28.796+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.Inbox.process(Inbox.scala:100)
+[2024-06-14T15:22:28.796+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.MessageLoop.org$apache$spark$rpc$netty$MessageLoop$$receiveLoop(MessageLoop.scala:75)
+[2024-06-14T15:22:28.796+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.MessageLoop$$anon$1.run(MessageLoop.scala:41)
+[2024-06-14T15:22:28.796+0530] {subprocess.py:93} INFO - 	... 3 more
+[2024-06-14T15:22:38.728+0530] {subprocess.py:93} INFO - 24/06/14 15:22:38 ERROR Inbox: Ignoring error
+[2024-06-14T15:22:38.728+0530] {subprocess.py:93} INFO - java.lang.NullPointerException
+[2024-06-14T15:22:38.729+0530] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManagerMasterEndpoint.org$apache$spark$storage$BlockManagerMasterEndpoint$$register(BlockManagerMasterEndpoint.scala:677)
+[2024-06-14T15:22:38.729+0530] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManagerMasterEndpoint$$anonfun$receiveAndReply$1.applyOrElse(BlockManagerMasterEndpoint.scala:133)
+[2024-06-14T15:22:38.730+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.Inbox.$anonfun$process$1(Inbox.scala:103)
+[2024-06-14T15:22:38.730+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.Inbox.safelyCall(Inbox.scala:213)
+[2024-06-14T15:22:38.730+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.Inbox.process(Inbox.scala:100)
+[2024-06-14T15:22:38.730+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.MessageLoop.org$apache$spark$rpc$netty$MessageLoop$$receiveLoop(MessageLoop.scala:75)
+[2024-06-14T15:22:38.730+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.MessageLoop$$anon$1.run(MessageLoop.scala:41)
+[2024-06-14T15:22:38.730+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[2024-06-14T15:22:38.731+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[2024-06-14T15:22:38.731+0530] {subprocess.py:93} INFO - 	at java.base/java.lang.Thread.run(Thread.java:829)
+[2024-06-14T15:22:38.731+0530] {subprocess.py:93} INFO - 24/06/14 15:22:38 WARN Executor: Issue communicating with driver in heartbeater
+[2024-06-14T15:22:38.731+0530] {subprocess.py:93} INFO - org.apache.spark.SparkException: Exception thrown in awaitResult:
+[2024-06-14T15:22:38.731+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.SparkThreadUtils$.awaitResult(SparkThreadUtils.scala:56)
+[2024-06-14T15:22:38.732+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.ThreadUtils$.awaitResult(ThreadUtils.scala:310)
+[2024-06-14T15:22:38.732+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.RpcTimeout.awaitResult(RpcTimeout.scala:75)
+[2024-06-14T15:22:38.732+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.RpcEndpointRef.askSync(RpcEndpointRef.scala:101)
+[2024-06-14T15:22:38.732+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.RpcEndpointRef.askSync(RpcEndpointRef.scala:85)
+[2024-06-14T15:22:38.732+0530] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManagerMaster.registerBlockManager(BlockManagerMaster.scala:80)
+[2024-06-14T15:22:38.733+0530] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManager.reregister(BlockManager.scala:642)
+[2024-06-14T15:22:38.733+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor.reportHeartBeat(Executor.scala:1223)
+[2024-06-14T15:22:38.733+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor.$anonfun$heartbeater$1(Executor.scala:295)
+[2024-06-14T15:22:38.733+0530] {subprocess.py:93} INFO - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[2024-06-14T15:22:38.733+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1928)
+[2024-06-14T15:22:38.733+0530] {subprocess.py:93} INFO - 	at org.apache.spark.Heartbeater$$anon$1.run(Heartbeater.scala:46)
+[2024-06-14T15:22:38.733+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+[2024-06-14T15:22:38.734+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+[2024-06-14T15:22:38.734+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+[2024-06-14T15:22:38.734+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[2024-06-14T15:22:38.734+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[2024-06-14T15:22:38.734+0530] {subprocess.py:93} INFO - 	at java.base/java.lang.Thread.run(Thread.java:829)
+[2024-06-14T15:22:38.734+0530] {subprocess.py:93} INFO - Caused by: java.lang.NullPointerException
+[2024-06-14T15:22:38.734+0530] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManagerMasterEndpoint.org$apache$spark$storage$BlockManagerMasterEndpoint$$register(BlockManagerMasterEndpoint.scala:677)
+[2024-06-14T15:22:38.735+0530] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManagerMasterEndpoint$$anonfun$receiveAndReply$1.applyOrElse(BlockManagerMasterEndpoint.scala:133)
+[2024-06-14T15:22:38.735+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.Inbox.$anonfun$process$1(Inbox.scala:103)
+[2024-06-14T15:22:38.735+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.Inbox.safelyCall(Inbox.scala:213)
+[2024-06-14T15:22:38.735+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.Inbox.process(Inbox.scala:100)
+[2024-06-14T15:22:38.735+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.MessageLoop.org$apache$spark$rpc$netty$MessageLoop$$receiveLoop(MessageLoop.scala:75)
+[2024-06-14T15:22:38.735+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.netty.MessageLoop$$anon$1.run(MessageLoop.scala:41)
+[2024-06-14T15:22:38.735+0530] {subprocess.py:93} INFO - 	... 3 more
+[2024-06-14T15:22:56.567+0530] {subprocess.py:93} INFO - [Stage 0:>                                                          (0 + 1) / 1]                                                                                <pyspark.sql.session.SparkSession object at 0x7f984e0ca4a0>
+[2024-06-14T15:22:57.495+0530] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-06-14T15:22:57.496+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-14T15:22:57.537+0530] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=my_data_pipeline_dag, task_id=collect_data_3, execution_date=20240614T094917, start_date=20240614T095150, end_date=20240614T095257
+[2024-06-14T15:22:58.054+0530] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-14T15:22:58.072+0530] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-14T15:22:58.073+0530] {local_task_job_runner.py:222} INFO - ::endgroup::
